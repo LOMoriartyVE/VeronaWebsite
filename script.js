@@ -61,10 +61,49 @@
       about_eyebrow: "من نحن والكادر الطبي",
       about_headline: "صرح طبي تخصصي يجمع أرقى الخبرات وأحدث التقنيات",
       about_desc: "تأسست عيادة ڤيرونا في كركوك لتكون الوجهة الرائدة لطب الأسنان التخصصي الرقمي. نعتمد معايير تعقيم عالمية، ونظام مواعيد دقيق بدون انتظار، وكادراً يضم 6 استشاريين متميزين.",
-      cv_dropdown_label: "اختر الطبيب لعرض السيرة المهنية والتخصص الدقيق:",
-      cv_qualifications_label: "المؤهلات والخبرات:",
-      cv_specialties_label: "مجالات التخصص الدقيقة:",
       btn_book_with_doc: "حجز موعد مع الطبيب ←",
+      doc_badge_osama: "استشاري زراعة وتجميل",
+      doc_name_osama: "د. أسامة الحسين",
+      doc_role_osama: "أخصائي زراعة الأسنان والتركيبات التجميلية الرقمية",
+      doc_bio_osama: "خبير زراعة الأسنان الفورية وتصميم ابتسامة هوليوود الرقمية. حاصل على شهادات تخصصية متقدمة في أنظمة الزرع العالمية والتركيبات الثابتة.",
+      doc_osama_s1: "زراعة فورية بالتوجيه الرقمي",
+      doc_osama_s2: "عدسات الفينير واللومينير",
+      doc_osama_s3: "تأهيل الابتسامة الشامل",
+      doc_badge_noor: "استشارية تقويم الأسنان",
+      doc_name_noor: "د. نور نصرالله",
+      doc_role_noor: "أخصائية تقويم وتجميل الأسنان والفكين",
+      doc_bio_noor: "خبرة سريرية واسعة في علاج كافة حالات اعوجاج وتراكب الأسنان للبالغين والأطفال، واستخدام أحدث أجهزة التقويم الشفاف غير المرئي.",
+      doc_noor_s1: "التقويم الشفاف (Clear Aligners)",
+      doc_noor_s2: "تقويم الأسنان الكلاسيكي الدقيق",
+      doc_noor_s3: "تعديل إطباق الفكين الوظيفي",
+      doc_badge_zaid: "استشاري جراحة الفم والفكين",
+      doc_name_zaid: "د. زيد",
+      doc_role_zaid: "أخصائي جراحة الفم والفكين وزراعة الأسنان المتقدمة",
+      doc_bio_zaid: "متخصص في الإجراءات الجراحية الفموية الدقيقة وزراعة العظم ورفع الجيوب الأنفية، وقلع أضراس العقل المطمورة بدون ألم.",
+      doc_zaid_s1: "قلع أضراس العقل بدون ألم",
+      doc_zaid_s2: "زراعة العظم والجيوب الفكية",
+      doc_zaid_s3: "جراحة الفم واللثة المتقدمة",
+      doc_badge_mohammed: "استشاري علاج العصب المجهري",
+      doc_name_mohammed: "د. محمد",
+      doc_role_mohammed: "أخصائي علاج جذور الأسنان والترميم التجميلي المجهري",
+      doc_bio_mohammed: "ريادة في علاج وحشو عصب الأسنان بأحدث الأجهزة الآلية الدوارة والتصوير الرقمي، مع إنقاذ الأسنان الطبيعية وحمايتها.",
+      doc_mohammed_s1: "علاج العصب بجلسة واحدة",
+      doc_mohammed_s2: "إعادة معالجة القنوات الجذرية",
+      doc_mohammed_s3: "الترميم التجميلي المجهري",
+      doc_badge_anas: "استشاري التركيبات التجميلية",
+      doc_name_anas: "د. أنس",
+      doc_role_anas: "أخصائي تجميل الأسنان وابتسامة هوليوود والتركيبات",
+      doc_bio_anas: "خبير تصميم الابتسامة المخصصة للوجه وعدسات الإيماكس والفينير والزركون، بأعلى معايير التناسق مع الملامح الطبيعية.",
+      doc_anas_s1: "ابتسامة هوليوود بدون حفر جائر",
+      doc_anas_s2: "عدسات إيماكس وفينير فائقة الرقة",
+      doc_anas_s3: "تيجان وجسور الزركونيا",
+      doc_badge_aya: "أخصائية طب أسنان الأطفال",
+      doc_name_aya: "د. آية أياد",
+      doc_role_aya: "طبيبة متخصصة في طب أسنان الأطفال والتأهيل السلوكي",
+      doc_bio_aya: "أسلوب تربوي نفسي لطيف لتحويل علاج أسنان الأطفال إلى تجربة ممتعة بدون خوف، حماية الأسنان اللبنية والوقاية المبكرة.",
+      doc_aya_s1: "علاج أسنان الأطفال بدون ألم",
+      doc_aya_s2: "حافظات المسافات والفلورايد",
+      doc_aya_s3: "تأهيل سلوكي وإزالة الخوف",
       doc_opt_any: "أي طبيب متاح حسب الحالة (استشارة عامة)",
       doc_opt_osama: "د. أسامة الحسين - زراعة وتجميل الأسنان",
       doc_opt_noor: "د. نور نصرالله - تقويم وتجميل الأسنان",
@@ -208,10 +247,49 @@
       about_eyebrow: "ABOUT VERONA & MEDICAL TEAM",
       about_headline: "A Specialized Center Uniting Elite Expertise and Modern Tech",
       about_desc: "Established in Kirkuk as the premier hub for modern digital dentistry. We adhere to rigorous global sterilization standards, strict pre-scheduled timings, and a team of 6 distinguished consultants.",
-      cv_dropdown_label: "Select Doctor to View Credentials & Specialty:",
-      cv_qualifications_label: "Credentials & Qualifications:",
-      cv_specialties_label: "Clinical Focus Areas:",
       btn_book_with_doc: "Schedule Visit with Doctor →",
+      doc_badge_osama: "Consultant Implantologist",
+      doc_name_osama: "Dr. Osama Al-Hussein",
+      doc_role_osama: "Dental Implants & Digital Restorations Specialist",
+      doc_bio_osama: "Expert in immediate dental implants and digital Hollywood smile design. Advanced certifications in international implantology systems.",
+      doc_osama_s1: "Digital Guided Implants",
+      doc_osama_s2: "Veneers & Lumineers",
+      doc_osama_s3: "Full Smile Rehabilitation",
+      doc_badge_noor: "Consultant Orthodontist",
+      doc_name_noor: "Dr. Noor Nasrallah",
+      doc_role_noor: "Orthodontics & Dentofacial Orthopedics Specialist",
+      doc_bio_noor: "Extensive clinical experience in malocclusion and crowded teeth correction for adults and teens using latest clear aligner technology.",
+      doc_noor_s1: "Clear Aligners Therapy",
+      doc_noor_s2: "Precision Bracket Braces",
+      doc_noor_s3: "Bite & Occlusion Alignment",
+      doc_badge_zaid: "Consultant Oral Surgeon",
+      doc_name_zaid: "Dr. Zaid",
+      doc_role_zaid: "Oral & Maxillofacial Surgery Specialist",
+      doc_bio_zaid: "Specialized in precise oral surgical procedures, bone grafting, sinus lifts, and painless impacted wisdom teeth extractions.",
+      doc_zaid_s1: "Painless Wisdom Extractions",
+      doc_zaid_s2: "Bone Graft & Sinus Lift",
+      doc_zaid_s3: "Advanced Gum & Oral Surgery",
+      doc_badge_mohammed: "Consultant Endodontist",
+      doc_name_mohammed: "Dr. Mohammed",
+      doc_role_mohammed: "Micro-Endodontics & Restorative Specialist",
+      doc_bio_mohammed: "Pioneer in rotary micro-endodontic canal therapy, saving compromised natural teeth with microscopic accuracy.",
+      doc_mohammed_s1: "Single-Visit Root Canals",
+      doc_mohammed_s2: "Root Canal Retreatment",
+      doc_mohammed_s3: "Microscopic Restorations",
+      doc_badge_anas: "Consultant Prosthodontist",
+      doc_name_anas: "Dr. Anas",
+      doc_role_anas: "Aesthetic Dentistry & Hollywood Smile Specialist",
+      doc_bio_anas: "Expert in custom facial smile aesthetics, ultra-thin E-max veneers, and natural biomimetic zirconia restorations.",
+      doc_anas_s1: "Conservative Hollywood Smile",
+      doc_anas_s2: "Ultra-Thin E-max Veneers",
+      doc_anas_s3: "Zirconia Crowns & Bridges",
+      doc_badge_aya: "Pediatric Dental Specialist",
+      doc_name_aya: "Dr. Aya Ayad",
+      doc_role_aya: "Pediatric Dentistry & Behavioral Care Specialist",
+      doc_bio_aya: "Compassionate behavioral approach transforming child dental visits into a fear-free experience, preventive pediatric protocols.",
+      doc_aya_s1: "Painless Child Dentistry",
+      doc_aya_s2: "Space Maintainers & Fluoride",
+      doc_aya_s3: "Gentle Fear-Free Behavior",
       doc_opt_any: "Any available doctor (General consultation)",
       doc_opt_osama: "Dr. Osama Al-Hussein - Implants & Aesthetics",
       doc_opt_noor: "Dr. Noor Nasrallah - Orthodontics & Aesthetics",
@@ -355,10 +433,49 @@
       about_eyebrow: "دەربارەی کلینیک و تیمی پزیشکی",
       about_headline: "سەنتەرێکی پسپۆڕی پێشکەوتوو بە کادیرێکی لێهاتوو",
       about_desc: "کلینیکی ڤیرۆنا لە کەرکووک دامەزراوە بۆ پێشکەشکردنی نوێترین چارەسەری دیجیتاڵی ددان بە ستانداردی جیهانی، سیستەمی بێ چاوەڕوانی، و 6 پزیشکی پسپۆڕ.",
-      cv_dropdown_label: "پزیشکێک هەڵبژێرە بۆ بینینی سیڤی و بڕوانامەکان:",
-      cv_qualifications_label: "بڕوانامە و ئەزموون:",
-      cv_specialties_label: "بواری پسپۆڕی ورد:",
       btn_book_with_doc: "وەرگرتنی نۆرە لەگەڵ پزیشک ←",
+      doc_badge_osama: "ڕاوێژکاری چاندن و جوانکاری",
+      doc_name_osama: "د. ئوسامە ئەلحوسێن",
+      doc_role_osama: "پسپۆڕی چاندنی ددان و پێکهاتەی جوانکاری دیجیتاڵی",
+      doc_bio_osama: "شارەزای چاندنی دەستبەجێی ددان و دیزاینی دیجیتاڵی زەردەخەنەی هۆلیوود. بڕوانامەی پێشکەوتووی سیستەمە جیهانییەکانی چاندن.",
+      doc_osama_s1: "چاندنی دەستبەجێی دیجیتاڵی",
+      doc_osama_s2: "هاوێنەی فینیر و لۆمینیر",
+      doc_osama_s3: "ڕێکخستنەوەی زەردەخەنە",
+      doc_badge_noor: "ڕاوێژکاری تەلی ددان",
+      doc_name_noor: "د. نوور نەسرەڵڵا",
+      doc_role_noor: "پسپۆڕی تەلی ددان و جوانکاری شەویلگە",
+      doc_bio_noor: "ئەزموونی فراوان لە چارەسەری ناڕێکی دانەکان بۆ گەورە و هەرزەکار بە تەلی شەفاف و کلاسیك.",
+      doc_noor_s1: "تەلی شەفاف (Clear Aligners)",
+      doc_noor_s2: "تەلی ددانی ورد",
+      doc_noor_s3: "ڕێکخستنی شەویلگە",
+      doc_badge_zaid: "ڕاوێژکاری نەشتەرگەری شەویلگە",
+      doc_name_zaid: "د. زەید",
+      doc_role_zaid: "پسپۆڕی نەشتەرگەری دەم و شەویلگە و چاندن",
+      doc_bio_zaid: "پسپۆڕ لە نەشتەرگەرییە وردەکانی دەم، چاندنی ئێسک، و کێشانی ددانی ژیری بێ ئازار.",
+      doc_zaid_s1: "کێشانی ددانی ژیری بێ ئازار",
+      doc_zaid_s2: "چاندنی ئێسک و گیرفانی شەویلگە",
+      doc_zaid_s3: "نەشتەرگەری پێشکەوتووی پووک",
+      doc_badge_mohammed: "ڕاوێژکاری دەماری ددان",
+      doc_name_mohammed: "د. محەممەد",
+      doc_role_mohammed: "پسپۆڕی چارەسەری دەمار و پڕکردنەوەی ورد",
+      doc_bio_mohammed: "شارەزا لە چارەسەری دەماری ددان بە ئامێری ڕۆتەری لە یەک دانیشتندا بۆ پاراستنی ددانی سروشتی.",
+      doc_mohammed_s1: "چارەسەری دەمار لە یەک دانیشتندا",
+      doc_mohammed_s2: "دووبارە چارەسەری دەمار",
+      doc_mohammed_s3: "پڕکردنەوەی وردی جوانکاری",
+      doc_badge_anas: "ڕاوێژکاری پێکهاتەی جوانکاری",
+      doc_name_anas: "د. ئەنەس",
+      doc_role_anas: "پسپۆڕی جوانکاری ددان و زەردەخەنەی هۆلیوود",
+      doc_bio_anas: "دیزاینەری زەردەخەنەی تایبەت بە ڕوخسار، هاوێنەی ئیمەکس و فینیر بە دەرکەوتنی تەواو سروشتی.",
+      doc_anas_s1: "زەردەخەنەی هۆلیوود بێ تراشینی زۆر",
+      doc_anas_s2: "هاوێنەی زۆر تەنکی ئیمەکس",
+      doc_anas_s3: "تاج و پردی زرکۆنیا",
+      doc_badge_aya: "پسپۆڕی ددانی منداڵان",
+      doc_name_aya: "د. ئایە ئەیاد",
+      doc_role_aya: "پزیشکی ددانی منداڵان و ڕاهێنانی ڕەفتاری",
+      doc_bio_aya: "شێوازێکی پەروەردەیی ئارام تا سەردانی منداڵ بۆ پزیشک ببێتە ئەزموونێکی خۆش بەبێ ترس و گریان.",
+      doc_aya_s1: "چارەسەری ددانی منداڵ بێ ئازار",
+      doc_aya_s2: "پارێزەری بۆشایی و فلۆراید",
+      doc_aya_s3: "ڕاهێنانی دەرونی و لابردنی ترس",
       doc_opt_any: "هەر پزیشکێکی بەردەست (ڕاوێژی گشتی)",
       doc_opt_osama: "د. ئوسامە ئەلحوسێن - چاندن و جوانکاری ددان",
       doc_opt_noor: "د. نوور نەسرەڵڵا - تەلی ددان و جوانکاری",
@@ -444,128 +561,6 @@
     }
   };
 
-  const doctorsData = {
-    osama: {
-      name: "د. أسامة الحسين",
-      nameEn: "Dr. Osama Al-Hussein",
-      nameKu: "د. ئوسامە ئەلحوسێن",
-      role: "أخصائي زراعة الأسنان والتركيبات التجميلية الرقمية",
-      roleEn: "Dental Implants & Digital Aesthetic Restorations Specialist",
-      roleKu: "پسپۆڕی چاندنی ددان و پێکهاتەی جوانکاری دیجیتاڵی",
-      badge: "استشاري زراعة وتجميل الأسنان",
-      badgeEn: "Consultant Implantologist & Aesthetic Dentist",
-      badgeKu: "ڕاوێژکاری چاندن و جوانکاری ددان",
-      img: "assets/staff/dr-osama.webp",
-      qualifications: "خبير زراعة الأسنان الفورية وتصميم ابتسامة هوليوود الرقمية. حاصل على شهادات تخصصية متقدمة في أنظمة الزرع العالمية والتركيبات الثابتة.",
-      qualificationsEn: "Expert in immediate dental implants and digital Hollywood smile design. Advanced certifications in international implantology systems and fixed prosthodontics.",
-      qualificationsKu: "شارەزای چاندنی دەستبەجێی ددان و دیزاینی دیجیتاڵی زەردەخەنەی هۆلیوود. بڕوانامەی پێشکەوتووی سیستەمە جیهانییەکانی چاندن.",
-      specialties: [
-        "زراعة الأسنان الفورية بنظام التوجيه الرقمي الثلاثي",
-        "تصميم وتركيب عدسات الفينير واللومينير وزركونيا عالية الشفافية",
-        "إعادة تأهيل الابتسامة الكاملة وتناسق خط الابتسامة"
-      ]
-    },
-    noor: {
-      name: "د. نور نصرالله",
-      nameEn: "Dr. Noor Nasrallah",
-      nameKu: "د. نوور نەسرەڵڵا",
-      role: "أخصائية تقويم وتجميل الأسنان والفكين",
-      roleEn: "Orthodontics & Dentofacial Orthopedics Specialist",
-      roleKu: "پسپۆڕی تەلی ددان و جوانکاری شەویلگە",
-      badge: "استشارية تقويم الأسنان",
-      badgeEn: "Consultant Orthodontist",
-      badgeKu: "ڕاوێژکاری تەلی ددان",
-      img: "assets/staff/dr-noor.webp",
-      qualifications: "خبرة سريرية واسعة في علاج كافة حالات اعوجاج وتراكب الأسنان للبالغين والأطفال، واستخدام أحدث أجهزة التقويم الشفاف غير المرئي.",
-      qualificationsEn: "Extensive clinical experience in treating malocclusion and crowded teeth for adults and teens using latest clear aligner technology.",
-      qualificationsKu: "ئەزموونی فراوان لە چارەسەری ناڕێکی دانەکان بۆ گەورە و هەرزەکار بە تەلی شەفاف و کلاسیك.",
-      specialties: [
-        "التقويم الشفاف غير المرئي (Clear Aligners)",
-        "التقويم الكلاسيكي والمعدني الدقيق للأطفال والبالغين",
-        "تعديل وتناسق الإطباق الوظيفي والجمالي للفكين"
-      ]
-    },
-    zaid: {
-      name: "د. زيد",
-      nameEn: "Dr. Zaid",
-      nameKu: "د. زەید",
-      role: "أخصائي جراحة الفم والفكين وزراعة الأسنان المتقدمة",
-      roleEn: "Oral & Maxillofacial Surgery & Advanced Implants",
-      roleKu: "پسپۆڕی نەشتەرگەری دەم و شەویلگە و چاندن",
-      badge: "استشاري جراحة الفم والفكين",
-      badgeEn: "Consultant Oral & Maxillofacial Surgeon",
-      badgeKu: "ڕاوێژکاری نەشتەرگەری شەویلگە",
-      img: "assets/staff/dr-zaid.webp",
-      qualifications: "متخصص في الإجراءات الجراحية الفموية الدقيقة وزراعة العظم ورفع الجيوب الأنفية، وقلع أضراس العقل المطمورة بدون ألم.",
-      qualificationsEn: "Specialized in precise oral surgical procedures, bone grafting, sinus lifts, and painless impacted wisdom teeth extractions.",
-      qualificationsKu: "پسپۆڕ لە نەشتەرگەرییە وردەکانی دەم، چاندنی ئێسک، و کێشانی ددانی ژیری بێ ئازار.",
-      specialties: [
-        "قلع أضراس العقل المطمورة جراحياً بأعلى درجات الأمان",
-        "زراعة العظم الفكي ورفع الجيب الفكي التمهيدي للزراعة",
-        "معالجة آفات وأكياس الفكين وجراحة الأنسجة الداعمة"
-      ]
-    },
-    mohammed: {
-      name: "د. محمد",
-      nameEn: "Dr. Mohammed",
-      nameKu: "د. محەممەد",
-      role: "أخصائي علاج جذور الأسنان والترميم التجميلي المجهري",
-      roleEn: "Micro-Endodontics & Aesthetic Restoration Specialist",
-      roleKu: "پسپۆڕی چارەسەری دەمار و پڕکردنەوەی ورد",
-      badge: "استشاري علاج العصب المجهري",
-      badgeEn: "Consultant Endodontist",
-      badgeKu: "ڕاوێژکاری دەماری ددان",
-      img: "assets/staff/dr-mohammed.webp",
-      qualifications: "ريادة في علاج وحشو عصب الأسنان بأحدث الأجهزة الآلية الدوارة والتصوير الرقمي، مع إنقاذ الأسنان الطبيعية وحمايتها.",
-      qualificationsEn: "Pioneer in rotary micro-endodontic canal therapy, saving compromised natural teeth with microscopic accuracy.",
-      qualificationsKu: "شارەزا لە چارەسەری دەماری ددان بە ئامێری ڕۆتەری لە یەک دانیشتندا بۆ پاراستنی ددانی سروشتی.",
-      specialties: [
-        "علاج وحشو جذور الأسنان المعقدة بجلسة واحدة",
-        "إعادة معالجة القنوات الجذرية التالفة والحشوات القديمة",
-        "الترميم التجميلي المجهري بالحشوات الضوئية النانوية"
-      ]
-    },
-    anas: {
-      name: "د. أنس",
-      nameEn: "Dr. Anas",
-      nameKu: "د. ئەنەس",
-      role: "أخصائي تجميل الأسنان وابتسامة هوليوود والتركيبات",
-      roleEn: "Aesthetic Dentistry & Hollywood Smile Specialist",
-      roleKu: "پسپۆڕی جوانکاری ددان و زەردەخەنەی هۆلیوود",
-      badge: "استشاري التركيبات التجميلية",
-      badgeEn: "Consultant Aesthetic Prosthodontist",
-      badgeKu: "ڕاوێژکاری پێکهاتەی جوانکاری",
-      img: "assets/staff/dr-anas.webp",
-      qualifications: "خبير تصميم الابتسامة المخصصة للوجه وعدسات الإيماكس والفينير والزركون، بأعلى معايير التناسق مع الملامح والابتسامة الطبيعية.",
-      qualificationsEn: "Expert in custom facial smile aesthetics, ultra-thin E-max veneers, and natural biomimetic tooth restorations.",
-      qualificationsKu: "دیزاینەری زەردەخەنەی تایبەت بە ڕوخسار، هاوێنەی ئیمەکس و فینیر بە دەرکەوتنی تەواو سروشتی.",
-      specialties: [
-        "تصميم ابتسامة هوليوود المتناسقة بدون حفر جائر للأسنان",
-        "عدسات الفينير واللومينير فائقة الرقة والدقة",
-        "التيجان والجسور الخزفية الحديثة عالية المتانة"
-      ]
-    },
-    aya: {
-      name: "د. آية أياد",
-      nameEn: "Dr. Aya Ayad",
-      nameKu: "د. ئایە ئەیاد",
-      role: "طبيبة أسنان متخصصة في طب أسنان الأطفال والتأهيل السلوكي",
-      roleEn: "Pediatric Dentistry & Behavioral Dental Care",
-      roleKu: "پزیشکی ددانی منداڵان و ڕاهێنانی ڕەفتاری",
-      badge: "أخصائية طب أسنان الأطفال",
-      badgeEn: "Pediatric Dental Specialist",
-      badgeKu: "پسپۆڕی ددانی منداڵان",
-      img: "assets/staff/dr-aya.webp",
-      qualifications: "أسلوب تربوي نفسي لطيف لتحويل علاج أسنان الأطفال إلى تجربة ممتعة بدون خوف، حماية الأسنان اللبنية والوقاية المبكرة.",
-      qualificationsEn: "Compassionate behavioral approach transforming child dental visits into a fear-free experience, preventive pediatric protocols.",
-      qualificationsKu: "شێوازێکی پەروەردەیی ئارام تا سەردانی منداڵ بۆ پزیشک ببێتە ئەزموونێکی خۆش بەبێ ترس و گریان.",
-      specialties: [
-        "علاج تسوس الأسنان اللبنية وتطبيق الفلورايد الوقائي",
-        "حافظات المسافات للأسنان وسدادات الشقوق الوقائية",
-        "التأهيل السلوكي للأطفال وإزالة الخوف من عيادة الأسنان"
-      ]
-    }
-  };
 
   let currentLang = 'ar';
 
@@ -676,11 +671,6 @@
         el.textContent = dict[key];
       }
     });
-
-    const docSelect = document.getElementById('doctorCvSelect');
-    if (docSelect) {
-      updateCvCard(docSelect.value);
-    }
   }
 
   function initTheme() {
@@ -811,66 +801,6 @@
     renderDots();
     updateTrack();
     startAutoPlay();
-  }
-
-  function initDoctorCvSelector() {
-    const select = document.getElementById('doctorCvSelect');
-    const pills = document.querySelectorAll('.doc-pill-btn');
-
-    if (!select) return;
-
-    select.addEventListener('change', function () {
-      const val = this.value;
-      updateCvCard(val);
-      pills.forEach(p => p.classList.toggle('active', p.getAttribute('data-doc') === val));
-    });
-
-    pills.forEach(pill => {
-      pill.addEventListener('click', function () {
-        const val = this.getAttribute('data-doc');
-        select.value = val;
-        updateCvCard(val);
-        pills.forEach(p => p.classList.toggle('active', p === this));
-      });
-    });
-
-    updateCvCard(select.value || 'osama');
-  }
-
-  function updateCvCard(key) {
-    const doc = doctorsData[key];
-    if (!doc) return;
-
-    const img = document.getElementById('cvDoctorImg');
-    const badge = document.getElementById('cvDoctorBadge');
-    const name = document.getElementById('cvDoctorName');
-    const role = document.getElementById('cvDoctorRole');
-    const qual = document.getElementById('cvDoctorQualifications');
-    const specs = document.getElementById('cvDoctorSpecialties');
-    const bookBtn = document.getElementById('cvBookBtn');
-
-    if (img) {
-      img.src = doc.img;
-      img.alt = doc.name;
-    }
-
-    if (badge) badge.textContent = currentLang === 'en' ? doc.badgeEn : (currentLang === 'ku' ? doc.badgeKu : doc.badge);
-    if (name) name.textContent = currentLang === 'en' ? doc.nameEn : (currentLang === 'ku' ? doc.nameKu : doc.name);
-    if (role) role.textContent = currentLang === 'en' ? doc.roleEn : (currentLang === 'ku' ? doc.roleKu : doc.role);
-    if (qual) qual.textContent = currentLang === 'en' ? doc.qualificationsEn : (currentLang === 'ku' ? doc.qualificationsKu : doc.qualifications);
-
-    if (specs) {
-      specs.innerHTML = '';
-      doc.specialties.forEach(s => {
-        const li = document.createElement('li');
-        li.textContent = s;
-        specs.appendChild(li);
-      });
-    }
-
-    if (bookBtn) {
-      bookBtn.href = `contact.html?doc=${encodeURIComponent(doc.name)}#booking`;
-    }
   }
 
   function initFaqAccordion() {
@@ -1193,7 +1123,6 @@
     initNavigation();
     initHeroVideo();
     initReviewsOceanCarousel();
-    initDoctorCvSelector();
     initFaqAccordion();
     initSmartBookingWizard();
     initYear();

@@ -2685,168 +2685,141 @@ html[lang="en"] .ladder-badge-top {
   background: var(--color-canvas-base);
 }
 
-.cv-selector-bar {
-  max-width: 650px;
-  margin: 0 auto 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.cv-selector-label {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--color-text-headline);
-  text-align: center;
-}
-
-.cv-select-dropdown {
-  font-size: 1rem;
-  font-weight: 600;
-  padding: 12px 18px;
-  border-radius: var(--radius-md);
-  border: 2px solid var(--color-brand-sapphire);
-  background: var(--color-canvas-card);
-  color: var(--color-text-headline);
-  box-shadow: var(--shadow-sm);
-}
-
-.cv-display-card {
+.doctors-showcase-grid {
   display: grid;
-  grid-template-columns: 340px 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.doctor-showcase-card {
   background: var(--color-canvas-card);
   border: 1px solid var(--color-border-main);
   border-radius: var(--radius-xl);
   overflow: hidden;
-  box-shadow: var(--shadow-lg);
-  margin-bottom: 24px;
-  transition: all 250ms ease;
-}
-
-.cv-photo-side {
-  background: #000000;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.28s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.28s ease;
 }
 
-.cv-doctor-img {
+.doctor-showcase-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px -15px rgba(19, 66, 112, 0.18), 0 8px 16px -6px rgba(0, 0, 0, 0.08);
+  border-color: var(--color-brand-sapphire);
+}
+
+.doc-card-image-wrap {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(135deg, #0b1526, #162a4a);
+  overflow: hidden;
+}
+
+.doc-card-img {
   width: 100%;
   height: 100%;
-  max-height: 440px;
   object-fit: cover;
   object-position: center top;
   display: block;
+  transition: transform 0.4s ease;
 }
 
-.cv-content-side {
-  padding: 36px 32px;
+.doctor-showcase-card:hover .doc-card-img {
+  transform: scale(1.04);
+}
+
+.doc-floating-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: rgba(19, 66, 112, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #ffffff;
+  border-radius: var(--radius-pill);
+  padding: 5px 14px;
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: -0.2px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+
+[dir="ltr"] .doc-floating-badge {
+  right: auto;
+  left: 14px;
+}
+
+.doc-card-body {
+  padding: 24px;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
-.cv-badge-row {
-  margin-bottom: 10px;
+.doc-card-header {
+  margin-bottom: 12px;
 }
 
-.cv-badge {
-  display: inline-block;
-  padding: 4px 12px;
-  background: var(--color-brand-sapphire-glow);
-  color: var(--color-brand-sapphire);
-  border-radius: var(--radius-pill);
-  font-size: 0.8rem;
-  font-weight: 700;
-}
-
-.cv-doctor-name {
-  font-size: 1.8rem;
+.doc-card-name {
+  font-size: 1.35rem;
   font-weight: 800;
   color: var(--color-text-headline);
   margin-bottom: 4px;
+  line-height: 1.3;
 }
 
-.cv-doctor-role {
-  font-size: 1rem;
+.doc-card-role {
+  font-size: 0.88rem;
   font-weight: 600;
   color: var(--color-brand-ruby);
-  margin-bottom: 20px;
+  line-height: 1.4;
 }
 
-.cv-section-block {
+.doc-card-bio {
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
   margin-bottom: 18px;
+  flex: 1;
 }
 
-.cv-block-title {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--color-text-headline);
-  margin-bottom: 6px;
-}
-
-.cv-block-text {
-  font-size: 0.92rem;
-  color: var(--color-text-muted);
-  line-height: 1.7;
-}
-
-.cv-specialties-list {
-  list-style: none;
-  padding: 0;
+.doc-specialties-chips {
   display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.cv-specialties-list li {
-  position: relative;
-  padding-inline-start: 18px;
-  font-size: 0.9rem;
-  color: var(--color-text-body);
-}
-
-.cv-specialties-list li::before {
-  content: '•';
-  position: absolute;
-  inset-inline-start: 4px;
-  color: var(--color-brand-sapphire);
-  font-weight: bold;
-}
-
-.cv-action-row {
-  margin-top: auto;
-  padding-top: 16px;
-}
-
-.doctors-pills-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
+  margin-bottom: 22px;
 }
 
-.doc-pill-btn {
-  padding: 8px 16px;
-  background: var(--color-canvas-card);
+.spec-chip {
+  background: var(--color-canvas-subtle);
   border: 1px solid var(--color-border-main);
-  border-radius: var(--radius-pill);
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--color-text-muted);
-  cursor: pointer;
-  transition: all 180ms ease;
+  color: var(--color-text-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
 }
 
-.doc-pill-btn:hover {
-  border-color: var(--color-brand-sapphire);
-  color: var(--color-brand-sapphire);
+.doctor-showcase-card:hover .spec-chip {
+  border-color: rgba(19, 66, 112, 0.3);
+  background: rgba(19, 66, 112, 0.05);
 }
 
-.doc-pill-btn.active {
-  background: var(--color-brand-sapphire);
-  color: #ffffff;
-  border-color: var(--color-brand-sapphire);
+.doc-card-footer {
+  margin-top: auto;
+}
+
+.btn-block {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
 }
 
 .faq-section {
@@ -3200,12 +3173,20 @@ html[dir="ltr"] .reason-card:hover {
   color: var(--color-text-headline);
 }
 
-@media (max-width: 860px) {
-  .cv-display-card {
-    grid-template-columns: 1fr;
+@media (max-width: 1024px) {
+  .doctors-showcase-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
   }
-  .cv-photo-side {
-    max-height: 320px;
+}
+
+@media (max-width: 680px) {
+  .doctors-showcase-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .doc-card-image-wrap {
+    height: 320px;
   }
 }
 

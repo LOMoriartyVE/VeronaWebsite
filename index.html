@@ -384,65 +384,162 @@
         </p>
       </div>
 
-      <div class="doctor-cv-interactive-wrap">
-        <div class="cv-selector-bar">
-          <label for="doctorCvSelect" class="cv-selector-label" data-i18n="cv_dropdown_label">اختر الطبيب لعرض السيرة
-            المهنية والتخصص الدقيق:</label>
-          <select id="doctorCvSelect" class="form-select cv-select-dropdown">
-            <option value="osama" data-i18n="doc_opt_osama">د. أسامة الحسين - زراعة وتجميل الأسنان</option>
-            <option value="noor" data-i18n="doc_opt_noor">د. نور نصرالله - تقويم وتجميل الأسنان</option>
-            <option value="zaid" data-i18n="doc_opt_zaid">د. زيد - جراحة الفم والفكين والزراعة</option>
-            <option value="mohammed" data-i18n="doc_opt_mohammed">د. محمد - علاج العصب والترميم المجهري</option>
-            <option value="anas" data-i18n="doc_opt_anas">د. أنس - ابتسامة هوليوود والعدسات</option>
-            <option value="aya" data-i18n="doc_opt_aya">د. آية أياد - طب أسنان الأطفال</option>
-          </select>
-        </div>
-
-        <div class="cv-display-card" id="cvDisplayCard">
-          <div class="cv-photo-side">
-            <img src="assets/staff/dr-osama.webp" alt="د. أسامة الحسين" id="cvDoctorImg" class="cv-doctor-img"
-              loading="lazy">
+      <div class="doctors-showcase-grid">
+        <article class="doctor-showcase-card">
+          <div class="doc-card-image-wrap">
+            <img src="assets/staff/dr-osama.webp" alt="د. أسامة الحسين" class="doc-card-img" loading="lazy">
+            <span class="doc-floating-badge" data-i18n="doc_badge_osama">استشاري زراعة وتجميل</span>
           </div>
-          <div class="cv-content-side">
-            <div class="cv-badge-row">
-              <span class="cv-badge" id="cvDoctorBadge">استشاري زراعة وتجميل الأسنان</span>
+          <div class="doc-card-body">
+            <div class="doc-card-header">
+              <h3 class="doc-card-name" data-i18n="doc_name_osama">د. أسامة الحسين</h3>
+              <p class="doc-card-role" data-i18n="doc_role_osama">أخصائي زراعة الأسنان والتركيبات التجميلية الرقمية</p>
             </div>
-            <h3 class="cv-doctor-name" id="cvDoctorName">د. أسامة الحسين</h3>
-            <p class="cv-doctor-role" id="cvDoctorRole">أخصائي زراعة الأسنان والتركيبات التجميلية الرقمية</p>
-
-            <div class="cv-section-block">
-              <h4 class="cv-block-title" data-i18n="cv_qualifications_label">المؤهلات والخبرات:</h4>
-              <p class="cv-block-text" id="cvDoctorQualifications">
-                خبير زراعة الأسنان الفورية وتصميم ابتسامة هوليوود الرقمية. حاصل على شهادات تخصصية متقدمة في أنظمة الزرع
-                العالمية والتركيبات الثابتة.
-              </p>
+            <p class="doc-card-bio" data-i18n="doc_bio_osama">
+              خبير زراعة الأسنان الفورية وتصميم ابتسامة هوليوود الرقمية. حاصل على شهادات تخصصية متقدمة في أنظمة الزرع العالمية والتركيبات الثابتة.
+            </p>
+            <div class="doc-specialties-chips">
+              <span class="spec-chip" data-i18n="doc_osama_s1">زراعة فورية بالتوجيه الرقمي</span>
+              <span class="spec-chip" data-i18n="doc_osama_s2">عدسات الفينير واللومينير</span>
+              <span class="spec-chip" data-i18n="doc_osama_s3">تأهيل الابتسامة الشامل</span>
             </div>
-
-            <div class="cv-section-block">
-              <h4 class="cv-block-title" data-i18n="cv_specialties_label">مجالات التخصص الدقيقة:</h4>
-              <ul class="cv-specialties-list" id="cvDoctorSpecialties">
-                <li>زراعة الأسنان الفورية بنظام التوجيه الرقمي الثلاثي</li>
-                <li>تصميم وتركيب عدسات الفينير واللومينير وزركونيا عالية الشفافية</li>
-                <li>إعادة تأهيل الابتسامة الكاملة وتناسق خط الابتسامة</li>
-              </ul>
-            </div>
-
-            <div class="cv-action-row">
-              <a href="contact.html#booking" class="btn btn-green-nav" id="cvBookBtn" data-i18n="btn_book_with_doc">
+            <div class="doc-card-footer">
+              <a href="contact.html?doc=osama#booking" class="btn btn-booking-green btn-block" data-i18n="btn_book_with_doc">
                 حجز موعد مع الطبيب &larr;
               </a>
             </div>
           </div>
-        </div>
+        </article>
 
-        <div class="doctors-pills-row" id="doctorsPillsRow">
-          <button type="button" class="doc-pill-btn active" data-doc="osama">د. أسامة الحسين</button>
-          <button type="button" class="doc-pill-btn" data-doc="noor">د. نور نصرالله</button>
-          <button type="button" class="doc-pill-btn" data-doc="zaid">د. زيد</button>
-          <button type="button" class="doc-pill-btn" data-doc="mohammed">د. محمد</button>
-          <button type="button" class="doc-pill-btn" data-doc="anas">د. أنس</button>
-          <button type="button" class="doc-pill-btn" data-doc="aya">د. آية أياد</button>
-        </div>
+        <article class="doctor-showcase-card">
+          <div class="doc-card-image-wrap">
+            <img src="assets/staff/dr-noor.webp" alt="د. نور نصرالله" class="doc-card-img" loading="lazy">
+            <span class="doc-floating-badge" data-i18n="doc_badge_noor">استشارية تقويم الأسنان</span>
+          </div>
+          <div class="doc-card-body">
+            <div class="doc-card-header">
+              <h3 class="doc-card-name" data-i18n="doc_name_noor">د. نور نصرالله</h3>
+              <p class="doc-card-role" data-i18n="doc_role_noor">أخصائية تقويم وتجميل الأسنان والفكين</p>
+            </div>
+            <p class="doc-card-bio" data-i18n="doc_bio_noor">
+              خبرة سريرية واسعة في علاج كافة حالات اعوجاج وتراكب الأسنان للبالغين والأطفال، واستخدام أحدث أجهزة التقويم الشفاف غير المرئي.
+            </p>
+            <div class="doc-specialties-chips">
+              <span class="spec-chip" data-i18n="doc_noor_s1">التقويم الشفاف (Clear Aligners)</span>
+              <span class="spec-chip" data-i18n="doc_noor_s2">تقويم الأسنان الكلاسيكي الدقيق</span>
+              <span class="spec-chip" data-i18n="doc_noor_s3">تعديل إطباق الفكين الوظيفي</span>
+            </div>
+            <div class="doc-card-footer">
+              <a href="contact.html?doc=noor#booking" class="btn btn-booking-green btn-block" data-i18n="btn_book_with_doc">
+                حجز موعد مع الطبيب &larr;
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="doctor-showcase-card">
+          <div class="doc-card-image-wrap">
+            <img src="assets/staff/dr-zaid.webp" alt="د. زيد" class="doc-card-img" loading="lazy">
+            <span class="doc-floating-badge" data-i18n="doc_badge_zaid">استشاري جراحة الفم والفكين</span>
+          </div>
+          <div class="doc-card-body">
+            <div class="doc-card-header">
+              <h3 class="doc-card-name" data-i18n="doc_name_zaid">د. زيد</h3>
+              <p class="doc-card-role" data-i18n="doc_role_zaid">أخصائي جراحة الفم والفكين وزراعة الأسنان المتقدمة</p>
+            </div>
+            <p class="doc-card-bio" data-i18n="doc_bio_zaid">
+              متخصص في الإجراءات الجراحية الفموية الدقيقة وزراعة العظم ورفع الجيوب الأنفية، وقلع أضراس العقل المطمورة بدون ألم.
+            </p>
+            <div class="doc-specialties-chips">
+              <span class="spec-chip" data-i18n="doc_zaid_s1">قلع أضراس العقل بدون ألم</span>
+              <span class="spec-chip" data-i18n="doc_zaid_s2">زراعة العظم والجيوب الفكية</span>
+              <span class="spec-chip" data-i18n="doc_zaid_s3">جراحة الفم واللثة المتقدمة</span>
+            </div>
+            <div class="doc-card-footer">
+              <a href="contact.html?doc=zaid#booking" class="btn btn-booking-green btn-block" data-i18n="btn_book_with_doc">
+                حجز موعد مع الطبيب &larr;
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="doctor-showcase-card">
+          <div class="doc-card-image-wrap">
+            <img src="assets/staff/dr-mohammed.webp" alt="د. محمد" class="doc-card-img" loading="lazy">
+            <span class="doc-floating-badge" data-i18n="doc_badge_mohammed">استشاري علاج العصب المجهري</span>
+          </div>
+          <div class="doc-card-body">
+            <div class="doc-card-header">
+              <h3 class="doc-card-name" data-i18n="doc_name_mohammed">د. محمد</h3>
+              <p class="doc-card-role" data-i18n="doc_role_mohammed">أخصائي علاج جذور الأسنان والترميم التجميلي المجهري</p>
+            </div>
+            <p class="doc-card-bio" data-i18n="doc_bio_mohammed">
+              ريادة في علاج وحشو عصب الأسنان بأحدث الأجهزة الآلية الدوارة والتصوير الرقمي، مع إنقاذ الأسنان الطبيعية وحمايتها.
+            </p>
+            <div class="doc-specialties-chips">
+              <span class="spec-chip" data-i18n="doc_mohammed_s1">علاج العصب بجلسة واحدة</span>
+              <span class="spec-chip" data-i18n="doc_mohammed_s2">إعادة معالجة القنوات الجذرية</span>
+              <span class="spec-chip" data-i18n="doc_mohammed_s3">الترميم التجميلي المجهري</span>
+            </div>
+            <div class="doc-card-footer">
+              <a href="contact.html?doc=mohammed#booking" class="btn btn-booking-green btn-block" data-i18n="btn_book_with_doc">
+                حجز موعد مع الطبيب &larr;
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="doctor-showcase-card">
+          <div class="doc-card-image-wrap">
+            <img src="assets/staff/dr-anas.webp" alt="د. أنس" class="doc-card-img" loading="lazy">
+            <span class="doc-floating-badge" data-i18n="doc_badge_anas">استشاري التركيبات التجميلية</span>
+          </div>
+          <div class="doc-card-body">
+            <div class="doc-card-header">
+              <h3 class="doc-card-name" data-i18n="doc_name_anas">د. أنس</h3>
+              <p class="doc-card-role" data-i18n="doc_role_anas">أخصائي تجميل الأسنان وابتسامة هوليوود والتركيبات</p>
+            </div>
+            <p class="doc-card-bio" data-i18n="doc_bio_anas">
+              خبير تصميم الابتسامة المخصصة للوجه وعدسات الإيماكس والفينير والزركون، بأعلى معايير التناسق مع الملامح الطبيعية.
+            </p>
+            <div class="doc-specialties-chips">
+              <span class="spec-chip" data-i18n="doc_anas_s1">ابتسامة هوليوود بدون حفر جائر</span>
+              <span class="spec-chip" data-i18n="doc_anas_s2">عدسات إيماكس وفينير فائقة الرقة</span>
+              <span class="spec-chip" data-i18n="doc_anas_s3">تيجان وجسور الزركونيا</span>
+            </div>
+            <div class="doc-card-footer">
+              <a href="contact.html?doc=anas#booking" class="btn btn-booking-green btn-block" data-i18n="btn_book_with_doc">
+                حجز موعد مع الطبيب &larr;
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="doctor-showcase-card">
+          <div class="doc-card-image-wrap">
+            <img src="assets/staff/dr-aya.webp" alt="د. آية أياد" class="doc-card-img" loading="lazy">
+            <span class="doc-floating-badge" data-i18n="doc_badge_aya">أخصائية طب أسنان الأطفال</span>
+          </div>
+          <div class="doc-card-body">
+            <div class="doc-card-header">
+              <h3 class="doc-card-name" data-i18n="doc_name_aya">د. آية أياد</h3>
+              <p class="doc-card-role" data-i18n="doc_role_aya">طبيبة متخصصة في طب أسنان الأطفال والتأهيل السلوكي</p>
+            </div>
+            <p class="doc-card-bio" data-i18n="doc_bio_aya">
+              أسلوب تربوي نفسي لطيف لتحويل علاج أسنان الأطفال إلى تجربة ممتعة بدون خوف، حماية الأسنان اللبنية والوقاية المبكرة.
+            </p>
+            <div class="doc-specialties-chips">
+              <span class="spec-chip" data-i18n="doc_aya_s1">علاج أسنان الأطفال بدون ألم</span>
+              <span class="spec-chip" data-i18n="doc_aya_s2">حافظات المسافات والفلورايد</span>
+              <span class="spec-chip" data-i18n="doc_aya_s3">تأهيل سلوكي وإزالة الخوف</span>
+            </div>
+            <div class="doc-card-footer">
+              <a href="contact.html?doc=aya#booking" class="btn btn-booking-green btn-block" data-i18n="btn_book_with_doc">
+                حجز موعد مع الطبيب &larr;
+              </a>
+            </div>
+          </div>
+        </article>
       </div>
     </div>
   </section>
