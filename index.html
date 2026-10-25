@@ -48,11 +48,11 @@
 
       <div class="nav-menu" id="navMenu">
         <button type="button" class="nav-item active" data-scroll="hero" data-i18n="nav_home">الرئيسية</button>
-        <button type="button" class="nav-item" data-scroll="valueLadder" data-i18n="nav_pathways">خيارات الرعاية</button>
         <button type="button" class="nav-item" data-scroll="tech" data-i18n="nav_tech">التقنيات المتطورة</button>
         <button type="button" class="nav-item" data-scroll="reviews" data-i18n="nav_reviews">التقييمات</button>
-        <button type="button" class="nav-item" data-scroll="staff" data-i18n="nav_staff">الكادر الطبي</button>
-        <button type="button" class="nav-item" data-scroll="location" data-i18n="nav_location">الموقع</button>
+        <button type="button" class="nav-item" data-scroll="about" data-i18n="nav_about">من نحن والكادر</button>
+        <button type="button" class="nav-item" data-scroll="faq" data-i18n="nav_faq">الأسئلة الشائعة</button>
+        <a href="contact.html" class="nav-item" data-i18n="nav_contact">اتصل بنا والحجز</a>
       </div>
 
       <div class="nav-actions">
@@ -80,10 +80,7 @@
           </svg>
         </button>
 
-        <button type="button" class="btn btn-primary nav-cta-btn" data-scroll="booking">
-          <span class="btn-icon">📅</span>
-          <span data-i18n="nav_book_btn">حجز موعد</span>
-        </button>
+        <a href="contact.html#booking" class="btn btn-green-nav nav-cta-btn" data-i18n="hero_book_cta">حجز موعد استشارة مسبق</a>
 
         <button type="button" class="mobile-toggle-btn" id="mobileMenuBtn" aria-label="Open Navigation Menu">
           <span></span><span></span><span></span>
@@ -94,13 +91,12 @@
     <div class="mobile-nav-drawer" id="mobileDrawer">
       <div class="mobile-nav-links">
         <button type="button" class="mobile-nav-item active" data-scroll="hero" data-i18n="nav_home">الرئيسية</button>
-        <button type="button" class="mobile-nav-item" data-scroll="valueLadder" data-i18n="nav_pathways">خيارات الرعاية</button>
         <button type="button" class="mobile-nav-item" data-scroll="tech" data-i18n="nav_tech">التقنيات المتطورة</button>
         <button type="button" class="mobile-nav-item" data-scroll="reviews" data-i18n="nav_reviews">التقييمات</button>
-        <button type="button" class="mobile-nav-item" data-scroll="staff" data-i18n="nav_staff">الكادر الطبي</button>
-        <button type="button" class="mobile-nav-item" data-scroll="location" data-i18n="nav_location">الموقع</button>
-        <button type="button" class="btn btn-primary mobile-cta-btn" data-scroll="booking" data-i18n="nav_book_btn">حجز
-          موعد</button>
+        <button type="button" class="mobile-nav-item" data-scroll="about" data-i18n="nav_about">من نحن والكادر</button>
+        <button type="button" class="mobile-nav-item" data-scroll="faq" data-i18n="nav_faq">الأسئلة الشائعة</button>
+        <a href="contact.html" class="mobile-nav-item" data-i18n="nav_contact">اتصل بنا والحجز</a>
+        <a href="contact.html#booking" class="btn btn-green-nav mobile-cta-btn" data-i18n="hero_book_cta">حجز موعد استشارة مسبق</a>
       </div>
     </div>
   </nav>
@@ -116,29 +112,23 @@
         </div>
 
         <h1 class="hero-title">
-          <span class="title-main" data-i18n="hero_title_main">ابتسامة متناسقة وعلاج أسنان متطور بدون ألم بأحدث التقنيات السويسرية</span>
+          <span class="title-main" data-i18n="hero_title_main">عيادة ڤيرونا لطب وتجميل وزراعة الأسنان</span>
         </h1>
 
         <p class="hero-lead" data-i18n="hero_lead">
-          تخلص من رهبة إبر التخدير وألم الأسنان نهائياً. نوفر لك علاجاً محوسباً بجهاز STA بدون ألم وبروتوكول تنظيف GBT السويسري على أيدي 6 أطباء استشاريين، بمواعيد محددة بدون أي انتظار.
+          وجهتكم الأولى لطب الأسنان الرقمي الحديث في كركوك. تجربة علاجية استثنائية وبدون ألم مع جهاز البنج الإلكتروني
+          STA وتقنية تنظيف الأسنان السويسرية المتطورة GBT، بإشراف نخبة من 6 أطباء استشاريين ضمن نظام حجوزات مسبقة
+          لراحتكم التامة وبدون انتظار.
         </p>
 
-        <div class="hero-conversion-block">
-          <button type="button" class="btn btn-hero-cta btn-lg" data-scroll="booking">
-            <span class="btn-icon">📅</span>
-            <span data-i18n="hero_book_cta">احجز استشارتك بدون ألم وبدون انتظار</span>
-          </button>
-
-          <div class="hero-micro-reassurance">
-            <span data-i18n="hero_cta_reassurance">✓ تأكيد فوري عبر واتساب • 0 دقائق انتظار • خصوصية تامة</span>
-          </div>
-
-          <div class="hero-secondary-door">
-            <button type="button" class="hero-assessment-trigger" id="heroAssessmentTrigger" data-scroll="valueLadder">
-              <span class="trigger-spark">⚡</span>
-              <span data-i18n="hero_assessment_link">أو أجرِ تقييم الابتسامة المجاني (30 ثانية)</span>
-            </button>
-          </div>
+        <div class="hero-cta-group">
+          <a href="https://wa.me/9647745490770?text=%D8%AD%D8%A7%D9%84%D8%A9%20%D8%AD%D8%B1%D8%AC%D8%A9%20-%20%D8%B7%D9%88%D8%A7%D8%B1%D8%A6%20%D8%A3%D8%B3%D9%86%D8%A7%D9%86%20%D9%85%D8%B3%D8%AA%D8%B9%D8%AC%D9%84%D8%A9"
+            target="_blank" rel="noopener noreferrer" class="btn btn-critical-blue btn-lg" data-i18n="hero_critical_cta">
+            حالة حرجة
+          </a>
+          <a href="contact.html#booking" class="btn btn-booking-green btn-lg" data-i18n="hero_book_cta">
+            حجز موعد استشارة مسبق
+          </a>
         </div>
 
         <div class="hero-stats-strip">
@@ -174,102 +164,6 @@
     </div>
   </section>
 
-  <section class="top-trust-bar" id="trustAnchors">
-    <div class="container top-trust-container">
-      <div class="top-trust-card top-trust-rating">
-        <div class="trust-stars-row">★★★★★</div>
-        <div class="trust-rating-text">
-          <span class="trust-score"><bdi dir="ltr">4.9 / 5.0</bdi></span>
-          <span class="trust-meta" data-i18n="top_google_trust">تقييم موثق رسمياً على خرائط جوجل (121 مراجعاً)</span>
-        </div>
-      </div>
-
-      <div class="top-trust-card top-trust-quote">
-        <span class="quote-symbol">“</span>
-        <p class="quote-body" data-i18n="top_trust_review_quote">"ما حسيت بأي ألم مع جهاز البنج الإلكتروني STA.. أفضل تجربة عيادة أسنان بكركوك" — أحمد الكركوكي (مراجع موثق)</p>
-      </div>
-
-      <div class="top-trust-card top-trust-guarantees">
-        <div class="trust-pill-item">
-          <span class="pill-icon">🛡️</span>
-          <span data-i18n="top_trust_badge_sta">تخدير محوسب بدون ألم (STA)</span>
-        </div>
-        <div class="trust-pill-item">
-          <span class="pill-icon">🇨🇭</span>
-          <span data-i18n="top_trust_badge_gbt">تنظيف سويسري معتمد (EMS GBT)</span>
-        </div>
-        <div class="trust-pill-item">
-          <span class="pill-icon">⏱️</span>
-          <span data-i18n="top_trust_badge_zero_wait">0 دقائق انتظار (مواعيد مسبقة)</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="value-ladder-section" id="valueLadder">
-    <div class="container">
-      <div class="section-header text-center">
-        <span class="section-tag" data-i18n="ladder_tag">بوابات الرعاية السريعة</span>
-        <h2 class="section-title" data-i18n="ladder_title">كيف يمكننا مساعدتك اليوم؟ اختر الباب الأنسب لاحتياجك</h2>
-        <p class="section-subtitle" data-i18n="ladder_subtitle">
-          سواء كنت ترغب بتقييم أولي مجاني، أو علاج ألم عاجل، أو استشارة مع طبيب استشاري، نوفر لك خيارات مريحة ومباشرة.
-        </p>
-      </div>
-
-      <div class="ladder-grid">
-        <article class="ladder-card ladder-featured">
-          <div class="ladder-badge-top" data-i18n="card_assessment_tag">تقييم مجاني في 30 ثانية</div>
-          <div class="ladder-icon">💎</div>
-          <h3 class="ladder-card-title" data-i18n="card_assessment_title">فحص الابتسامة وحالة الأسنان الرقمي</h3>
-          <p class="ladder-card-desc" data-i18n="card_assessment_desc">
-            أجب عن 3 أسئلة سريعة لمعرفة خطة العلاج التقديرية والتكلفة المناسبة لحالتك مع توصية الطبيب الاستشاري.
-          </p>
-          <button type="button" class="btn btn-primary btn-block ladder-btn" id="openAssessmentBtn" data-i18n="btn_start_assessment">
-            ابدأ التقييم الفوري مجاناً ←
-          </button>
-        </article>
-
-        <article class="ladder-card">
-          <div class="ladder-badge-top badge-urgent" data-i18n="card_emergency_tag">ألم عاجل أو طارئ</div>
-          <div class="ladder-icon">⚡</div>
-          <h3 class="ladder-card-title" data-i18n="card_emergency_title">خط الطوارئ والألم السريع عبر واتساب</h3>
-          <p class="ladder-card-desc" data-i18n="card_emergency_desc">
-            هل تعاني من ألم أسنان مفاجئ أو كسر في الحشوة؟ تواصل مباشرة مع فريق الطوارئ لتوجيهك بدون تأخير.
-          </p>
-          <a href="https://wa.me/9647745490770?text=%D8%AD%D8%A7%D9%84%D8%A9%20%D8%B7%D8%A7%D8%B1%D8%A6%D8%A9%20-%20%D8%A3%D8%B9%D8%A7%D9%86%D9%8A%20%D9%85%D9%86%20%D8%A3%D9%84%D9%85%20%D8%A3%D8%B3%D9%86%D8%A7%D9%86%20%D8%B9%D8%A7%D8%AC%D9%84%20%D9%88%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9%20%D9%81%D9%88%D8%B1%D9%8A%D8%A9"
-            target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-block ladder-btn" data-i18n="btn_emergency_chat">
-            تواصل مع طوارئ الأسنان فوراً ⚡
-          </a>
-        </article>
-
-        <article class="ladder-card">
-          <div class="ladder-badge-top" data-i18n="card_guide_tag">دليل رقمي مجاني</div>
-          <div class="ladder-icon">📘</div>
-          <h3 class="ladder-card-title" data-i18n="card_guide_title">دليل ڤيرونا الشامل للابتسامة والعناية</h3>
-          <p class="ladder-card-desc" data-i18n="card_guide_desc">
-            احصل على نسختك المجانية من الدليل الطبي الإرشادي للتعرف على أسرار بياض الأسنان وتقنيات التخدير بدون ألم.
-          </p>
-          <a href="https://wa.me/9647745490770?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%2C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%AD%D8%B5%D9%88%D9%84%20%D8%B9%D9%84%D9%89%20%D9%86%D8%B3%D8%AE%D8%AA%D9%8A%20%D8%A7%D9%84%D9%85%D8%AC%D8%A7%D9%86%D9%8A%D8%A9%20%D9%85%D9%86%20%D8%AF%D9%84%D9%8A%D9%84%20%D9%81%D9%8A%D8%B1%D9%88%D9%86%D8%A7%20%D9%84%D9%84%D8%A7%D8%A8%D8%AA%D8%B3%D8%A7%D9%85%D8%A9%20%D9%88%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B3%D9%86%D8%A7%D9%86"
-            target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-block ladder-btn" data-i18n="btn_get_guide">
-            احصل على الدليل المجاني الآن 📥
-          </a>
-        </article>
-
-        <article class="ladder-card">
-          <div class="ladder-badge-top" data-i18n="card_direct_tag">حجز موعد مسبق</div>
-          <div class="ladder-icon">👨‍⚕️</div>
-          <h3 class="ladder-card-title" data-i18n="card_direct_title">حجز استشارة شاملة مع استشاري</h3>
-          <p class="ladder-card-desc" data-i18n="card_direct_desc">
-            اختر طبيبك المفضل وموعدك الملائم بدون أي وقت ضائع في صالة الانتظار.
-          </p>
-          <button type="button" class="btn btn-primary btn-block ladder-btn" data-scroll="booking" data-i18n="btn_book_direct_path">
-            الانتقال إلى استمارة الحجز 📅
-          </button>
-        </article>
-      </div>
-    </div>
-  </section>
-
   <section class="medical-tech-section" id="tech">
     <div class="container">
       <div class="section-header text-center">
@@ -298,7 +192,7 @@
               <small class="tech-en-title">STA Single Tooth Anesthesia System with DPS™</small>
             </h3>
             <p class="tech-quote" data-i18n="tech_sta_quote">
-              "مايحتاج بنج عام حليناها ويا جهاز البنج الالكتروني 😍💪"
+              "ما يحتاج بنج عام حليناها مع جهاز البنج الإلكتروني"
             </p>
             <p class="tech-text" data-i18n="tech_sta_desc">
               نظام البنج المحوسب المتطور الحاصل على براءة اختراع Dynamic Pressure Sensing Technology من Milestone
@@ -321,10 +215,9 @@
               </li>
             </ul>
             <div class="tech-card-footer">
-              <button type="button" class="btn btn-outline btn-sm" data-scroll="booking"
-                data-i18n="btn_book_device_session">
+              <a href="contact.html#booking" class="btn btn-outline btn-sm" data-i18n="btn_book_device_session">
                 احجز جلسة علاجية مريحة &larr;
-              </button>
+              </a>
             </div>
           </div>
         </article>
@@ -335,7 +228,7 @@
               alt="EMS Dental AIRFLOW Prophylaxis Master - Guided Biofilm Therapy GBT" class="tech-card-img"
               loading="lazy">
             <div class="tech-card-badge">
-              <span>EMS Dental • Switzerland 🇨🇭</span>
+              <span>EMS Dental • Switzerland</span>
             </div>
           </div>
           <div class="tech-card-body">
@@ -368,10 +261,9 @@
               </li>
             </ul>
             <div class="tech-card-footer">
-              <button type="button" class="btn btn-outline btn-sm" data-scroll="booking"
-                data-i18n="btn_book_gbt_session">
+              <a href="contact.html#booking" class="btn btn-outline btn-sm" data-i18n="btn_book_gbt_session">
                 احجز جلسة تنظيف GBT &larr;
-              </button>
+              </a>
             </div>
           </div>
         </article>
@@ -379,772 +271,272 @@
     </div>
   </section>
 
-  <section class="reviews-section" id="reviews">
-    <div class="container">
-
-      <div class="google-rating-banner">
-        <div class="google-banner-logo">
-          <svg viewBox="0 0 24 24" width="48" height="48">
-            <path fill="#4285F4"
-              d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.8-2.4 3.65v3h3.88c2.27-2.09 3.665-5.17 3.665-9.09z" />
-            <path fill="#34A853"
-              d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.28v3.09C3.27 21.3 7.35 24 12 24z" />
-            <path fill="#FBBC05"
-              d="M5.28 14.32c-.25-.72-.38-1.49-.38-2.32s.13-1.6.38-2.32V6.59H1.28C.46 8.21 0 10.05 0 12s.46 3.79 1.28 5.41l4-3.09z" />
-            <path fill="#EA4335"
-              d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.35 0 3.27 2.7 1.28 6.59l4 3.09c.95-2.83 3.6-4.93 6.72-4.93z" />
-          </svg>
-        </div>
-        <div class="google-banner-info">
-          <div class="google-score-line">
-            <span class="huge-score"><bdi dir="ltr">4.9</bdi></span>
-            <div class="score-stars-col">
-              <div class="stars-gold">★★★★★</div>
-              <span class="score-meta">
-                <span data-i18n="google_map_verified">تقييم موثق رسمياً</span> •
-                <strong class="bdi-num"><bdi dir="ltr">121</bdi></strong> <span data-i18n="reviews_word">تقييماً</span>
-              </span>
-            </div>
-          </div>
-          <p class="google-banner-text" data-i18n="google_banner_text">
-            عيادة ڤيرونا لطب وتجميل وزراعة الأسنان في كركوك حاصلة على أعلى التقييمات لجودة التعقيم، مهارة الكادر الطبي،
-            ودقة المواعيد المسبقة.
-          </p>
-        </div>
-        <div class="google-banner-action">
-          <a href="https://www.google.com/maps/place/%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9+%DA%A4%D9%8A%D8%B1%D9%88%D9%86%D8%A7+%D9%84%D8%B7%D8%A8+%D9%88+%D8%AA%D8%AC%D9%85%D9%8A%D9%84+%D9%88+%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9+%D8%A7%D9%84%D8%A7%D8%B3%D9%86%D8%A7%D9%86%E2%80%AD/@35.4289309,44.3629447,17z/data=!3m1!4b1!4m6!3m5!1s0x1554d797b5e53797:0x9507788a23d69f08!8m2!3d35.4289309!4d44.3629447!16s%2Fg%2F11sc1wsrzy?authuser=1&entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D"
-            target="_blank" rel="noopener noreferrer" class="btn btn-primary">
-            <span class="btn-icon">🗺️</span>
-            <span data-i18n="btn_view_google_reviews">عرض كافة التقييمات على جوجل</span>
-          </a>
-        </div>
+  <section class="reviews-ocean-section" id="reviews">
+    <div class="reviews-ocean-overlay"></div>
+    <div class="container reviews-ocean-container">
+      <div class="reviews-ocean-header text-center">
+        <span class="reviews-ocean-eyebrow" data-i18n="reviews_eyebrow">WHAT PATIENTS SAY</span>
+        <h2 class="reviews-ocean-title" data-i18n="reviews_headline">Real reviews from our community.</h2>
       </div>
 
-      <div class="reviews-carousel-wrapper">
-        <button type="button" class="carousel-arrow carousel-arrow-prev" id="prevReviewBtn" aria-label="التقييم السابق">
-          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5">
-            <polyline points="9 18 15 12 9 6"></polyline>
-          </svg>
-        </button>
-
-        <div class="reviews-carousel-track-container" id="reviewsTrackContainer">
-          <div class="reviews-carousel-track" id="reviewsCarouselTrack">
-
-            <article class="review-card">
-              <div class="review-card-header">
-                <div class="review-author">
-                  <div class="review-avatar">A</div>
-                  <div>
-                    <h4 class="author-name" data-i18n="rev_name_1">أحمد الكركوكي</h4>
-                    <div class="review-stars">★★★★★</div>
-                  </div>
-                </div>
-                <span class="review-date" data-i18n="rev_date_1">قبل شهر</span>
-              </div>
-              <p class="review-body" data-i18n="rev_text_1">
-                "تجربة مريحة جداً، سويت زراعة أسنان عند د. أسامة الحسين. استخدام جهاز البنج الإلكتروني STA ما حسيت بأي
-                وخزة أو ألم نهائياً! نظافة العيادة والتعقيم 10/10."
-              </p>
-              <div class="review-badge-verified">
-                <svg viewBox="0 0 24 24" width="14" height="14" fill="#34A853">
-                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                </svg>
-                <span data-i18n="verified_patient">مريض موثق عبر خرائط جوجل</span>
-              </div>
-            </article>
-
-            <article class="review-card">
-              <div class="review-card-header">
-                <div class="review-author">
-                  <div class="review-avatar">S</div>
-                  <div>
-                    <h4 class="author-name" data-i18n="rev_name_2">سارة خليل</h4>
-                    <div class="review-stars">★★★★★</div>
-                  </div>
-                </div>
-                <span class="review-date" data-i18n="rev_date_2">قبل أسبوعين</span>
-              </div>
-              <p class="review-body" data-i18n="rev_text_2">
-                "جربت جلسة تنظيف الأسنان بجهاز AIRFLOW GBT السويسري الجديد، فرق هائل عن التنظيف القديم! بدون أي حساسية
-                بالأسنان وماء دافئ مريح جداً. أفضل عيادة بكركوك."
-              </p>
-              <div class="review-badge-verified">
-                <svg viewBox="0 0 24 24" width="14" height="14" fill="#34A853">
-                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                </svg>
-                <span data-i18n="verified_patient">مريض موثق عبر خرائط جوجل</span>
-              </div>
-            </article>
-
-            <article class="review-card">
-              <div class="review-card-header">
-                <div class="review-author">
-                  <div class="review-avatar">R</div>
-                  <div>
-                    <h4 class="author-name" data-i18n="rev_name_3">ڕێبین قادر</h4>
-                    <div class="review-stars">★★★★★</div>
-                  </div>
-                </div>
-                <span class="review-date" data-i18n="rev_date_3">قبل 3 أسابيع</span>
-              </div>
-              <p class="review-body" data-i18n="rev_text_3">
-                "نظام المواعيد المسبقة ممتاز جداً وتدخل بوقتك بدون أي انتظار. تعامل الكادر الطبي والاستقبال راقي ومحترف
-                لأبعد الحدود. أنصح بهم بشدة."
-              </p>
-              <div class="review-badge-verified">
-                <svg viewBox="0 0 24 24" width="14" height="14" fill="#34A853">
-                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                </svg>
-                <span data-i18n="verified_patient">مريض موثق عبر خرائط جوجل</span>
-              </div>
-            </article>
-
-            <article class="review-card">
-              <div class="review-card-header">
-                <div class="review-author">
-                  <div class="review-avatar">H</div>
-                  <div>
-                    <h4 class="author-name" data-i18n="rev_name_4">د. هديل البياتي</h4>
-                    <div class="review-stars">★★★★★</div>
-                  </div>
-                </div>
-                <span class="review-date" data-i18n="rev_date_4">قبل شهر</span>
-              </div>
-              <p class="review-body" data-i18n="rev_text_4">
-                "سويت تيجان زركون وعدسات تجميلية، النتيجة طبيعية للغاية وتطابق لون الأسنان الحقيقي بدون مبالغة أو بروز.
-                إتقان ودقة عالية جداً."
-              </p>
-              <div class="review-badge-verified">
-                <svg viewBox="0 0 24 24" width="14" height="14" fill="#34A853">
-                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                </svg>
-                <span data-i18n="verified_patient">مريض موثق عبر خرائط جوجل</span>
-              </div>
-            </article>
-
-            <article class="review-card">
-              <div class="review-card-header">
-                <div class="review-author">
-                  <div class="review-avatar">S</div>
-                  <div>
-                    <h4 class="author-name" data-i18n="rev_name_5">شوان محمد</h4>
-                    <div class="review-stars">★★★★★</div>
-                  </div>
-                </div>
-                <span class="review-date" data-i18n="rev_date_5">قبل شهرين</span>
-              </div>
-              <p class="review-body" data-i18n="rev_text_5">
-                "علاج عصب لضرس معقد عند د. محمد بجلسة واحدة وبدون أي إحساس بالألم. أجهزة دقيقة وأشعة حديثة وتوضيح كامل
-                للحالة قبل البدء."
-              </p>
-              <div class="review-badge-verified">
-                <svg viewBox="0 0 24 24" width="14" height="14" fill="#34A853">
-                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                </svg>
-                <span data-i18n="verified_patient">مريض موثق عبر خرائط جوجل</span>
-              </div>
-            </article>
-
-            <article class="review-card">
-              <div class="review-card-header">
-                <div class="review-author">
-                  <div class="review-avatar">M</div>
-                  <div>
-                    <h4 class="author-name" data-i18n="rev_name_6">مريم الجبوري</h4>
-                    <div class="review-stars">★★★★★</div>
-                  </div>
-                </div>
-                <span class="review-date" data-i18n="rev_date_6">قبل 3 أسابيع</span>
-              </div>
-              <p class="review-body" data-i18n="rev_text_6">
-                "أخذت بنتي لعند دكتورة آية لأسنان الأطفال، أسلوبها هادئ ومحبب جداً وخلا بنتي تتعالج بدون خوف أو بكاء.
-                شكراً عيادة ڤيرونا على كادركم المميز."
-              </p>
-              <div class="review-badge-verified">
-                <svg viewBox="0 0 24 24" width="14" height="14" fill="#34A853">
-                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                </svg>
-                <span data-i18n="verified_patient">مريض موثق عبر خرائط جوجل</span>
-              </div>
-            </article>
-
-            <article class="review-card">
-              <div class="review-card-header">
-                <div class="review-author">
-                  <div class="review-avatar">O</div>
-                  <div>
-                    <h4 class="author-name" data-i18n="rev_name_7">عمر طارق</h4>
-                    <div class="review-stars">★★★★★</div>
-                  </div>
-                </div>
-                <span class="review-date" data-i18n="rev_date_7">قبل شهر</span>
-              </div>
-              <p class="review-body" data-i18n="rev_text_7">
-                "قلع جراحي لضرس عقل مدفون عند د. زيد، ما حسيت بشيء واستغرقت العملية وقت قياسي بدون أي ورم بعد الجلسة.
-                كادر استشاري يستحق الثقة."
-              </p>
-              <div class="review-badge-verified">
-                <svg viewBox="0 0 24 24" width="14" height="14" fill="#34A853">
-                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                </svg>
-                <span data-i18n="verified_patient">مريض موثق عبر خرائط جوجل</span>
-              </div>
-            </article>
-
-            <article class="review-card">
-              <div class="review-card-header">
-                <div class="review-author">
-                  <div class="review-avatar">Z</div>
-                  <div>
-                    <h4 class="author-name" data-i18n="rev_name_8">ژیان عەلی</h4>
-                    <div class="review-stars">★★★★★</div>
-                  </div>
-                </div>
-                <span class="review-date" data-i18n="rev_date_8">قبل أسبوعين</span>
-              </div>
-              <p class="review-body" data-i18n="rev_text_8">
-                "ڕێکخستنەوەی دانەکانم بە تەلی شەفاف لای دکتۆرە نور، لە ٤ مانگدا گۆڕانکاری گەورەم بینی. مامەڵە و
-                خزمەتگوزاری سەردەمیانە و نموونەییە."
-              </p>
-              <div class="review-badge-verified">
-                <svg viewBox="0 0 24 24" width="14" height="14" fill="#34A853">
-                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                </svg>
-                <span data-i18n="verified_patient">مريض موثق عبر خرائط جوجل</span>
-              </div>
-            </article>
-
-            <article class="review-card">
-              <div class="review-card-header">
-                <div class="review-author">
-                  <div class="review-avatar">M</div>
-                  <div>
-                    <h4 class="author-name" data-i18n="rev_name_9">مصطفى النعيمي</h4>
-                    <div class="review-stars">★★★★★</div>
-                  </div>
-                </div>
-                <span class="review-date" data-i18n="rev_date_9">قبل شهرين</span>
-              </div>
-              <p class="review-body" data-i18n="rev_text_9">
-                "أهم نقطة بالنسبة لي كانت التعقيم. أجهزة التعقيم الحديثة وتغليف الأدوات أمام المراجع تعطي راحة نفسية
-                واطمئنان كامل. مستوى عالمي بكركوك."
-              </p>
-              <div class="review-badge-verified">
-                <svg viewBox="0 0 24 24" width="14" height="14" fill="#34A853">
-                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                </svg>
-                <span data-i18n="verified_patient">مريض موثق عبر خرائط جوجل</span>
-              </div>
-            </article>
-
-            <article class="review-card">
-              <div class="review-card-header">
-                <div class="review-author">
-                  <div class="review-avatar">D</div>
-                  <div>
-                    <h4 class="author-name" data-i18n="rev_name_10">دیلان بەرزان</h4>
-                    <div class="review-stars">★★★★★</div>
-                  </div>
-                </div>
-                <span class="review-date" data-i18n="rev_date_10">قبل شهر</span>
-              </div>
-              <p class="review-body" data-i18n="rev_text_10">
-                "دیزاینی زەردەخەنەی هۆلیوود لای د. ئەنەس، بەڕاستی زۆر سروشتی و بێ کێشەیە. هەمووان دەپرسن لە کوێ چاکم
-                کردووە! سوپاس بۆ ماندووبوونتان."
-              </p>
-              <div class="review-badge-verified">
-                <svg viewBox="0 0 24 24" width="14" height="14" fill="#34A853">
-                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                </svg>
-                <span data-i18n="verified_patient">مريض موثق عبر خرائط جوجل</span>
-              </div>
-            </article>
-
-            <article class="review-card">
-              <div class="review-card-header">
-                <div class="review-author">
-                  <div class="review-avatar">K</div>
-                  <div>
-                    <h4 class="author-name" data-i18n="rev_name_11">كرار حيدر</h4>
-                    <div class="review-stars">★★★★★</div>
-                  </div>
-                </div>
-                <span class="review-date" data-i18n="rev_date_11">قبل 3 أسابيع</span>
-              </div>
-              <p class="review-body" data-i18n="rev_text_11">
-                "حجزت عن طريق الواتساب وتم الرد وتحديد الموعد خلال دقائق. الدخول بالموعد تماماً ومتابعة بعد العلاج
-                للاطمئنان على الحالة. عيادة محترفة بكل المقاييس."
-              </p>
-              <div class="review-badge-verified">
-                <svg viewBox="0 0 24 24" width="14" height="14" fill="#34A853">
-                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                </svg>
-                <span data-i18n="verified_patient">مريض موثق عبر خرائط جوجل</span>
-              </div>
-            </article>
-
-            <article class="review-card">
-              <div class="review-card-header">
-                <div class="review-author">
-                  <div class="review-avatar">N</div>
-                  <div>
-                    <h4 class="author-name" data-i18n="rev_name_12">نور الهدى</h4>
-                    <div class="review-stars">★★★★★</div>
-                  </div>
-                </div>
-                <span class="review-date" data-i18n="rev_date_12">قبل 4 أسابيع</span>
-              </div>
-              <p class="review-body" data-i18n="rev_text_12">
-                "عندي فوبيا شديدة من إبر البنج، لكن جهاز البنج الإلكتروني عندهم غير فكرتي تماماً! ما حسيت بأي شيء أبداً
-                وتخدر السن بدون خدر الشفاه. تجربة ممتازة."
-              </p>
-              <div class="review-badge-verified">
-                <svg viewBox="0 0 24 24" width="14" height="14" fill="#34A853">
-                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                </svg>
-                <span data-i18n="verified_patient">مريض موثق عبر خرائط جوجل</span>
-              </div>
-            </article>
-
-          </div>
-        </div>
-
-        <button type="button" class="carousel-arrow carousel-arrow-next" id="nextReviewBtn" aria-label="التقييم التالي">
+      <div class="reviews-ocean-carousel-wrap">
+        <button type="button" class="ocean-arrow ocean-arrow-prev" id="prevOceanBtn" aria-label="Previous Review">
           <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5">
             <polyline points="15 18 9 12 15 6"></polyline>
           </svg>
         </button>
+
+        <div class="reviews-ocean-track-container" id="oceanTrackContainer">
+          <div class="reviews-ocean-track" id="oceanTrack">
+
+            <article class="ocean-review-card">
+              <div class="ocean-stars">★★★★★</div>
+              <p class="ocean-text" data-i18n="rev_text_1">
+                "تجربة مريحة جداً، سويت زراعة أسنان عند د. أسامة الحسين. استخدام جهاز البنج الإلكتروني STA ما حسيت بأي وخزة أو ألم نهائياً! نظافة العيادة والتعقيم 10/10."
+              </p>
+              <div class="ocean-author" data-i18n="rev_name_1">أحمد الكركوكي</div>
+            </article>
+
+            <article class="ocean-review-card">
+              <div class="ocean-stars">★★★★★</div>
+              <p class="ocean-text" data-i18n="rev_text_2">
+                "جربت جلسة تنظيف الأسنان بجهاز AIRFLOW GBT السويسري الجديد، فرق هائل عن التنظيف القديم! بدون أي حساسية بالأسنان وماء دافئ مريح جداً. أفضل عيادة بكركوك."
+              </p>
+              <div class="ocean-author" data-i18n="rev_name_2">سارة خليل</div>
+            </article>
+
+            <article class="ocean-review-card">
+              <div class="ocean-stars">★★★★★</div>
+              <p class="ocean-text" data-i18n="rev_text_3">
+                "نظام المواعيد المسبقة ممتاز جداً وتدخل بوقتك بدون أي انتظار. تعامل الكادر الطبي والاستقبال راقي ومحترف لأبعد الحدود. أنصح بهم بشدة."
+              </p>
+              <div class="ocean-author" data-i18n="rev_name_3">ڕێبین قادر</div>
+            </article>
+
+            <article class="ocean-review-card">
+              <div class="ocean-stars">★★★★★</div>
+              <p class="ocean-text" data-i18n="rev_text_4">
+                "سويت تيجان زركون وعدسات تجميلية، النتيجة طبيعية للغاية وتطابق لون الأسنان الحقيقي بدون مبالغة أو بروز. إتقان ودقة عالية جداً."
+              </p>
+              <div class="ocean-author" data-i18n="rev_name_4">د. هديل البياتي</div>
+            </article>
+
+            <article class="ocean-review-card">
+              <div class="ocean-stars">★★★★★</div>
+              <p class="ocean-text" data-i18n="rev_text_5">
+                "علاج عصب لضرس معقد عند د. محمد بجلسة واحدة وبدون أي إحساس بالألم. أجهزة دقيقة وأشعة حديثة وتوضيح كامل للحالة قبل البدء."
+              </p>
+              <div class="ocean-author" data-i18n="rev_name_5">شوان محمد</div>
+            </article>
+
+            <article class="ocean-review-card">
+              <div class="ocean-stars">★★★★★</div>
+              <p class="ocean-text" data-i18n="rev_text_6">
+                "أخذت بنتي لعند دكتورة آية لأسنان الأطفال، أسلوبها هادئ ومحبب جداً وخلا بنتي تتعالج بدون خوف أو بكاء. شكراً عيادة ڤيرونا على كادركم المميز."
+              </p>
+              <div class="ocean-author" data-i18n="rev_name_6">مريم الجبوري</div>
+            </article>
+
+            <article class="ocean-review-card">
+              <div class="ocean-stars">★★★★★</div>
+              <p class="ocean-text" data-i18n="rev_text_7">
+                "قلع جراحي لضرس عقل مدفون عند د. زيد، ما حسيت بشيء واستغرقت العملية وقت قياسي بدون أي ورم بعد الجلسة. كادر استشاري يستحق الثقة."
+              </p>
+              <div class="ocean-author" data-i18n="rev_name_7">عمر طارق</div>
+            </article>
+
+            <article class="ocean-review-card">
+              <div class="ocean-stars">★★★★★</div>
+              <p class="ocean-text" data-i18n="rev_text_8">
+                "ڕێکخستنەوەی دانەکانم بە تەلی شەفاف لای دکتۆرە نور، لە ٤ مانگدا گۆڕانکاری گەورەم بینی. مامەڵە و خزمەتگوزاری سەردەمیانە و نموونەییە."
+              </p>
+              <div class="ocean-author" data-i18n="rev_name_8">ژیان عەلی</div>
+            </article>
+
+          </div>
+        </div>
+
+        <button type="button" class="ocean-arrow ocean-arrow-next" id="nextOceanBtn" aria-label="Next Review">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
       </div>
 
-      <div class="reviews-carousel-dots" id="reviewsCarouselDots"></div>
-
-      <div class="transformation-wrapper">
-        <div class="transformation-header text-center">
-          <span class="section-tag" data-i18n="smile_tag">نتائج سريرية واقعية</span>
-          <h3 class="transformation-title" data-i18n="smile_title">التحول الرقمي للابتسامة في عيادة ڤيرونا</h3>
-          <p class="transformation-sub" data-i18n="smile_sub">
-            اسحب المقبض لمشاهدة الفرق بين حالة الأسنان قبل العلاج والنتيجة المتناسقة بعد تجميل وزراعة الأسنان.
-          </p>
-        </div>
-
-        <div class="comparison-container" id="comparisonSlider">
-
-          <img src="assets/after-smile.jpg" alt="After Smile Transformation Verona" class="comparison-img img-after"
-            loading="lazy">
-          <span class="comparison-label label-after" data-i18n="label_after">بعد العلاج (After)</span>
-
-          <div class="comparison-clipped" id="clippedBefore">
-            <img src="assets/before-smile.jpg" alt="Before Smile Verona" class="comparison-img img-before"
-              loading="lazy">
-            <span class="comparison-label label-before" data-i18n="label_before">قبل العلاج (Before)</span>
-          </div>
-
-          <div class="comparison-handle" id="sliderHandle">
-            <div class="handle-line"></div>
-            <div class="handle-knob">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="15 18 9 12 15 6"></polyline>
-              </svg>
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
-                <polyline points="9 18 15 12 9 6"></polyline>
-              </svg>
-            </div>
-            <div class="handle-line"></div>
-          </div>
-        </div>
-
-        <div class="comparison-presets">
-          <button type="button" class="preset-btn" data-val="15" data-i18n="preset_before">عرض قبل العلاج 100%</button>
-          <button type="button" class="preset-btn active" data-val="50" data-i18n="preset_split">مقارنة نصف بنصف
-            50/50</button>
-          <button type="button" class="preset-btn" data-val="85" data-i18n="preset_after">عرض النتيجة بعد العلاج
-            100%</button>
-                <div class="transformation-cta-bar">
-          <div class="t-cta-content">
-            <span class="t-cta-badge">✨</span>
-            <div>
-              <h4 class="t-cta-title" data-i18n="cta_transformation_title">هل ترغب بالحصول على نتيجة متناسقة وطبيعية لابتسامتك؟</h4>
-              <p class="t-cta-sub" data-i18n="cta_transformation_sub">استشر أطباءنا الاستشاريين واكتشف كيف يمكن لتصميم الابتسامة الرقمي تغيير مظهر أسنانك بأمان وبدون ألم.</p>
-            </div>
-          </div>
-          <div class="t-cta-actions">
-            <button type="button" class="btn btn-primary" data-scroll="booking" data-i18n="btn_transformation_cta">احجز فحص الابتسامة الشامل الآن ←</button>
-            <button type="button" class="btn btn-outline" id="sliderAssessBtn" data-i18n="btn_slider_assess">تقييم مجاني (30 ثانية)</button>
-          </div>
-        </div>
-      </div>
+      <div class="ocean-carousel-dots" id="oceanDots"></div>
     </div>
   </section>
 
-  <section class="staff-section" id="staff">
+  <section class="about-section" id="about">
     <div class="container">
       <div class="section-header text-center">
-        <span class="section-tag" data-i18n="staff_tag">الكفاءات الطبية المتميزة</span>
-        <h2 class="section-title" data-i18n="staff_title">الكادر الطبي التخصصي في عيادة ڤيرونا</h2>
-        <p class="section-subtitle" data-i18n="staff_desc">
-          يضم فريقنا 6 أطباء استشاريين وأخصائيين في مختلف مجالات زراعة وتجميل وتقويم وجراحة الأسنان وطب أسنان الأطفال
-          لتقديم رعاية متكاملة تحت سقف واحد.
+        <span class="section-tag" data-i18n="about_eyebrow">من نحن والكادر الطبي</span>
+        <h2 class="section-title" data-i18n="about_headline">صرح طبي تخصصي يجمع أرقى الخبرات وأحدث التقنيات</h2>
+        <p class="section-subtitle" data-i18n="about_desc">
+          تأسست عيادة ڤيرونا في كركوك لتكون الوجهة الرائدة لطب الأسنان التخصصي الرقمي. نعتمد معايير تعقيم عالمية، ونظام مواعيد دقيق بدون انتظار، وكادراً يضم 6 استشاريين متميزين.
         </p>
       </div>
 
-      <div class="staff-filters" id="staffFilters">
-        <button type="button" class="filter-pill active" data-filter="all" data-i18n="filter_all">كافة الأطباء
-          (6)</button>
-        <button type="button" class="filter-pill" data-filter="implant" data-i18n="filter_implant">الزراعة
-          والتجميل</button>
-        <button type="button" class="filter-pill" data-filter="ortho" data-i18n="filter_ortho">تقويم الأسنان</button>
-        <button type="button" class="filter-pill" data-filter="surgery" data-i18n="filter_surgery">الجراحة
-          والترميم</button>
-        <button type="button" class="filter-pill" data-filter="pediatric" data-i18n="filter_pediatric">طب أسنان
-          الأطفال</button>
-      </div>
+      <div class="doctor-cv-interactive-wrap">
+        <div class="cv-selector-bar">
+          <label for="doctorCvSelect" class="cv-selector-label" data-i18n="cv_dropdown_label">اختر الطبيب لعرض السيرة المهنية والتخصص الدقيق:</label>
+          <select id="doctorCvSelect" class="form-select cv-select-dropdown">
+            <option value="osama" data-i18n="doc_opt_osama">د. أسامة الحسين - زراعة وتجميل الأسنان</option>
+            <option value="noor" data-i18n="doc_opt_noor">د. نور نصرالله - تقويم وتجميل الأسنان</option>
+            <option value="zaid" data-i18n="doc_opt_zaid">د. زيد - جراحة الفم والفكين والزراعة</option>
+            <option value="mohammed" data-i18n="doc_opt_mohammed">د. محمد - علاج العصب والترميم المجهري</option>
+            <option value="anas" data-i18n="doc_opt_anas">د. أنس - ابتسامة هوليوود والعدسات</option>
+            <option value="aya" data-i18n="doc_opt_aya">د. آية أياد - طب أسنان الأطفال</option>
+          </select>
+        </div>
 
-      <div class="staff-grid" id="staffGrid">
+        <div class="cv-display-card" id="cvDisplayCard">
+          <div class="cv-photo-side">
+            <img src="assets/staff/dr-osama.webp" alt="د. أسامة الحسين" id="cvDoctorImg" class="cv-doctor-img" loading="lazy">
+          </div>
+          <div class="cv-content-side">
+            <div class="cv-badge-row">
+              <span class="cv-badge" id="cvDoctorBadge">استشاري زراعة وتجميل الأسنان</span>
+            </div>
+            <h3 class="cv-doctor-name" id="cvDoctorName">د. أسامة الحسين</h3>
+            <p class="cv-doctor-role" id="cvDoctorRole">أخصائي زراعة الأسنان والتركيبات التجميلية الرقمية</p>
+            
+            <div class="cv-section-block">
+              <h4 class="cv-block-title" data-i18n="cv_qualifications_label">المؤهلات والخبرات:</h4>
+              <p class="cv-block-text" id="cvDoctorQualifications">
+                خبير زراعة الأسنان الفورية وتصميم ابتسامة هوليوود الرقمية. حاصل على شهادات تخصصية متقدمة في أنظمة الزرع العالمية والتركيبات الثابتة.
+              </p>
+            </div>
 
-        <article class="doctor-card" data-category="implant">
-          <div class="doctor-img-wrap">
-            <img src="assets/staff/dr-osama.webp" alt="د. أسامة الحسين - زراعة وتجميل الاسنان" class="doctor-img"
-              loading="lazy">
-          </div>
-          <div class="doctor-card-body">
-            <h3 class="doctor-name" data-i18n="doc_osama_name">د. أسامة الحسين</h3>
-            <p class="doctor-role" data-i18n="doc_osama_role">أخصائي زراعة الأسنان والتركيبات التجميلية الرقمية</p>
-            <p class="doctor-bio" data-i18n="doc_osama_bio">
-              خبير زراعة الأسنان الفورية وتصميم ابتسامة هوليوود المتناسقة باستخدام أحدث التقنيات الرقمية وأنظمة الزرع
-              العالمية.
-            </p>
-            <button type="button" class="btn btn-outline btn-sm doctor-select-btn" data-doctor-name="د. أسامة الحسين"
-              data-scroll="booking">
-              <span data-i18n="btn_book_with_doc">حجز استشارة مع الطبيب &larr;</span>
-            </button>
-          </div>
-        </article>
+            <div class="cv-section-block">
+              <h4 class="cv-block-title" data-i18n="cv_specialties_label">مجالات التخصص الدقيقة:</h4>
+              <ul class="cv-specialties-list" id="cvDoctorSpecialties">
+                <li>زراعة الأسنان الفورية بنظام التوجيه الرقمي الثلاثي</li>
+                <li>تصميم وتركيب عدسات الفينير واللومينير وزركونيا عالية الشفافية</li>
+                <li>إعادة تأهيل الابتسامة الكاملة وتناسق خط الابتسامة</li>
+              </ul>
+            </div>
 
-        <article class="doctor-card" data-category="ortho">
-          <div class="doctor-img-wrap">
-            <img src="assets/staff/dr-noor.webp" alt="د. نور نصرالله - تقويم وتجميل الاسنان" class="doctor-img"
-              loading="lazy">
+            <div class="cv-action-row">
+              <a href="contact.html#booking" class="btn btn-green-nav" id="cvBookBtn" data-i18n="btn_book_with_doc">
+                حجز موعد مع الطبيب &larr;
+              </a>
+            </div>
           </div>
-          <div class="doctor-card-body">
-            <h3 class="doctor-name" data-i18n="doc_noor_name">د. نور نصرالله</h3>
-            <p class="doctor-role" data-i18n="doc_noor_role">أخصائية تقويم وتجميل الأسنان والفكين</p>
-            <p class="doctor-bio" data-i18n="doc_noor_bio">
-              علاج كافة حالات اعوجاج الأسنان، التقويم الشفاف غير المرئي والتقويم الكلاسيكي للبالغين واليافعين لتحقيق
-              إطباق مثالي.
-            </p>
-            <button type="button" class="btn btn-outline btn-sm doctor-select-btn" data-doctor-name="د. نور نصرالله"
-              data-scroll="booking">
-              <span data-i18n="btn_book_with_doc">حجز استشارة مع الطبيبة &larr;</span>
-            </button>
-          </div>
-        </article>
+        </div>
 
-        <article class="doctor-card" data-category="surgery">
-          <div class="doctor-img-wrap">
-            <img src="assets/staff/dr-zaid.webp" alt="د. زيد - جراحة الفم والفكين والزراعة" class="doctor-img"
-              loading="lazy">
-          </div>
-          <div class="doctor-card-body">
-            <h3 class="doctor-name" data-i18n="doc_zaid_name">د. زيد</h3>
-            <p class="doctor-role" data-i18n="doc_zaid_role">أخصائي جراحة الفم والفكين وزراعة الأسنان المتقدمة</p>
-            <p class="doctor-bio" data-i18n="doc_zaid_bio">
-              قلع أضراس العقل المطمورة جراحياً بدون ألم، زراعة العظم ورفع الجيوب الأنفية، وإجراءات الجراحة الفموية
-              الدقيقة.
-            </p>
-            <button type="button" class="btn btn-outline btn-sm doctor-select-btn" data-doctor-name="د. زيد"
-              data-scroll="booking">
-              <span data-i18n="btn_book_with_doc">حجز استشارة مع الطبيب &larr;</span>
-            </button>
-          </div>
-        </article>
-
-        <article class="doctor-card" data-category="surgery">
-          <div class="doctor-img-wrap">
-            <img src="assets/staff/dr-mohammed.webp" alt="د. محمد - علاج العصب والحشوات التجميلية" class="doctor-img"
-              loading="lazy">
-          </div>
-          <div class="doctor-card-body">
-            <h3 class="doctor-name" data-i18n="doc_mohammed_name">د. محمد</h3>
-            <p class="doctor-role" data-i18n="doc_mohammed_role">أخصائي علاج جذور الأسنان والترميم التجميلي المجهري</p>
-            <p class="doctor-bio" data-i18n="doc_mohammed_bio">
-              علاج العصب بأحدث الأجهزة الدوارة في جلسة واحدة، والحشوات التجميلية الضوئية الدقيقة لحماية الأسنان
-              الطبيعية.
-            </p>
-            <button type="button" class="btn btn-outline btn-sm doctor-select-btn" data-doctor-name="د. محمد"
-              data-scroll="booking">
-              <span data-i18n="btn_book_with_doc">حجز استشارة مع الطبيب &larr;</span>
-            </button>
-          </div>
-        </article>
-
-        <article class="doctor-card" data-category="implant">
-          <div class="doctor-img-wrap">
-            <img src="assets/staff/dr-anas.webp" alt="د. أنس - ابتسامة هوليوود والتركيبات" class="doctor-img"
-              loading="lazy">
-          </div>
-          <div class="doctor-card-body">
-            <h3 class="doctor-name" data-i18n="doc_anas_name">د. أنس</h3>
-            <p class="doctor-role" data-i18n="doc_anas_role">أخصائي تجميل الأسنان وابتسامة هوليوود والتركيبات الثابتة
-            </p>
-            <p class="doctor-bio" data-i18n="doc_anas_bio">
-              تصميم الفينير والزركون واللومينير بأعلى معايير التناسق مع ملامح الوجه وشفافية الأسنان الطبيعية.
-            </p>
-            <button type="button" class="btn btn-outline btn-sm doctor-select-btn" data-doctor-name="د. أنس"
-              data-scroll="booking">
-              <span data-i18n="btn_book_with_doc">حجز استشارة مع الطبيب &larr;</span>
-            </button>
-          </div>
-        </article>
-
-        <article class="doctor-card" data-category="pediatric">
-          <div class="doctor-img-wrap">
-            <img src="assets/staff/dr-aya.webp" alt="د. آية أياد - طب أسنان الأطفال" class="doctor-img" loading="lazy">
-          </div>
-          <div class="doctor-card-body">
-            <h3 class="doctor-name" data-i18n="doc_aya_name">د. آية أياد</h3>
-            <p class="doctor-role" data-i18n="doc_aya_role">طبيبة أسنان متخصصة في طب أسنان الأطفال والتأهيل السلوكي</p>
-            <p class="doctor-bio" data-i18n="doc_aya_bio">
-              أسلوب تربوي لطيف لعلاج أسنان الأطفال بدون خوف، حماية الأسنان اللبنية والوقاية بالفلورايد وسدادات الشقوق.
-            </p>
-            <button type="button" class="btn btn-outline btn-sm doctor-select-btn" data-doctor-name="د. آية أياد"
-              data-scroll="booking">
-              <span data-i18n="btn_book_with_doc">حجز استشارة مع الطبيبة &larr;</span>
-            </button>
-          </div>
-        </article>
-
+        <div class="doctors-pills-row" id="doctorsPillsRow">
+          <button type="button" class="doc-pill-btn active" data-doc="osama">د. أسامة الحسين</button>
+          <button type="button" class="doc-pill-btn" data-doc="noor">د. نور نصرالله</button>
+          <button type="button" class="doc-pill-btn" data-doc="zaid">د. زيد</button>
+          <button type="button" class="doc-pill-btn" data-doc="mohammed">د. محمد</button>
+          <button type="button" class="doc-pill-btn" data-doc="anas">د. أنس</button>
+          <button type="button" class="doc-pill-btn" data-doc="aya">د. آية أياد</button>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="location-section" id="location">
+  <section class="faq-section" id="faq">
     <div class="container">
       <div class="section-header text-center">
-        <span class="section-tag" data-i18n="location_tag">موقع العيادة وساعات العمل</span>
-        <h2 class="section-title" data-i18n="location_title">تفضلوا بزيارتنا في عيادة ڤيرونا بكركوك</h2>
-        <p class="section-subtitle" data-i18n="location_desc">
-          موقع استراتيجي متميز يسهل الوصول إليه، مع مواقف سيارات مريحة وتجهيزات استقبال مريحة ومتكاملة.
-        </p>
+        <span class="section-tag" data-i18n="faq_eyebrow">COMMON QUESTIONS</span>
+        <h2 class="section-title" data-i18n="faq_headline">Frequently Asked Questions</h2>
       </div>
 
-      <div class="location-grid">
+      <div class="faq-accordion-wrap">
 
-        <div class="location-info-card">
-          <div class="info-card-header">
-            <div class="clinic-pin-icon">📍</div>
-            <div>
-              <h3 class="info-clinic-title" data-i18n="location_clinic_title">عيادة ڤيرونا لطب وتجميل وزراعة الاسنان
-              </h3>
-              <p class="info-clinic-city" data-i18n="location_clinic_city">كركوك، العراق</p>
-            </div>
-          </div>
-
-          <div class="location-details-list">
-            <div class="detail-item">
-              <div class="detail-icon">🗺️</div>
-              <div class="detail-text">
-                <strong data-i18n="loc_address_label">العنوان:</strong>
-                <span data-i18n="loc_address_val">كركوك، طريق بغداد / المجمع الطبي التخصصي، بالقرب من مركز
-                  المدينة</span>
-              </div>
-            </div>
-
-            <div class="detail-item">
-              <div class="detail-icon">📞</div>
-              <div class="detail-text">
-                <strong data-i18n="loc_phone_label">الهاتف والحجوزات:</strong>
-                <a href="tel:07745490770" class="detail-link phone-ltr"><bdi dir="ltr">07745490770</bdi></a>
-                <span class="intl-hint">(+964 774 549 0770)</span>
-              </div>
-            </div>
-
-            <div class="detail-item">
-              <div class="detail-icon">⏱️</div>
-              <div class="detail-text">
-                <strong data-i18n="loc_hours_label">أوقات العمل (نظام الحجوزات المسبقة):</strong>
-                <div class="hours-row">
-                  <span data-i18n="hours_days">السبت - الخميس:</span>
-                  <strong class="hours-val"><bdi dir="ltr">1:00 PM - 9:00 PM</bdi></strong>
-                </div>
-                <div class="hours-row">
-                  <span data-i18n="hours_friday">الجمعة:</span>
-                  <span class="hours-val" data-i18n="hours_fri_val">مغلق</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="detail-item">
-              <div class="detail-icon">🚗</div>
-              <div class="detail-text">
-                <strong data-i18n="loc_parking_label">مواقف السيارات:</strong>
-                <span data-i18n="loc_parking_val">تتوفر مواقف سيارات مجانية ومريحة لمرضى العيادة ومرافقيهم.</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="location-actions">
-            <a href="https://www.google.com/maps/place/%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9+%DA%A4%D9%8A%D8%B1%D9%88%D9%86%D8%A7+%D9%84%D8%B7%D8%A8+%D9%88+%D8%AA%D8%AC%D9%85%D9%8A%D9%84+%D9%88+%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9+%D8%A7%D9%84%D8%A7%D8%B3%D9%86%D8%A7%D9%86%E2%80%AD/@35.4289309,44.3629447,17z/data=!3m1!4b1!4m6!3m5!1s0x1554d797b5e53797:0x9507788a23d69f08!8m2!3d35.4289309!4d44.3629447!16s%2Fg%2F11sc1wsrzy?authuser=1&entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D"
-              target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">
-              <span class="btn-icon">🧭</span>
-              <span data-i18n="btn_open_google_maps">فتح الاتجاهات المباشرة في خرائط جوجل</span>
-            </a>
+        <div class="faq-item active">
+          <button type="button" class="faq-question-btn" aria-expanded="true">
+            <span class="faq-question-text" data-i18n="faq_q1">ما هي أوقات العمل الرسمية في عيادة ڤيرونا؟</span>
+            <span class="faq-chevron-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer-panel">
+            <p class="faq-answer-text" data-i18n="faq_a1">
+              نستقبل مراجعينا من السبت إلى الخميس من الساعة 1:00 ظهراً وحتى 9:00 مساءً بنظام المواعيد المسبقة. يوم الجمعة عطلة رسمية وتُستقبل الحالات الطارئة بالحجز المسبق فقط.
+            </p>
           </div>
         </div>
 
-        <div class="location-map-wrap">
-          <iframe src="https://maps.google.com/maps?q=35.4289309,44.3629447&hl=ar&z=17&output=embed" width="100%"
-            height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-            title="Verona Dental Clinic Kirkuk Location Map">
-          </iframe>
+        <div class="faq-item">
+          <button type="button" class="faq-question-btn" aria-expanded="false">
+            <span class="faq-question-text" data-i18n="faq_q2">كيف يضمن جهاز STA جلسة علاج وتخدير بدون ألم؟</span>
+            <span class="faq-chevron-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer-panel">
+            <p class="faq-answer-text" data-i18n="faq_a2">
+              يتحكم جهاز STA الأمريكي المحوسب بتدفق سائل التخدير قطرة بقطرة وبسرعة تسبق الإحساس العصبي، مما يوفر تخديراً موضعياً تاماً للسن المطلوب فقط بدون إبر مؤلمة وبدون تنميل للشفاه أو الوجه.
+            </p>
+          </div>
         </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question-btn" aria-expanded="false">
+            <span class="faq-question-text" data-i18n="faq_q3">ما هو بروتوكول تنظيف الأسنان السويسري GBT وما مميزاته؟</span>
+            <span class="faq-chevron-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer-panel">
+            <p class="faq-answer-text" data-i18n="faq_a3">
+              هو المعيار السويسري الأحدث عالمياً لتنظيف الأسنان وإزالة البلاك والجير والتصبغات باستخدام جهاز AIRFLOW® Prophylaxis Master برذاذ دافئ ولطيف يحمي المينا واللثة وعدسات الأسنان بدون أي كشط أو حساسية.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question-btn" aria-expanded="false">
+            <span class="faq-question-text" data-i18n="faq_q4">هل يجب حجز موعد مسبق قبل الحضور للعيادة؟</span>
+            <span class="faq-chevron-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer-panel">
+            <p class="faq-answer-text" data-i18n="faq_a4">
+              نعم، تعمل عيادة ڤيرونا بنظام المواعيد المسبقة الدقيقة لضمان عدم وجود أي وقت ضائع في صالة الانتظار وتخصيص كامل وقت الطبيب لحالتك.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question-btn" aria-expanded="false">
+            <span class="faq-question-text" data-i18n="faq_q5">ما هي التخصصات الطبية المتوفرة في عيادة ڤيرونا؟</span>
+            <span class="faq-chevron-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </span>
+          </button>
+          <div class="faq-answer-panel">
+            <p class="faq-answer-text" data-i18n="faq_a5">
+              يضم كادرنا 6 أطباء استشاريين يغطون: زراعة الأسنان الرقمية، ابتسامة هوليوود والتركيبات، تقويم الأسنان والفكين، جراحة الفم والفكين، علاج العصب المجهري، وطب أسنان الأطفال.
+            </p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <section class="booking-section" id="booking">
-    <div class="container">
-      <div class="booking-card">
-        <div class="booking-intro">
-          <span class="section-tag" data-i18n="booking_tag">حجز استشارة خاصة</span>
-          <h2 class="booking-title" data-i18n="booking_title">احجز موعدك المسبق في عيادة ڤيرونا</h2>
-          <p class="booking-lead" data-i18n="booking_lead">
-            نعمل بنظام الحجوزات المسبقة لضمان راحتكم الكاملة وتخصيص الوقت الكافي لكل مراجع بدون أي انتظار. املأ البيانات
-            وسنقوم بتأكيد موعدكم فوراً.
-          </p>
-
-          <div class="booking-highlights">
-            <div class="b-highlight">
-              <span class="b-icon">⏱️</span>
-              <div>
-                <strong data-i18n="b_feature_1_title">دقة تامة في المواعيد</strong>
-                <p data-i18n="b_feature_1_desc">جلسات محددة بوقت مسبق لراحتكم وبدون تأخير.</p>
-              </div>
-            </div>
-            <div class="b-highlight">
-              <span class="b-icon">✨</span>
-              <div>
-                <strong data-i18n="b_feature_2_title">أحدث التقنيات بدون ألم</strong>
-                <p data-i18n="b_feature_2_desc">جهاز البنج الإلكتروني STA وبروتوكول GBT السويسري.</p>
-              </div>
-            </div>
-            <div class="b-highlight">
-              <span class="b-icon">📱</span>
-              <div>
-                <strong data-i18n="b_feature_3_title">تأكيد مباشر عبر الواتساب</strong>
-                <p data-i18n="b_feature_3_desc">إشعار فوري وتذكير مسبق قبل الموعد المحدد.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="direct-call-box">
-            <span data-i18n="prefer_call_text">تفضل الاتصال المباشر؟</span>
-            <a href="tel:07745490770" class="direct-call-link">
-              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
-                <path
-                  d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-1.57 1.97c-2.83-1.44-5.15-3.75-6.59-6.59l1.97-1.57c.28-.28.37-.68.25-1.02A11.36 11.36 0 0 1 8.96 4.3c0-.55-.45-1-1-1H4.07c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.92c-.01-.55-.46-1-1.06-1z" />
-              </svg>
-              <bdi dir="ltr">07745490770</bdi>
-            </a>
-          </div>
-        </div>
-
-        <div class="booking-form-wrap">
-          <form class="appointment-form" id="appointmentForm">
-            <h3 class="form-heading" data-i18n="form_heading">بيانات حجز الموعد</h3>
-
-            <div class="form-group">
-              <label for="patientName" class="form-label" data-i18n="form_name_label">اسم المراجع الكامل *</label>
-              <input type="text" id="patientName" name="name" class="form-input" placeholder="مثال: أحمد عبد الله"
-                required>
-            </div>
-
-            <div class="form-group">
-              <label for="patientPhone" class="form-label" data-i18n="form_phone_label">رقم الهاتف (الواتساب) *</label>
-              <input type="tel" id="patientPhone" name="phone" class="form-input phone-ltr" placeholder="0774XXXXXXX"
-                dir="ltr" required>
-            </div>
-
-            <div class="form-group">
-              <label for="doctorSelect" class="form-label" data-i18n="form_doctor_label">اختر الطبيب المعالج /
-                التخصص</label>
-              <select id="doctorSelect" name="doctor" class="form-select">
-                <option value="أي طبيب متاح حسب الحالة" data-i18n="doc_opt_any">أي طبيب متاح حسب الحالة (استشارة عامة)
-                </option>
-                <option value="د. أسامة الحسين - زراعة وتجميل الأسنان" data-i18n="doc_opt_osama">د. أسامة الحسين - زراعة
-                  وتجميل الأسنان</option>
-                <option value="د. نور نصرالله - تقويم وتجميل الأسنان" data-i18n="doc_opt_noor">د. نور نصرالله - تقويم
-                  وتجميل الأسنان</option>
-                <option value="د. زيد - جراحة الفم والفكين والزراعة" data-i18n="doc_opt_zaid">د. زيد - جراحة الفم
-                  والفكين والزراعة</option>
-                <option value="د. محمد - علاج العصب والحشوات التجميلية" data-i18n="doc_opt_mohammed">د. محمد - علاج
-                  العصب والترميم المجهري</option>
-                <option value="د. أنس - ابتسامة هوليوود والتركيبات" data-i18n="doc_opt_anas">د. أنس - ابتسامة هوليوود
-                  والعدسات</option>
-                <option value="د. آية أياد - طب أسنان الأطفال" data-i18n="doc_opt_aya">د. آية أياد - طب أسنان الأطفال
-                </option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="serviceSelect" class="form-label" data-i18n="form_service_label">الخدمة المطلوبة</label>
-              <select id="serviceSelect" name="service" class="form-select">
-                <option value="فحص واستشارة عامة" data-i18n="serv_opt_consult">فحص واستشارة أولية شاملة</option>
-                <option value="جلسة البنج الإلكتروني STA بدون ألم" data-i18n="serv_opt_sta">جلسة علاج بجهاز البنج
-                  الإلكتروني STA</option>
-                <option value="جلسة تنظيف الأسنان وعلاج اللثة GBT السويسرية" data-i18n="serv_opt_gbt">تنظيف الأسنان
-                  ببروتوكول GBT السويسري (EMS AIRFLOW®)</option>
-                <option value="زراعة الأسنان الرقمية الفورية" data-i18n="serv_opt_implant">زراعة الأسنان الرقمية الفورية
-                </option>
-                <option value="ابتسامة هوليوود وعدسات الفينير" data-i18n="serv_opt_smile">ابتسامة هوليوود والعدسات
-                  الخزفية</option>
-                <option value="تقويم الأسنان (مرئي أو شفاف)" data-i18n="serv_opt_ortho">تقويم الأسنان (معدني أو شفاف
-                  Invisalign)</option>
-                <option value="علاج عصب الأسنان وحشوات تجميلية" data-i18n="serv_opt_root">علاج العصب والحشوات التجميلية
-                </option>
-                <option value="طب أسنان الأطفال والوقاية" data-i18n="serv_opt_pedia">معالجة أسنان الأطفال والوقاية
-                  السلوكية</option>
-              </select>
-            </div>
-
-            <div class="form-row">
-
-              <div class="form-group col-6">
-                <label for="preferredDate" class="form-label" data-i18n="form_date_label">اليوم المفضل</label>
-                <input type="date" id="preferredDate" name="date" class="form-input">
-              </div>
-
-              <div class="form-group col-6">
-                <label for="preferredTime" class="form-label" data-i18n="form_time_label">الفترة المفضلة</label>
-                <select id="preferredTime" name="time" class="form-select">
-                  <option value="عصراً (1:00 م - 5:00 م)" data-i18n="time_opt_afternoon">عصراً (1:00 م - 5:00 م)
-                  </option>
-                  <option value="مساءً (5:00 م - 9:00 م)" data-i18n="time_opt_evening">مساءً (5:00 م - 9:00 م)</option>
-                  <option value="أي وقت متاح (1:00 م - 9:00 م)" data-i18n="time_opt_any">أي وقت متاح (1:00 م - 9:00 م)
-                  </option>
-                </select>
-              </div>
-            </div>
-
-            <div class="form-group">
-              <label for="patientNotes" class="form-label" data-i18n="form_notes_label">ملاحظات إضافية أو وصف الحالة
-                (اختياري)</label>
-              <textarea id="patientNotes" name="notes" class="form-textarea" rows="2"
-                placeholder="هل تعاني من ألم؟ أو لديك رغبة ببروتوكول معين؟"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-whatsapp btn-block btn-lg">
-              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
-                <path
-                  d="M19.05 4.91A9.816 9.816 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.188 8.188 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.183 8.183 0 0 1 2.41 5.83c.01 4.54-3.69 8.23-8.23 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.98-.15.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.66.31-.23.25-.88.86-.88 2.09s.9 2.43 1.02 2.6c.12.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z" />
-              </svg>
-              <span data-i18n="btn_submit_appointment">إرسال وتأكيد الحجز عبر الواتساب فوراً</span>
-            </button>
-            <p class="form-disclaimer" data-i18n="form_disclaimer">
-              🔒 سيتم توجيهكم مباشرة لمحادثة الواتساب الرسمية مع منسق المواعيد بالعيادة. بياناتكم مشفرة ومحمية بالكامل.
-            </p>
-          </form>
-        </div>
-      </div>
+  <section class="page-end-cta">
+    <div class="container text-center">
+      <h3 class="end-cta-title" data-i18n="end_cta_title">حجز موعد استشارة مسبق</h3>
+      <p class="end-cta-desc" data-i18n="end_cta_desc">
+        نعمل بنظام الحجوزات المسبقة لراحتكم وتخصيص الوقت الكافي لكل مراجع بدون أي انتظار.
+      </p>
+      <a href="contact.html#booking" class="btn btn-green-nav btn-lg" data-i18n="btn_end_book">احجز موعدك الآن</a>
     </div>
   </section>
 
@@ -1193,18 +585,12 @@
       <div class="footer-col">
         <h4 class="footer-col-title" data-i18n="footer_nav_title">أقسام الموقع</h4>
         <ul class="footer-nav-list">
-          <li><button type="button" class="footer-nav-btn" data-scroll="hero" data-i18n="nav_home">الرئيسية</button>
-          </li>
-          <li><button type="button" class="footer-nav-btn" data-scroll="tech" data-i18n="nav_tech">التقنيات
-              المتطورة</button></li>
-          <li><button type="button" class="footer-nav-btn" data-scroll="reviews"
-              data-i18n="nav_reviews">التقييمات</button></li>
-          <li><button type="button" class="footer-nav-btn" data-scroll="staff" data-i18n="nav_staff">الكادر
-              الطبي</button></li>
-          <li><button type="button" class="footer-nav-btn" data-scroll="location"
-              data-i18n="nav_location">الموقع</button></li>
-          <li><button type="button" class="footer-nav-btn" data-scroll="booking" data-i18n="nav_book_btn">حجز
-              موعد</button></li>
+          <li><button type="button" class="footer-nav-btn" data-scroll="hero" data-i18n="nav_home">الرئيسية</button></li>
+          <li><button type="button" class="footer-nav-btn" data-scroll="tech" data-i18n="nav_tech">التقنيات المتطورة</button></li>
+          <li><button type="button" class="footer-nav-btn" data-scroll="reviews" data-i18n="nav_reviews">التقييمات</button></li>
+          <li><button type="button" class="footer-nav-btn" data-scroll="about" data-i18n="nav_about">من نحن والكادر</button></li>
+          <li><button type="button" class="footer-nav-btn" data-scroll="faq" data-i18n="nav_faq">الأسئلة الشائعة</button></li>
+          <li><a href="contact.html" class="footer-nav-btn" data-i18n="nav_contact">اتصل بنا والحجز</a></li>
         </ul>
       </div>
 
@@ -1212,21 +598,17 @@
         <h4 class="footer-col-title" data-i18n="footer_contact_title">الاتصال والحجز</h4>
         <div class="footer-contact-info">
           <p>
-            <span class="f-icon">📞</span>
             <a href="tel:07745490770" class="phone-ltr"><bdi dir="ltr">07745490770</bdi></a>
           </p>
           <p>
-            <span class="f-icon">💬</span>
             <a href="https://wa.me/9647745490770" target="_blank" rel="noopener noreferrer">واتساب مباشر: <bdi
                 dir="ltr">07745490770</bdi></a>
           </p>
           <p>
-            <span class="f-icon">📍</span>
             <span>كركوك، العراق</span>
           </p>
           <p>
-            <span class="f-icon">⭐</span>
-            <span><bdi dir="ltr">4.9 / 5.0</bdi> على خرائط جوجل (121 تقييماً)</span>
+            <span>السبت - الخميس: 1:00 PM - 9:00 PM</span>
           </p>
         </div>
       </div>
@@ -1253,11 +635,7 @@
     <div class="privacy-modal-backdrop" id="privacyBackdrop"></div>
     <div class="privacy-modal-dialog">
       <div class="privacy-modal-header">
-        <div class="privacy-modal-title-wrap">
-          <span class="privacy-badge">🔒</span>
-          <h3 class="privacy-modal-title" id="privacyModalTitle" data-i18n="privacy_title">سياسة الخصوصية وسرية بيانات
-            المرضى</h3>
-        </div>
+        <h3 class="privacy-modal-title" id="privacyModalTitle" data-i18n="privacy_title">سياسة الخصوصية وسرية بيانات المرضى</h3>
         <button type="button" class="privacy-modal-close" id="privacyCloseX" aria-label="Close">&times;</button>
       </div>
       <div class="privacy-modal-body">
@@ -1265,31 +643,14 @@
           نلتزم في عيادة ڤيرونا التزاماً صارماً بأعلى معايير الأمانة الطبية وسرية بيانات مراجعينا الكرام.
         </p>
         <ul class="privacy-list">
-          <li>
-            <span class="list-bullet">✓</span>
-            <span data-i18n="privacy_point_1">المعلومات الطبية والشخصية (الاسم، رقم الهاتف، التشخيص، صور الأشعة) تُعامل
-              بسرية مهنية تامة ومحفوظة ضمن السجلات الطبية للعيادة فقط.</span>
-          </li>
-          <li>
-            <span class="list-bullet">✓</span>
-            <span data-i18n="privacy_point_2">يتم استخدام رقم الهاتف للتواصل عبر الواتساب لتنسيق مواعيد الجلسات وإرسال
-              التذكيرات والاستشارات الطبية المتعلقة بعلاجك فقط.</span>
-          </li>
-          <li>
-            <span class="list-bullet">✓</span>
-            <span data-i18n="privacy_point_3">نضمن عدم بيع أو تأجير أو مشاركة بيانات مراجعينا مع أي طرف ثالث أو شركات
-              إعلانية تحت أي ظرف.</span>
-          </li>
-          <li>
-            <span class="list-bullet">✓</span>
-            <span data-i18n="privacy_point_4">حقوق المراجع: يحق لك في أي وقت تعديل بياناتك أو إلغاء مواعيدك أو طلب حذف
-              بياناتك من خلال التواصل المباشر مع إدارة العيادة.</span>
-          </li>
+          <li data-i18n="privacy_point_1">المعلومات الطبية والشخصية (الاسم، رقم الهاتف، التشخيص، صور الأشعة) تُعامل بسرية مهنية تامة ومحفوظة ضمن السجلات الطبية للعيادة فقط.</li>
+          <li data-i18n="privacy_point_2">يتم استخدام رقم الهاتف للتواصل عبر الواتساب لتنسيق مواعيد الجلسات وإرسال التذكيرات والاستشارات الطبية المتعلقة بعلاجك فقط.</li>
+          <li data-i18n="privacy_point_3">نضمن عدم بيع أو تأجير أو مشاركة بيانات مراجعينا مع أي طرف ثالث أو شركات إعلانية تحت أي ظرف.</li>
+          <li data-i18n="privacy_point_4">حقوق المراجع: يحق لك في أي وقت تعديل بياناتك أو إلغاء مواعيدك أو طلب حذف بياناتك من خلال التواصل المباشر مع إدارة العيادة.</li>
         </ul>
       </div>
       <div class="privacy-modal-footer">
-        <button type="button" class="btn btn-primary btn-sm" id="privacyCloseBtn" data-i18n="privacy_close_btn">إغلاق
-          نافذة الخصوصية</button>
+        <button type="button" class="btn btn-primary btn-sm" id="privacyCloseBtn" data-i18n="privacy_close_btn">إغلاق نافذة الخصوصية</button>
       </div>
     </div>
   </div>
@@ -1302,125 +663,6 @@
     </svg>
     <span class="floating-wa-label" data-i18n="wa_quick_label">حجز سريع عبر واتساب</span>
   </a>
-
-  <div class="assessment-modal" id="assessmentModal" role="dialog" aria-modal="true" aria-labelledby="assessmentModalTitle" hidden>
-    <div class="assessment-modal-backdrop" id="assessmentBackdrop"></div>
-    <div class="assessment-modal-dialog">
-      <div class="assessment-modal-header">
-        <div class="assessment-title-wrap">
-          <span class="assessment-header-icon">💎</span>
-          <h3 class="assessment-modal-title" id="assessmentModalTitle" data-i18n="assess_modal_title">تقييم الابتسامة وعلاج الأسنان الرقمي (30 ثانية)</h3>
-        </div>
-        <button type="button" class="assessment-modal-close" id="assessmentCloseX" aria-label="Close">&times;</button>
-      </div>
-
-      <form id="assessmentForm" class="assessment-form-body">
-        <div class="assessment-step" id="assessStep1">
-          <label class="assessment-question" data-i18n="assess_step1_title">الخطوة 1: ما هو هدفك الأساسي لأسنانك؟</label>
-          <div class="assessment-options-grid">
-            <label class="assess-radio-card">
-              <input type="radio" name="dental_goal" value="زراعة أسنان فورية وتعويض الأسنان المفقودة" checked>
-              <span class="card-indicator"></span>
-              <span class="card-label-text" data-i18n="opt_goal_implant">زراعة أسنان فورية وتعويض الأسنان المفقودة</span>
-            </label>
-            <label class="assess-radio-card">
-              <input type="radio" name="dental_goal" value="ابتسامة هوليوود وتجميل وتبييض الأسنان">
-              <span class="card-indicator"></span>
-              <span class="card-label-text" data-i18n="opt_goal_smile">ابتسامة هوليوود وتجميل وتبييض الأسنان</span>
-            </label>
-            <label class="assess-radio-card">
-              <input type="radio" name="dental_goal" value="علاج عصب الأسنان والتخلص من الألم">
-              <span class="card-indicator"></span>
-              <span class="card-label-text" data-i18n="opt_goal_pain">علاج عصب الأسنان والتخلص من الألم</span>
-            </label>
-            <label class="assess-radio-card">
-              <input type="radio" name="dental_goal" value="تنظيف الأسنان ببروتوكول GBT السويسري">
-              <span class="card-indicator"></span>
-              <span class="card-label-text" data-i18n="opt_goal_gbt">تنظيف الأسنان وإزالة الجير والتصبغات بجهاز GBT</span>
-            </label>
-            <label class="assess-radio-card">
-              <input type="radio" name="dental_goal" value="تقويم الأسنان وتعديل اعوجاج الفكين">
-              <span class="card-indicator"></span>
-              <span class="card-label-text" data-i18n="opt_goal_ortho">تقويم الأسنان وتعديل اعوجاج الفكين</span>
-            </label>
-          </div>
-        </div>
-
-        <div class="assessment-step" id="assessStep2">
-          <label class="assessment-question" data-i18n="assess_step2_title">الخطوة 2: ما هو أكثر ما يهمك أثناء العلاج؟</label>
-          <div class="assessment-options-grid">
-            <label class="assess-radio-card">
-              <input type="radio" name="dental_priority" value="تجنب ألم الإبر والتخدير (جهاز STA)" checked>
-              <span class="card-indicator"></span>
-              <span class="card-label-text" data-i18n="opt_concern_pain">تجنب ألم الإبر والتخدير (نوفر جهاز STA بدون ألم)</span>
-            </label>
-            <label class="assess-radio-card">
-              <input type="radio" name="dental_priority" value="مظهر جمالي طبيعي ومتناسق">
-              <span class="card-indicator"></span>
-              <span class="card-label-text" data-i18n="opt_concern_natural">مظهر جمالي طبيعي ومتناسق مع ملامح الوجه</span>
-            </label>
-            <label class="assess-radio-card">
-              <input type="radio" name="dental_priority" value="دقة المواعيد وسرعة الإنجاز">
-              <span class="card-indicator"></span>
-              <span class="card-label-text" data-i18n="opt_concern_time">سرعة الإنجاز ودقة المواعيد بدون انتظار</span>
-            </label>
-            <label class="assess-radio-card">
-              <input type="radio" name="dental_priority" value="معرفة التكلفة والخيارات مسبقاً">
-              <span class="card-indicator"></span>
-              <span class="card-label-text" data-i18n="opt_concern_cost">معرفة الخطة العلاجية والخيارات التقديرية مسبقاً</span>
-            </label>
-          </div>
-        </div>
-
-        <div class="assessment-step" id="assessStep3">
-          <label class="assessment-question" data-i18n="assess_step3_title">الخطوة 3: أين تود استلام تقرير تقييم حالتك المجاني؟</label>
-          <div class="assess-inputs-wrap">
-            <div class="form-group">
-              <label for="leadName" class="form-label" data-i18n="form_name_label">اسم المراجع الكامل *</label>
-              <input type="text" id="leadName" class="form-input" placeholder="مثال: أحمد عبد الله" required>
-            </div>
-            <div class="form-group">
-              <label for="leadPhone" class="form-label" data-i18n="form_phone_label">رقم الهاتف (الواتساب) *</label>
-              <input type="tel" id="leadPhone" class="form-input phone-ltr" placeholder="0774XXXXXXX" dir="ltr" required>
-            </div>
-          </div>
-        </div>
-
-        <div class="assessment-modal-footer">
-          <button type="submit" class="btn btn-whatsapp btn-block btn-lg" id="submitAssessmentBtn">
-            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
-              <path d="M19.05 4.91A9.816 9.816 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.188 8.188 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.183 8.183 0 0 1 2.41 5.83c.01 4.54-3.69 8.23-8.23 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.98-.15.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.66.31-.23.25-.88.86-.88 2.09s.9 2.43 1.02 2.6c.12.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z" />
-            </svg>
-            <span data-i18n="btn_submit_assessment">إرسال التقييم واستلام استشارة الطبيب مجاناً عبر واتساب</span>
-          </button>
-          <p class="assessment-disclaimer" data-i18n="assess_disclaimer">
-            🔒 يتم إرسال إجاباتك مباشرة إلى الفريق الطبي الاستشاري في عيادة ڤيرونا لتقديم تقرير تقديري مجاني وسري تماماً.
-          </p>
-        </div>
-      </form>
-    </div>
-  </div>
-
-  <div class="sticky-bottom-bar" id="stickyBottomBar">
-    <div class="sticky-bar-container">
-      <a href="tel:07745490770" class="sticky-bar-btn sticky-call">
-        <span class="sticky-icon">📞</span>
-        <span class="sticky-text" data-i18n="sticky_call">اتصال</span>
-      </a>
-      <a href="https://wa.me/9647745490770" target="_blank" rel="noopener noreferrer" class="sticky-bar-btn sticky-wa">
-        <span class="sticky-icon">💬</span>
-        <span class="sticky-text" data-i18n="sticky_whatsapp">واتساب</span>
-      </a>
-      <button type="button" class="sticky-bar-btn sticky-assess" id="stickyAssessBtn">
-        <span class="sticky-icon">⚡</span>
-        <span class="sticky-text" data-i18n="sticky_assess">تقييم مجاني</span>
-      </button>
-      <button type="button" class="sticky-bar-btn sticky-book" data-scroll="booking">
-        <span class="sticky-icon">📅</span>
-        <span class="sticky-text" data-i18n="sticky_book">حجز موعد</span>
-      </button>
-    </div>
-  </div>
 
   <script src="script.js"></script>
 </body>

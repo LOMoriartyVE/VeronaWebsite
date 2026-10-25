@@ -1,5 +1,3 @@
-
-
 (function () {
   'use strict';
 
@@ -7,34 +5,27 @@
     ar: {
       brand_name: "عيادة ڤيرونا",
       brand_tagline: "لطب وتجميل وزراعة الأسنان",
-      top_google_rating: "على خرائط جوجل",
-      top_reviews_count: "تقييماً معتمداً",
       nav_home: "الرئيسية",
       nav_tech: "التقنيات المتطورة",
       nav_reviews: "التقييمات",
-      nav_staff: "الكادر الطبي",
-      nav_location: "الموقع",
-      nav_book_btn: "حجز موعد",
-      hero_verified_badge: "تقييم موثق على خرائط جوجل (121 تقييماً)",
-      hero_title_sub: "الرعاية السنية الحديثة والمتقدمة في كركوك",
+      nav_about: "من نحن والكادر",
+      nav_faq: "الأسئلة الشائعة",
+      nav_contact: "اتصل بنا والحجز",
+      hero_eyebrow: "عيادة ڤيرونا التخصصية • كركوك",
       hero_title_main: "عيادة ڤيرونا لطب وتجميل وزراعة الأسنان",
       hero_lead: "وجهتكم الأولى لطب الأسنان الرقمي الحديث في كركوك. تجربة علاجية استثنائية وبدون ألم مع جهاز البنج الإلكتروني STA وتقنية تنظيف الأسنان السويسرية المتطورة GBT، بإشراف نخبة من 6 أطباء استشاريين ضمن نظام حجوزات مسبقة لراحتكم التامة وبدون انتظار.",
+      hero_critical_cta: "حالة حرجة",
       hero_book_cta: "حجز موعد استشارة مسبق",
-      hero_whatsapp_cta: "تواصل عبر الواتساب",
       stat_google_rate: "تقييم خرائط جوجل",
       stat_reviews_count: "مراجعة معتمدة",
       stat_consultants: "أطباء استشاريين",
       stat_painless: "بدون ألم (STA & GBT)",
-      hero_sta_pill_title: "البنج الإلكتروني الذكي STA",
-      hero_sta_pill_sub: "تخدير بدون إبر مؤلمة وبدون تنميل الوجه",
-      hero_gbt_pill_title: "بروتوكول تنظيف GBT السويسري",
-      hero_gbt_pill_sub: "جهاز EMS AIRFLOW® Prophylaxis Master",
       tech_tag: "ريادة التكنولوجيا الطبية",
       tech_title: "تقنيات استثنائية لراحة لا تُضاهى وبدون ألم",
       tech_desc: "تعتمد عيادة ڤيرونا أرقى المعدات الطبية العالمية المعتمدة لتقديم تجربة علاجية تحول زيارة طبيب الأسنان إلى راحة وأمان كامل.",
       tech_sta_tag: "تخدير محوسب بدون ألم",
       tech_sta_name: "جهاز البنج الإلكتروني الذكي STA",
-      tech_sta_quote: '"مايحتاج بنج عام حليناها ويا جهاز البنج الالكتروني 😍💪"',
+      tech_sta_quote: '"ما يحتاج بنج عام حليناها مع جهاز البنج الإلكتروني"',
       tech_sta_desc: "نظام البنج المحوسب المتطور الحاصل على براءة اختراع Dynamic Pressure Sensing Technology من Milestone Scientific. يتحكم الجهاز بدقة بالغة في ضغط وتدفق مادة التخدير قطرة بقطرة وبسرعة تسبق الإحساس العصبي، مما يوفر تخديراً موضعياً تاماً للسن المطلوب فقط دون تخدير الشفاه أو اللسان أو الوجه، ويخلصك تماماً من رهبة الإبر التقليدية.",
       tech_sta_b1: "تخدير فوري ومخصص للسن المستهدف فقط",
       tech_sta_b2: "لا يسبب خدر الوجه أو الشفاه بعد الانتهاء من الجلسة",
@@ -48,94 +39,89 @@
       tech_gbt_b2: "حماية ممتازة لابتسامة هوليوود وزراعة الأسنان والتقويم",
       tech_gbt_b3: "تطبيق معايير الدقة السويسرية الأكثر أماناً عالمياً",
       btn_book_gbt_session: "احجز جلسة تنظيف GBT ←",
-      reviews_tag: "ثقة مئات المرضى في كركوك",
-      reviews_title: "تقييمات معتمدة 4.9 نجوم على خرائط جوجل",
-      reviews_desc: "نفخر بثقة مراجعينا وامتنانهم للرعاية الفائقة والنتائج الدقيقة التي يقدمها كادرنا الطبي الاستشاري.",
-      google_map_verified: "تقييم موثق رسمياً",
-      reviews_word: "تقييماً",
-      google_banner_text: "عيادة ڤيرونا لطب وتجميل وزراعة الأسنان في كركوك حاصلة على أعلى التقييمات لجودة التعقيم، مهارة الكادر الطبي، ودقة المواعيد المسبقة.",
-      btn_view_google_reviews: "عرض كافة التقييمات على جوجل",
+      reviews_eyebrow: "WHAT PATIENTS SAY",
+      reviews_headline: "Real reviews from our community.",
       rev_name_1: "أحمد الكركوكي",
-      rev_date_1: "قبل شهر",
       rev_text_1: '"تجربة مريحة جداً، سويت زراعة أسنان عند د. أسامة الحسين. استخدام جهاز البنج الإلكتروني STA ما حسيت بأي وخزة أو ألم نهائياً! نظافة العيادة والتعقيم 10/10."',
       rev_name_2: "سارة خليل",
-      rev_date_2: "قبل أسبوعين",
       rev_text_2: '"جربت جلسة تنظيف الأسنان بجهاز AIRFLOW GBT السويسري الجديد، فرق هائل عن التنظيف القديم! بدون أي حساسية بالأسنان وماء دافئ مريح جداً. أفضل عيادة بكركوك."',
       rev_name_3: "ڕێبین قادر",
-      rev_date_3: "قبل 3 أسابيع",
       rev_text_3: '"نظام المواعيد المسبقة ممتاز جداً وتدخل بوقتك بدون أي انتظار. تعامل الكادر الطبي والاستقبال راقي ومحترف لأبعد الحدود. أنصح بهم بشدة."',
       rev_name_4: "د. هديل البياتي",
-      rev_date_4: "قبل شهر",
       rev_text_4: '"سويت تيجان زركون وعدسات تجميلية، النتيجة طبيعية للغاية وتطابق لون الأسنان الحقيقي بدون مبالغة أو بروز. إتقان ودقة عالية جداً."',
       rev_name_5: "شوان محمد",
-      rev_date_5: "قبل شهرين",
       rev_text_5: '"علاج عصب لضرس معقد عند د. محمد بجلسة واحدة وبدون أي إحساس بالألم. أجهزة دقيقة وأشعة حديثة وتوضيح كامل للحالة قبل البدء."',
       rev_name_6: "مريم الجبوري",
-      rev_date_6: "قبل 3 أسابيع",
       rev_text_6: '"أخذت بنتي لعند دكتورة آية لأسنان الأطفال، أسلوبها هادئ ومحبب جداً وخلا بنتي تتعالج بدون خوف أو بكاء. شكراً عيادة ڤيرونا على كادركم المميز."',
       rev_name_7: "عمر طارق",
-      rev_date_7: "قبل شهر",
       rev_text_7: '"قلع جراحي لضرس عقل مدفون عند د. زيد، ما حسيت بشيء واستغرقت العملية وقت قياسي بدون أي ورم بعد الجلسة. كادر استشاري يستحق الثقة."',
       rev_name_8: "ژیان عەلی",
-      rev_date_8: "قبل أسبوعين",
       rev_text_8: '"ڕێکخستنەوەی دانەکانم بە تەلی شەفاف لای دکتۆرە نور، لە ٤ مانگدا گۆڕانکاری گەورەم بینی. مامەڵە و خزمەتگوزاری سەردەمیانە و نموونەییە."',
-      rev_name_9: "مصطفى النعيمي",
-      rev_date_9: "قبل شهرين",
-      rev_text_9: '"أهم نقطة بالنسبة لي كانت التعقيم. أجهزة التعقيم الحديثة وتغليف الأدوات أمام المراجع تعطي راحة نفسية واطمئنان كامل. مستوى عالمي بكركوك."',
-      rev_name_10: "دیلان بەرزان",
-      rev_date_10: "قبل شهر",
-      rev_text_10: '"دیزاینی زەردەخەنەی هۆلیوود لای د. ئەنەس، بەڕاستی زۆر سروشتی و بێ کێشەیە. هەمووان دەپرسن لە کوێ چاکم کردووە! سوپاس بۆ ماندووبوونتان."',
-      rev_name_11: "كرار حيدر",
-      rev_date_11: "قبل 3 أسابيع",
-      rev_text_11: '"حجزت عن طريق الواتساب وتم الرد وتحديد الموعد خلال دقائق. الدخول بالموعد تماماً ومتابعة بعد العلاج للاطمئنان على الحالة. عيادة محترفة بكل المقاييس."',
-      rev_name_12: "نور الهدى",
-      rev_date_12: "قبل 4 أسابيع",
-      rev_text_12: '"عندي فوبيا شديدة من إبر البنج، لكن جهاز البنج الإلكتروني عندهم غير فكرتي تماماً! ما حسيت بأي شيء أبداً وتخدر السن بدون خدر الشفاه. تجربة ممتازة."',
-      verified_patient: "مريض موثق عبر خرائط جوجل",
-      smile_tag: "نتائج سريرية واقعية",
-      smile_title: "التحول الرقمي للابتسامة في عيادة ڤيرونا",
-      smile_sub: "اسحب المقبض لمشاهدة الفرق بين حالة الأسنان قبل العلاج والنتيجة المتناسقة بعد تجميل وزراعة الأسنان.",
-      label_after: "بعد العلاج (After)",
-      label_before: "قبل العلاج (Before)",
-      preset_before: "عرض قبل العلاج 100%",
-      preset_split: "مقارنة نصف بنصف 50/50",
-      preset_after: "عرض النتيجة بعد العلاج 100%",
-      staff_tag: "الكفاءات الطبية المتميزة",
-      staff_title: "الكادر الطبي التخصصي في عيادة ڤيرونا",
-      staff_desc: "يضم فريقنا 6 أطباء استشاريين وأخصائيين في مختلف مجالات زراعة وتجميل وتقويم وجراحة الأسنان وطب أسنان الأطفال لتقديم رعاية متكاملة تحت سقف واحد.",
-      filter_all: "كافة الأطباء (6)",
-      filter_implant: "الزراعة والتجميل",
-      filter_ortho: "تقويم الأسنان",
-      filter_surgery: "الجراحة والترميم",
-      filter_pediatric: "طب أسنان الأطفال",
-      doc_osama_badge: "زراعة وتجميل الأسنان",
-      doc_osama_name: "د. أسامة الحسين",
-      doc_osama_role: "أخصائي زراعة الأسنان والتركيبات التجميلية الرقمية",
-      doc_osama_bio: "خبير زراعة الأسنان الفورية وتصميم ابتسامة هوليوود المتناسقة باستخدام أحدث التقنيات الرقمية وأنظمة الزرع العالمية.",
-      doc_noor_badge: "تقويم وتجميل الأسنان",
-      doc_noor_name: "د. نور نصرالله",
-      doc_noor_role: "أخصائية تقويم وتجميل الأسنان والفكين",
-      doc_noor_bio: "علاج كافة حالات اعوجاج الأسنان، التقويم الشفاف غير المرئي والتقويم الكلاسيكي للبالغين واليافعين لتحقيق إطباق مثالي.",
-      doc_zaid_badge: "جراحة الفم والزراعة",
-      doc_zaid_name: "د. زيد",
-      doc_zaid_role: "أخصائي جراحة الفم والفكين وزراعة الأسنان المتقدمة",
-      doc_zaid_bio: "قلع أضراس العقل المطمورة جراحياً بدون ألم، زراعة العظم ورفع الجيوب الأنفية، وإجراءات الجراحة الفموية الدقيقة.",
-      doc_mohammed_badge: "علاج العصب والترميم",
-      doc_mohammed_name: "د. محمد",
-      doc_mohammed_role: "أخصائي علاج جذور الأسنان والترميم التجميلي المجهري",
-      doc_mohammed_bio: "علاج العصب بأحدث الأجهزة الدوارة في جلسة واحدة، والحشوات التجميلية الضوئية الدقيقة لحماية الأسنان الطبيعية.",
-      doc_anas_badge: "العدسات التجميلية والفينير",
-      doc_anas_name: "د. أنس",
-      doc_anas_role: "أخصائي تجميل الأسنان وابتسامة هوليوود والتركيبات الثابتة",
-      doc_anas_bio: "تصميم الفينير والزركون واللومينير بأعلى معايير التناسق مع ملامح الوجه وشفافية الأسنان الطبيعية.",
-      doc_aya_badge: "طب أسنان الأطفال",
-      doc_aya_name: "د. آية أياد",
-      doc_aya_role: "طبيبة أسنان متخصصة في طب أسنان الأطفال والتأهيل السلوكي",
-      doc_aya_bio: "أسلوب تربوي لطيف لعلاج أسنان الأطفال بدون خوف، حماية الأسنان اللبنية والوقاية بالفلورايد وسدادات الشقوق.",
-      btn_book_with_doc: "حجز استشارة مع الطبيب ←",
+      about_eyebrow: "من نحن والكادر الطبي",
+      about_headline: "صرح طبي تخصصي يجمع أرقى الخبرات وأحدث التقنيات",
+      about_desc: "تأسست عيادة ڤيرونا في كركوك لتكون الوجهة الرائدة لطب الأسنان التخصصي الرقمي. نعتمد معايير تعقيم عالمية، ونظام مواعيد دقيق بدون انتظار، وكادراً يضم 6 استشاريين متميزين.",
+      cv_dropdown_label: "اختر الطبيب لعرض السيرة المهنية والتخصص الدقيق:",
+      cv_qualifications_label: "المؤهلات والخبرات:",
+      cv_specialties_label: "مجالات التخصص الدقيقة:",
+      btn_book_with_doc: "حجز موعد مع الطبيب ←",
+      doc_opt_any: "أي طبيب متاح حسب الحالة (استشارة عامة)",
+      doc_opt_osama: "د. أسامة الحسين - زراعة وتجميل الأسنان",
+      doc_opt_noor: "د. نور نصرالله - تقويم وتجميل الأسنان",
+      doc_opt_zaid: "د. زيد - جراحة الفم والفكين والزراعة",
+      doc_opt_mohammed: "د. محمد - علاج العصب والترميم المجهري",
+      doc_opt_anas: "د. أنس - ابتسامة هوليوود والعدسات",
+      doc_opt_aya: "د. آية أياد - طب أسنان الأطفال",
+      faq_eyebrow: "COMMON QUESTIONS",
+      faq_headline: "Frequently Asked Questions",
+      faq_q1: "ما هي أوقات العمل الرسمية في عيادة ڤيرونا؟",
+      faq_a1: "نستقبل مراجعينا من السبت إلى الخميس من الساعة 1:00 ظهراً وحتى 9:00 مساءً بنظام المواعيد المسبقة. يوم الجمعة عطلة رسمية وتُستقبل الحالات الطارئة بالحجز المسبق فقط.",
+      faq_q2: "كيف يضمن جهاز STA جلسة علاج وتخدير بدون ألم؟",
+      faq_a2: "يتحكم جهاز STA الأمريكي المحوسب بتدفق سائل التخدير قطرة بقطرة وبسرعة تسبق الإحساس العصبي، مما يوفر تخديراً موضعياً تاماً للسن المطلوب فقط بدون إبر مؤلمة وبدون تنميل للشفاه أو الوجه.",
+      faq_q3: "ما هو بروتوكول تنظيف الأسنان السويسري GBT وما مميزاته؟",
+      faq_a3: "هو المعيار السويسري الأحدث عالمياً لتنظيف الأسنان وإزالة البلاك والجير والتصبغات باستخدام جهاز AIRFLOW® Prophylaxis Master برذاذ دافئ ولطيف يحمي المينا واللثة وعدسات الأسنان بدون أي كشط أو حساسية.",
+      faq_q4: "هل يجب حجز موعد مسبق قبل الحضور للعيادة؟",
+      faq_a4: "نعم، تعمل عيادة ڤيرونا بنظام المواعيد المسبقة الدقيقة لضمان عدم وجود أي وقت ضائع في صالة الانتظار وتخصيص كامل وقت الطبيب لحالتك.",
+      faq_q5: "ما هي التخصصات الطبية المتوفرة في عيادة ڤيرونا؟",
+      faq_a5: "يضم كادرنا 6 أطباء استشاريين يغطون: زراعة الأسنان الرقمية، ابتسامة هوليوود والتركيبات، تقويم الأسنان والفكين، جراحة الفم والفكين، علاج العصب المجهري، وطب أسنان الأطفال.",
+      end_cta_title: "حجز موعد استشارة مسبق",
+      end_cta_desc: "نعمل بنظام الحجوزات المسبقة لراحتكم وتخصيص الوقت الكافي لكل مراجع بدون أي انتظار.",
+      btn_end_book: "احجز موعدك الآن",
+      contact_page_tag: "التواصل والمواعيد المسبقة",
+      contact_page_title: "حجز استشارة خاصة وموقع عيادة ڤيرونا",
+      contact_page_sub: "نعمل بنظام المواعيد المسبقة لتخصيص الوقت الكامل لكل مراجع وضمان عدم وجود أي وقت ضائع في صالة الانتظار.",
+      wizard_step_badge: "الخطوة 1 من 3",
+      step1_title: "هل زرت عيادة ڤيرونا من قبل؟",
+      step1_sub: "اختر صفتك للمساعدة في تحديد أسرع موعد مناسب لحالتك",
+      opt_new_patient: "مريض جديد (أول زيارة للعيادة)",
+      opt_new_patient_desc: "سنقوم بإنشاء ملف رقمي وتحديد أولويات الرعاية",
+      opt_returning_patient: "مريض سابق (لدي ملف بالعيادة)",
+      opt_returning_patient_desc: "متابعة خطة علاجك أو فحصك الدوري السريع",
+      care_emergency: "حالة طارئة وألم مستعجل",
+      care_emergency_desc: "أولوية عاجلة اليوم، سنقترح أقرب وقت فوري",
+      care_child: "طب أسنان الأطفال",
+      care_child_desc: "جلسة لطيفة ومخصصة مع د. آية أياد بدون خوف",
+      care_recare: "فحص دوري وتنظيف روتيني (GBT)",
+      care_recare_desc: "بروتوكول التنظيف السويسري الناعم لحماية الأسنان",
+      care_general: "استشارة عامة وتجميل وزراعة",
+      care_general_desc: "زراعة فورية، ابتسامة هوليوود، أو تقويم الأسنان",
+      suggested_slot_label: "الموعد المقترح الأسرع لحالتك:",
+      btn_accept_suggested: "نعم، تأكيد هذا الموعد",
+      btn_choose_custom: "اختيار تاريخ ووقت آخر",
+      custom_picker_heading: "اختر التاريخ والفترة المناسبة (أوقات العمل 1:00 ظهراً - 9:00 مساءً)",
+      custom_date_label: "اختر التاريخ المطلوب (السبت - الخميس)",
+      custom_time_label: "اختر الوقت المفضل",
+      btn_continue_to_details: "متابعة لتأكيد بيانات المريض ←",
+      btn_back: "← الرجوع للخلف",
+      summary_badge: "ملخص الحجز:",
+      form_name_label: "اسم المراجع الكامل *",
+      form_phone_label: "رقم الهاتف (الواتساب) *",
+      form_doctor_label: "الطبيب المعالج المفضل",
+      form_notes_label: "ملاحظات إضافية أو وصف الحالة (اختياري)",
+      btn_confirm_whatsapp: "تأكيد وإرسال الحجز عبر الواتساب فوراً",
+      form_disclaimer: "سيتم توجيهكم مباشرة لمحادثة الواتساب الرسمية مع منسق المواعيد بالعيادة. بياناتكم مشفرة ومحمية بالكامل.",
       location_tag: "موقع العيادة وساعات العمل",
       location_title: "تفضلوا بزيارتنا في عيادة ڤيرونا بكركوك",
-      location_desc: "موقع استراتيجي متميز يسهل الوصول إليه، مع مواقف سيارات مريحة وتجهيزات استقبال مريحة ومتكاملة.",
+      location_desc: "موقع استراتيجي متميز يسهل الوصول إليه، مع مواقف سيارات مريحة وتجهيزات استقبال متكاملة.",
       location_clinic_title: "عيادة ڤيرونا لطب وتجميل وزراعة الاسنان",
       location_clinic_city: "كركوك، العراق",
       loc_address_label: "العنوان:",
@@ -144,33 +130,10 @@
       loc_hours_label: "أوقات العمل (نظام الحجوزات المسبقة):",
       hours_days: "السبت - الخميس:",
       hours_friday: "الجمعة:",
-      hours_fri_val: "مغلق",
+      hours_fri_val: "عطلة رسمية (الحالات الطارئة بالحجز المسبق)",
       loc_parking_label: "مواقف السيارات:",
       loc_parking_val: "تتوفر مواقف سيارات مجانية ومريحة لمرضى العيادة ومرافقيهم.",
       btn_open_google_maps: "فتح الاتجاهات المباشرة في خرائط جوجل",
-      booking_tag: "حجز استشارة خاصة",
-      booking_title: "احجز موعدك المسبق في عيادة ڤيرونا",
-      booking_lead: "نعمل بنظام الحجوزات المسبقة لضمان راحتكم الكاملة وتخصيص الوقت الكافي لكل مراجع بدون أي انتظار. املأ البيانات وسنقوم بتأكيد موعدكم فوراً.",
-      b_feature_1_title: "دقة تامة في المواعيد",
-      b_feature_1_desc: "جلسات محددة بوقت مسبق لراحتكم وبدون تأخير.",
-      b_feature_2_title: "أحدث التقنيات بدون ألم",
-      b_feature_2_desc: "جهاز البنج الإلكتروني STA وبروتوكول GBT السويسري.",
-      b_feature_3_title: "تأكيد مباشر عبر الواتساب",
-      b_feature_3_desc: "إشعار فوري وتذكير مسبق قبل الموعد المحدد.",
-      prefer_call_text: "تفضل الاتصال المباشر؟",
-      form_heading: "بيانات حجز الموعد",
-      form_name_label: "اسم المراجع الكامل *",
-      form_phone_label: "رقم الهاتف (الواتساب) *",
-      form_doctor_label: "اختر الطبيب المعالج / التخصص",
-      form_service_label: "الخدمة المطلوبة",
-      form_date_label: "اليوم المفضل",
-      form_time_label: "الفترة المفضلة",
-      time_opt_afternoon: "عصراً (1:00 م - 5:00 م)",
-      time_opt_evening: "مساءً (5:00 م - 9:00 م)",
-      time_opt_any: "أي وقت متاح (1:00 م - 9:00 م)",
-      form_notes_label: "ملاحظات إضافية أو وصف الحالة (اختياري)",
-      btn_submit_appointment: "إرسال وتأكيد الحجز عبر الواتساب فوراً",
-      form_disclaimer: "🔒 سيتم توجيهكم مباشرة لمحادثة الواتساب الرسمية مع منسق المواعيد بالعيادة. بياناتكم مشفرة ومحمية بالكامل.",
       footer_desc: "العيادة التخصصية الأولى في كركوك لطب وتجميل وزراعة الأسنان. نعمل بنظام الحجوزات المسبقة لتجربة علاجية مريحة وبدون ألم.",
       footer_nav_title: "أقسام الموقع",
       footer_contact_title: "الاتصال والحجز",
@@ -182,109 +145,33 @@
       privacy_point_3: "نضمن عدم بيع أو تأجير أو مشاركة بيانات مراجعينا مع أي طرف ثالث أو شركات إعلانية تحت أي ظرف.",
       privacy_point_4: "حقوق المراجع: يحق لك في أي وقت تعديل بياناتك أو إلغاء مواعيدك أو طلب حذف بياناتك من خلال التواصل المباشر مع إدارة العيادة.",
       privacy_close_btn: "إغلاق نافذة الخصوصية",
-      wa_quick_label: "حجز سريع عبر واتساب",
-      nav_pathways: "خيارات الرعاية",
-      hero_eyebrow: "عيادة ڤيرونا التخصصية • كركوك",
-      hero_title_main: "ابتسامة متناسقة وعلاج أسنان متطور بدون ألم بأحدث التقنيات السويسرية",
-      hero_lead: "تخلص من رهبة إبر التخدير وألم الأسنان نهائياً. نوفر لك علاجاً محوسباً بجهاز STA بدون ألم وبروتوكول تنظيف GBT السويسري على أيدي 6 أطباء استشاريين، بمواعيد محددة بدون أي انتظار.",
-      hero_book_cta: "احجز استشارتك بدون ألم وبدون انتظار",
-      hero_cta_reassurance: "✓ تأكيد فوري عبر واتساب • 0 دقائق انتظار • خصوصية تامة",
-      hero_assessment_link: "أو أجرِ تقييم الابتسامة المجاني (30 ثانية)",
-      top_google_trust: "تقييم موثق رسمياً على خرائط جوجل (121 مراجعاً)",
-      top_trust_review_quote: '"ما حسيت بأي ألم مع جهاز البنج الإلكتروني STA.. أفضل تجربة عيادة أسنان بكركوك" — أحمد الكركوكي (مراجع موثق)',
-      top_trust_badge_sta: "تخدير محوسب بدون ألم (STA)",
-      top_trust_badge_gbt: "تنظيف سويسري معتمد (EMS GBT)",
-      top_trust_badge_zero_wait: "0 دقائق انتظار (مواعيد مسبقة)",
-      ladder_tag: "بوابات الرعاية السريعة",
-      ladder_title: "كيف يمكننا مساعدتك اليوم؟ اختر الباب الأنسب لاحتياجك",
-      ladder_subtitle: "سواء كنت ترغب بتقييم أولي مجاني، أو علاج ألم عاجل، أو استشارة مع طبيب استشاري، نوفر لك خيارات مريحة ومباشرة.",
-      card_assessment_tag: "تقييم مجاني في 30 ثانية",
-      card_assessment_title: "فحص الابتسامة وحالة الأسنان الرقمي",
-      card_assessment_desc: "أجب عن 3 أسئلة سريعة لمعرفة خطة العلاج التقديرية والتكلفة المناسبة لحالتك مع توصية الطبيب الاستشاري.",
-      btn_start_assessment: "ابدأ التقييم الفوري مجاناً ←",
-      card_emergency_tag: "ألم عاجل أو طارئ",
-      card_emergency_title: "خط الطوارئ والألم السريع عبر واتساب",
-      card_emergency_desc: "هل تعاني من ألم أسنان مفاجئ أو كسر في الحشوة؟ تواصل مباشرة مع فريق الطوارئ لتوجيهك بدون تأخير.",
-      btn_emergency_chat: "تواصل مع طوارئ الأسنان فوراً ⚡",
-      card_guide_tag: "دليل رقمي مجاني",
-      card_guide_title: "دليل ڤيرونا الشامل للابتسامة والعناية",
-      card_guide_desc: "احصل على نسختك المجانية من الدليل الطبي الإرشادي للتعرف على أسرار بياض الأسنان وتقنيات التخدير بدون ألم.",
-      btn_get_guide: "احصل على الدليل المجاني الآن 📥",
-      card_direct_tag: "حجز موعد مسبق",
-      card_direct_title: "حجز استشارة شاملة مع استشاري",
-      card_direct_desc: "اختر طبيبك المفضل وموعدك الملائم بدون أي وقت ضائع في صالة الانتظار.",
-      btn_book_direct_path: "الانتقال إلى استمارة الحجز 📅",
-      cta_transformation_title: "هل ترغب بالحصول على نتيجة متناسقة وطبيعية لابتسامتك؟",
-      cta_transformation_sub: "استشر أطباءنا الاستشاريين واكتشف كيف يمكن لتصميم الابتسامة الرقمي تغيير مظهر أسنانك بأمان وبدون ألم.",
-      btn_transformation_cta: "احجز فحص الابتسامة الشامل الآن ←",
-      btn_slider_assess: "تقييم مجاني (30 ثانية)",
-      assess_modal_title: "تقييم الابتسامة وعلاج الأسنان الرقمي (30 ثانية)",
-      assess_step1_title: "الخطوة 1: ما هو هدفك الأساسي لأسنانك؟",
-      opt_goal_implant: "زراعة أسنان فورية وتعويض الأسنان المفقودة",
-      opt_goal_smile: "ابتسامة هوليوود وتجميل وتبييض الأسنان",
-      opt_goal_pain: "علاج عصب الأسنان والتخلص من الألم",
-      opt_goal_gbt: "تنظيف الأسنان وإزالة الجير والتصبغات بجهاز GBT",
-      opt_goal_ortho: "تقويم الأسنان وتعديل اعوجاج الفكين",
-      assess_step2_title: "الخطوة 2: ما هو أكثر ما يهمك أثناء العلاج؟",
-      opt_concern_pain: "تجنب ألم الإبر والتخدير (نوفر جهاز STA بدون ألم)",
-      opt_concern_natural: "مظهر جمالي طبيعي ومتناسق مع ملامح الوجه",
-      opt_concern_time: "سرعة الإنجاز ودقة المواعيد بدون انتظار",
-      opt_concern_cost: "معرفة الخطة العلاجية والخيارات التقديرية مسبقاً",
-      assess_step3_title: "الخطوة 3: أين تود استلام تقرير تقييم حالتك المجاني؟",
-      btn_submit_assessment: "إرسال التقييم واستلام استشارة الطبيب مجاناً عبر واتساب",
-      assess_disclaimer: "🔒 يتم إرسال إجاباتك مباشرة إلى الفريق الطبي الاستشاري في عيادة ڤيرونا لتقديم تقرير تقديري مجاني وسري تماماً.",
-      sticky_call: "اتصال",
-      sticky_whatsapp: "واتساب",
-      sticky_assess: "تقييم مجاني",
-      sticky_book: "حجز موعد",
-      doc_opt_any: "أي طبيب متاح حسب الحالة (استشارة عامة)",
-      doc_opt_osama: "د. أسامة الحسين - زراعة وتجميل الأسنان",
-      doc_opt_noor: "د. نور نصرالله - تقويم وتجميل الأسنان",
-      doc_opt_zaid: "د. زيد - جراحة الفم والفكين والزراعة",
-      doc_opt_mohammed: "د. محمد - علاج العصب والترميم المجهري",
-      doc_opt_anas: "د. أنس - ابتسامة هوليوود والعدسات",
-      doc_opt_aya: "د. آية أياد - طب أسنان الأطفال",
-      serv_opt_consult: "فحص واستشارة أولية شاملة",
-      serv_opt_sta: "جلسة علاج بجهاز البنج الإلكتروني STA",
-      serv_opt_gbt: "تنظيف الأسنان ببروتوكول GBT السويسري (EMS AIRFLOW®)",
-      serv_opt_implant: "زراعة الأسنان الرقمية الفورية",
-      serv_opt_smile: "ابتسامة هوليوود والعدسات الخزفية",
-      serv_opt_ortho: "تقويم الأسنان (معدني أو شفاف Invisalign)",
-      serv_opt_root: "علاج العصب والحشوات التجميلية",
-      serv_opt_pedia: "معالجة أسنان الأطفال والوقاية السلوكية",
+      wa_quick_label: "حجز سريع عبر واتساب"
     },
 
     en: {
       brand_name: "Verona",
       brand_tagline: "Dental Care, Aesthetics & Implantology",
-      top_google_rating: "on Google Maps",
-      top_reviews_count: "verified reviews",
       nav_home: "Home",
       nav_tech: "Advanced Tech",
       nav_reviews: "Reviews",
-      nav_staff: "Medical Staff",
-      nav_location: "Location",
-      nav_book_btn: "Schedule Visit",
-      hero_verified_badge: "Verified on Google Maps (121 Reviews)",
-      hero_title_sub: "Modern Dental Excellence in Kirkuk",
+      nav_about: "About & Staff",
+      nav_faq: "FAQ",
+      nav_contact: "Contact & Booking",
+      hero_eyebrow: "Verona Dental Clinic • Kirkuk",
       hero_title_main: "Verona Dental Care, Aesthetics & Implants",
-      hero_lead: "Your premier destination for modern digital dentistry in Kirkuk. Experience completely painless care with the STA Computerized Wand Anesthesia system and Swiss GBT AIRFLOW® hygiene technology, backed by 6 senior dental consultants and a strictly timed pre-booking system.",
-      hero_book_cta: "Schedule Consultation",
-      hero_whatsapp_cta: "Chat on WhatsApp",
+      hero_lead: "Your premier destination for modern digital dentistry in Kirkuk. Experience completely painless care with the STA computerized anesthesia and Swiss GBT hygiene technology, backed by 6 senior dental consultants and a strictly timed pre-booking system.",
+      hero_critical_cta: "Critical Case",
+      hero_book_cta: "Book Consultation",
       stat_google_rate: "Google Rating",
       stat_reviews_count: "Verified Reviews",
       stat_consultants: "Specialist Doctors",
       stat_painless: "Pain-Free Care",
-      hero_sta_pill_title: "STA Computerized Anesthesia",
-      hero_sta_pill_sub: "Painless single-tooth numbing without facial numbness",
-      hero_gbt_pill_title: "Swiss GBT Hygiene Protocol",
-      hero_gbt_pill_sub: "EMS AIRFLOW® Prophylaxis Master",
       tech_tag: "Clinical Innovation",
       tech_title: "State-of-the-Art Technology for Pain-Free Comfort",
       tech_desc: "Verona Dental Clinic integrates the world's finest medical equipment to turn your dental visit into a relaxing, anxiety-free journey.",
       tech_sta_tag: "Painless Computerized Anesthesia",
       tech_sta_name: "Milestone STA Single Tooth Anesthesia System",
-      tech_sta_quote: '"No need for general anesthesia, we eliminated pain with the electronic STA system! 💪✨"',
+      tech_sta_quote: '"No general anesthesia needed, pain eliminated with the STA electronic system."',
       tech_sta_desc: "Featuring patented Dynamic Pressure Sensing (DPS™) technology from Milestone Scientific (USA). The computer precisely meters anesthetic drop-by-drop below patient pain threshold, numbing strictly the single intended tooth without collateral numbing of the lips, tongue, or face.",
       tech_sta_b1: "Immediate, isolated numbness strictly for the target tooth",
       tech_sta_b2: "No awkward lip or facial droop after your appointment",
@@ -297,130 +184,102 @@
       tech_gbt_b1: "Ultra-gentle cleaning with zero enamel scraping or tooth sensitivity",
       tech_gbt_b2: "Safeguards Hollywood veneers, restorations, and dental implants",
       tech_gbt_b3: "Authentic Swiss precision engineering for maximum hygiene",
-      btn_book_gbt_session: "Book Swiss GBT Session →",
-      reviews_tag: "Trusted by Hundreds of Patients",
-      reviews_title: "4.9-Star Verified Rating on Google Maps",
-      reviews_desc: "We take immense pride in our patients' satisfaction, high clinical precision, and warm patient experience in Kirkuk.",
-      google_map_verified: "Official Google Rating",
-      reviews_word: "reviews",
-      google_banner_text: "Verona Dental Clinic in Kirkuk holds top patient satisfaction scores for sterile clinical hygiene, consultant expertise, and punctual appointment scheduling.",
-      btn_view_google_reviews: "View All Reviews on Google",
+      btn_book_gbt_session: "Book GBT Session →",
+      reviews_eyebrow: "WHAT PATIENTS SAY",
+      reviews_headline: "Real reviews from our community.",
       rev_name_1: "Ahmed Al-Kirkuki",
-      rev_date_1: "1 month ago",
-      rev_text_1: '"A truly smooth and painless dental implant procedure with Dr. Osama Al-Hussein. The STA computerized anesthesia device was incredible—I felt no prick whatsoever! 10/10 cleanliness."',
-      rev_name_2: "Sara Khalil",
-      rev_date_2: "2 weeks ago",
-      rev_text_2: '"I had my teeth cleaned with the new Swiss EMS AIRFLOW GBT system. Worlds apart from traditional scraping! Warm water, no discomfort, and sparkling results."',
-      rev_name_3: "Rebin Qader",
-      rev_date_3: "3 weeks ago",
-      rev_text_3: '"The pre-booking system is strictly respected—you are attended right on time without wait times. Welcoming staff and first-class professionalism."',
+      rev_text_1: '"Very comfortable experience, had dental implants with Dr. Osama. Using the STA computer anesthesia, I felt zero pain or pricks! Cleanliness and sterilization 10/10."',
+      rev_name_2: "Sarah Khalil",
+      rev_text_2: '"Tried the new Swiss AIRFLOW GBT cleaning session, huge difference from old cleaning! No tooth sensitivity and pleasantly warm water. Best clinic in Kirkuk."',
+      rev_name_3: "Rebin Qadir",
+      rev_text_3: '"Strict appointment scheduling, you enter right on time with zero delay. Very professional reception and doctors. Highly recommended."',
       rev_name_4: "Dr. Hadeel Al-Bayati",
-      rev_date_4: "1 month ago",
-      rev_text_4: '"I got zirconia crowns and aesthetic veneers. The outcome is remarkably natural, matching real tooth translucency without any artificial bulk. True mastery."',
+      rev_text_4: '"Had zirconia crowns and veneers done, remarkably natural shade matching real tooth translucency. Excellent precision and craft."',
       rev_name_5: "Shwan Mohammed",
-      rev_date_5: "2 months ago",
-      rev_text_5: '"Complex root canal treatment with Dr. Mohammed completed in a single session without any pain. Modern equipment, digital X-rays, and thorough explanation."',
+      rev_text_5: '"Single-visit complex root canal with Dr. Mohammed with zero pain. Advanced digital radiography and thorough explanation before starting."',
       rev_name_6: "Maryam Al-Jubouri",
-      rev_date_6: "3 weeks ago",
-      rev_text_6: '"Took my daughter to Dr. Aya for pediatric care. Her gentle, warm approach made my child feel completely safe without fear or tears. Thank you Verona!"',
+      rev_text_6: '"Brought my daughter to Dr. Aya for pediatric care. Her calming approach made my child receive treatment without any tears. Thank you Verona."',
       rev_name_7: "Omar Tariq",
-      rev_date_7: "1 month ago",
-      rev_text_7: '"Surgical extraction of an impacted wisdom tooth with Dr. Zaid. Felt nothing, completed in record time with zero postoperative swelling. A trustworthy team."',
+      rev_text_7: '"Surgical wisdom tooth extraction with Dr. Zaid, felt nothing and the procedure took minimal time with no postoperative swelling. Top tier consultants."',
       rev_name_8: "Zhiyan Ali",
-      rev_date_8: "2 weeks ago",
-      rev_text_8: '"Clear aligner orthodontic treatment with Dr. Noor. Noticed huge improvements within just 4 months. Exceptional clinic care and modern atmosphere."',
-      rev_name_9: "Mustafa Al-Nuaimi",
-      rev_date_9: "2 months ago",
-      rev_text_9: '"My highest priority was hygiene. Medical-grade autoclaves and opening sealed instrument packages in front of the patient provides absolute peace of mind."',
-      rev_name_10: "Dilan Barzan",
-      rev_date_10: "1 month ago",
-      rev_text_10: '"Hollywood smile design with Dr. Anas—looks so natural and elegant. Everyone keeps asking where I got it done! Warmest appreciation to the entire team."',
-      rev_name_11: "Karrar Haider",
-      rev_date_11: "3 weeks ago",
-      rev_text_11: '"Booked via WhatsApp and received a confirmed slot within minutes. Punctual entry, clear pricing, and caring post-treatment follow-up. Highly recommended."',
-      rev_name_12: "Noor Al-Huda",
-      rev_date_12: "4 weeks ago",
-      rev_text_12: '"I had severe needle phobia, but their STA computerized injection changed everything! Completely painless and only numbed the tooth without facial droop."',
-      verified_patient: "Verified Patient via Google Maps",
-      smile_tag: "Clinical Smile Results",
-      smile_title: "Digital Smile Transformation at Verona",
-      smile_sub: "Drag the slider to compare the patient smile before treatment with the harmonic aesthetic result following restorative and implant care.",
-      label_after: "After Treatment",
-      label_before: "Before Treatment",
-      preset_before: "View Before (100%)",
-      preset_split: "Split View (50/50)",
-      preset_after: "View After (100%)",
-      staff_tag: "Distinguished Medical Team",
-      staff_title: "Specialist Dental Consultants at Verona",
-      staff_desc: "Our multidisciplinary clinic unites 6 specialist consultants covering implants, orthodontics, surgery, endodontics, cosmetic veneers, and pediatric dentistry under one roof.",
-      filter_all: "All Specialists (6)",
-      filter_implant: "Implants & Aesthetics",
-      filter_ortho: "Orthodontics",
-      filter_surgery: "Oral Surgery",
-      filter_pediatric: "Pediatric Dentistry",
-      doc_osama_badge: "Implants & Aesthetics",
-      doc_osama_name: "Dr. Osama Al-Hussein",
-      doc_osama_role: "Specialist in Implantology & Digital Restorative Dentistry",
-      doc_osama_bio: "Expert in immediate dental implant placement and digital Hollywood smile design with leading international implant systems.",
-      doc_noor_badge: "Orthodontics & Aesthetics",
-      doc_noor_name: "Dr. Noor Nasrallah",
-      doc_noor_role: "Specialist in Dentofacial Orthodontics & Alignment",
-      doc_noor_bio: "Comprehensive malocclusion care, clear aligners (Invisalign), and modern aesthetic braces for adults and adolescents.",
-      doc_zaid_badge: "Oral Surgery & Implants",
-      doc_zaid_name: "Dr. Zaid",
-      doc_zaid_role: "Specialist in Oral & Maxillofacial Surgery and Implants",
-      doc_zaid_bio: "Painless surgical extraction of impacted wisdom teeth, bone grafting, sinus lifts, and advanced surgical implantology.",
-      doc_mohammed_badge: "Endodontics & Restorations",
-      doc_mohammed_name: "Dr. Mohammed",
-      doc_mohammed_role: "Specialist in Microscopic Endodontics & Tooth Preservation",
-      doc_mohammed_bio: "Advanced single-visit rotary root canal treatments and microscopic composite aesthetic restorations to preserve natural teeth.",
-      doc_anas_badge: "Cosmetic Veneers",
-      doc_anas_name: "Dr. Anas",
-      doc_anas_role: "Specialist in Cosmetic Dentistry & Hollywood Smile Design",
-      doc_anas_bio: "Custom ultra-thin porcelain veneers, zirconia crowns, and aesthetic laminates tailored to your unique facial aesthetics.",
-      doc_aya_badge: "Pediatric Dentistry",
-      doc_aya_name: "Dr. Aya Ayad",
-      doc_aya_role: "Specialist in Pediatric Dentistry & Child Behavioral Care",
-      doc_aya_bio: "Gentle child-friendly approach for stress-free dental visits, preventive fluoride sealants, and primary tooth restorations.",
-      btn_book_with_doc: "Schedule With Doctor →",
+      rev_text_8: '"Clear aligner treatment with Dr. Noor, saw tremendous alignment in 4 months. Exceptional modern clinical care."',
+      about_eyebrow: "ABOUT VERONA & MEDICAL TEAM",
+      about_headline: "A Specialized Center Uniting Elite Expertise and Modern Tech",
+      about_desc: "Established in Kirkuk as the premier hub for modern digital dentistry. We adhere to rigorous global sterilization standards, strict pre-scheduled timings, and a team of 6 distinguished consultants.",
+      cv_dropdown_label: "Select Doctor to View Credentials & Specialty:",
+      cv_qualifications_label: "Credentials & Qualifications:",
+      cv_specialties_label: "Clinical Focus Areas:",
+      btn_book_with_doc: "Schedule Visit with Doctor →",
+      doc_opt_any: "Any available doctor (General consultation)",
+      doc_opt_osama: "Dr. Osama Al-Hussein - Implants & Aesthetics",
+      doc_opt_noor: "Dr. Noor Nasrallah - Orthodontics & Aesthetics",
+      doc_opt_zaid: "Dr. Zaid - Oral & Maxillofacial Surgery",
+      doc_opt_mohammed: "Dr. Mohammed - Endodontics & Micro-Restoration",
+      doc_opt_anas: "Dr. Anas - Hollywood Smile & Veneers",
+      doc_opt_aya: "Dr. Aya Ayad - Pediatric Dentistry",
+      faq_eyebrow: "COMMON QUESTIONS",
+      faq_headline: "Frequently Asked Questions",
+      faq_q1: "What are the clinic's operating hours?",
+      faq_a1: "We welcome patients Saturday through Thursday from 1:00 PM to 9:00 PM by prior appointment. Friday is closed, with emergency cases accepted strictly by advance arrangement.",
+      faq_q2: "How does the STA system ensure painless treatment?",
+      faq_a2: "The Milestone STA computer meters anesthetic drop-by-drop ahead of the needle path, numbing strictly the single tooth without facial, lip, or tongue numbness.",
+      faq_q3: "What is the Swiss GBT hygiene protocol and its advantages?",
+      faq_a3: "Guided Biofilm Therapy is the Swiss gold standard by EMS Dental, using warm water and micro-powder to remove biofilm and stains without scratching enamel or hurting gums.",
+      faq_q4: "Is prior booking required before visiting?",
+      faq_a4: "Yes, Verona Clinic operates on a strictly timed appointment schedule to ensure zero waiting time in the reception lounge and dedicated doctor focus.",
+      faq_q5: "What specialties are available at Verona Clinic?",
+      faq_a5: "Our team consists of 6 board-certified specialists covering: digital implants, Hollywood veneers, orthodontics, oral maxillofacial surgery, micro-endodontics, and pediatric dentistry.",
+      end_cta_title: "Book Your Consultation",
+      end_cta_desc: "Strictly scheduled appointments to respect your time with guaranteed zero waiting.",
+      btn_end_book: "Book Your Visit Now",
+      contact_page_tag: "Contact & Appointments",
+      contact_page_title: "Appointment Booking & Clinic Location",
+      contact_page_sub: "Prior appointment system designed for your utmost comfort with zero waiting time.",
+      wizard_step_badge: "Step 1 of 3",
+      step1_title: "Have you visited Verona Clinic before?",
+      step1_sub: "Select your patient status to determine the fastest available slot",
+      opt_new_patient: "New Patient (First Visit)",
+      opt_new_patient_desc: "We will establish your digital file and clinical care priority",
+      opt_returning_patient: "Returning Patient (Have a File)",
+      opt_returning_patient_desc: "Follow-up on your treatment plan or routine hygiene",
+      care_emergency: "Emergency / Acute Toothache",
+      care_emergency_desc: "Immediate priority today, earliest prompt slot suggested",
+      care_child: "Pediatric Dental Care",
+      care_child_desc: "Gentle child appointment with Dr. Aya without fear",
+      care_recare: "Routine Checkup & Hygiene (GBT)",
+      care_recare_desc: "Gentle Swiss prophylaxis for preventive oral health",
+      care_general: "Consultation & Aesthetics",
+      care_general_desc: "Digital implants, Hollywood smile, or orthodontics",
+      suggested_slot_label: "Recommended Earliest Available Slot:",
+      btn_accept_suggested: "Yes, Confirm This Slot",
+      btn_choose_custom: "Choose Another Date & Time",
+      custom_picker_heading: "Select Preferred Date & Timeslot (Working Hours 1:00 PM - 9:00 PM)",
+      custom_date_label: "Select Date (Saturday - Thursday)",
+      custom_time_label: "Select Preferred Time",
+      btn_continue_to_details: "Continue to Patient Details →",
+      btn_back: "← Go Back",
+      summary_badge: "Booking Summary:",
+      form_name_label: "Full Patient Name *",
+      form_phone_label: "Phone Number (WhatsApp) *",
+      form_doctor_label: "Preferred Doctor",
+      form_notes_label: "Additional Notes or Symptoms (Optional)",
+      btn_confirm_whatsapp: "Confirm & Send via WhatsApp Now",
+      form_disclaimer: "You will be connected directly with our official clinic appointment coordinator on WhatsApp.",
       location_tag: "Clinic Location & Hours",
       location_title: "Visit Verona Dental Clinic in Kirkuk",
-      location_desc: "Centrally located with convenient dedicated parking and a welcoming, comfortable reception lounge.",
+      location_desc: "Strategic accessible location with ample parking and comfortable facilities.",
       location_clinic_title: "Verona Dental Care, Aesthetics & Implants",
       location_clinic_city: "Kirkuk, Iraq",
       loc_address_label: "Address:",
-      loc_address_val: "Kirkuk, Baghdad Road / Specialized Medical Complex, Near City Center",
+      loc_address_val: "Kirkuk, Baghdad Road / Specialized Medical Complex, near city center",
       loc_phone_label: "Phone & Appointments:",
       loc_hours_label: "Working Hours (Pre-Booking System):",
       hours_days: "Saturday - Thursday:",
       hours_friday: "Friday:",
-      hours_fri_val: "Closed",
-      loc_parking_label: "Patient Parking:",
-      loc_parking_val: "Free, spacious parking available right at the clinic entrance.",
-      btn_open_google_maps: "Get Directions on Google Maps",
-      booking_tag: "Specialized Consultation",
-      booking_title: "Schedule Your Appointment at Verona",
-      booking_lead: "We operate on a strictly managed pre-booking schedule to guarantee personalized attention with zero waiting times. Fill in your details below for instant confirmation.",
-      b_feature_1_title: "Strict Punctuality",
-      b_feature_1_desc: "Reserved timeslots with zero lobby wait time.",
-      b_feature_2_title: "Pain-Free Innovation",
-      b_feature_2_desc: "STA computerized anesthesia and Swiss GBT cleaning.",
-      b_feature_3_title: "Instant WhatsApp Confirmation",
-      b_feature_3_desc: "Direct appointment ticket with SMS & WhatsApp reminders.",
-      prefer_call_text: "Prefer a direct telephone call?",
-      form_heading: "Appointment Details",
-      form_name_label: "Patient Full Name *",
-      form_phone_label: "Phone Number (WhatsApp) *",
-      form_doctor_label: "Select Doctor / Specialty",
-      form_service_label: "Required Treatment",
-      form_date_label: "Preferred Date",
-      form_time_label: "Preferred Timeslot",
-      time_opt_afternoon: "Afternoon (1:00 PM - 5:00 PM)",
-      time_opt_evening: "Evening (5:00 PM - 9:00 PM)",
-      time_opt_any: "Any available time (1:00 PM - 9:00 PM)",
-      form_notes_label: "Additional Notes or Symptoms (Optional)",
-      btn_submit_appointment: "Confirm & Send via WhatsApp Now",
-      form_disclaimer: "🔒 You will be connected directly with our official clinic appointment coordinator on WhatsApp.",
+      hours_fri_val: "Official Holiday (Emergencies by appointment)",
+      loc_parking_label: "Parking:",
+      loc_parking_val: "Free and convenient parking available for patients and companions.",
+      btn_open_google_maps: "Open Direct Directions in Google Maps",
       footer_desc: "Kirkuk's leading specialized clinic for aesthetic dentistry, implants, and orthodontics. Prior appointment system for a comfortable, pain-free patient experience.",
       footer_nav_title: "Quick Navigation",
       footer_contact_title: "Contact & Booking",
@@ -432,208 +291,127 @@
       privacy_point_3: "We guarantee never selling, renting, or sharing your data with any third parties or marketing networks under any circumstances.",
       privacy_point_4: "Patient Rights: You retain the right to modify, reschedule, cancel, or request data removal at any time by contacting our front desk.",
       privacy_close_btn: "Close Privacy Notice",
-      wa_quick_label: "Quick WhatsApp Booking",
-      nav_pathways: "Care Pathways",
-      hero_eyebrow: "Verona Dental Clinic • Kirkuk",
-      hero_title_main: "Get Your Flawless, Pain-Free Smile With Swiss Dental Precision",
-      hero_lead: "Eliminate dental pain and needle anxiety once and for all. Experience computer-controlled STA anesthesia and Swiss GBT hygiene delivered by 6 senior dental consultants with zero waiting time.",
-      hero_book_cta: "Book Your Painless Consultation",
-      hero_cta_reassurance: "✓ Instant WhatsApp confirmation • Zero waiting • Full confidentiality",
-      hero_assessment_link: "Or take the Free 30-Sec Smile Assessment",
-      top_google_trust: "Officially verified rating on Google Maps (121 reviews)",
-      top_trust_review_quote: '"I felt zero pain with the electronic STA anesthesia.. best dental experience in Kirkuk!" — Ahmed Al-Kirkuki (Verified Patient)',
-      top_trust_badge_sta: "Painless STA Anesthesia",
-      top_trust_badge_gbt: "Swiss Certified EMS GBT",
-      top_trust_badge_zero_wait: "Zero Waiting (Strict Schedule)",
-      ladder_tag: "Care Pathways",
-      ladder_title: "How Can We Help You Today? Choose Your Ideal Starting Point",
-      ladder_subtitle: "Whether you need a free initial self-assessment, urgent toothache relief, or a direct specialist consultation, we have the right path for you.",
-      card_assessment_tag: "Free 30-Sec Assessment",
-      card_assessment_title: "Digital Smile & Dental Self-Assessment",
-      card_assessment_desc: "Answer 3 quick questions to discover your personalized treatment options, estimated plan, and doctor's advice.",
-      btn_start_assessment: "Start Free Assessment →",
-      card_emergency_tag: "Urgent Dental Pain",
-      card_emergency_title: "Direct Emergency Toothache Support",
-      card_emergency_desc: "Experiencing acute toothache or broken restoration? Chat instantly with our clinic team for immediate priority assistance.",
-      btn_emergency_chat: "Chat with Emergency Support ⚡",
-      card_guide_tag: "Free Patient Guide",
-      card_guide_title: "The Comprehensive Guide to Pain-Free Smile Care",
-      card_guide_desc: "Download your complimentary digital guide explaining whitening secrets, veneer types, and needle-free anesthesia.",
-      btn_get_guide: "Get Free Guide Now 📥",
-      card_direct_tag: "Direct Consultation",
-      card_direct_title: "Schedule In-Clinic Consultation",
-      card_direct_desc: "Select your preferred specialist and exact appointment slot with guaranteed zero waiting time.",
-      btn_book_direct_path: "Go to Booking Form 📅",
-      cta_transformation_title: "Ready for a Naturally Balanced Smile Transformation?",
-      cta_transformation_sub: "Consult our board specialists and explore how digital smile design can comfortably reshape your teeth with zero pain.",
-      btn_transformation_cta: "Book Your Smile Consultation Now →",
-      btn_slider_assess: "Free Assessment (30s)",
-      assess_modal_title: "Free Digital Smile & Dental Assessment (30s)",
-      assess_step1_title: "Step 1: What is your primary dental goal?",
-      opt_goal_implant: "Dental Implants & Missing Teeth Replacement",
-      opt_goal_smile: "Hollywood Smile, Veneers & Whitening",
-      opt_goal_pain: "Root Canal Therapy & Toothache Relief",
-      opt_goal_gbt: "Deep Cleaning & Stain Removal with Swiss GBT",
-      opt_goal_ortho: "Orthodontics & Teeth Alignment",
-      assess_step2_title: "Step 2: What matters most during your treatment?",
-      opt_concern_pain: "Completely painless treatment (Zero needle pain via STA)",
-      opt_concern_natural: "Natural-looking aesthetic results matching my face",
-      opt_concern_time: "Fast completion with strictly zero waiting time",
-      opt_concern_cost: "Understanding estimated treatment options & budget",
-      assess_step3_title: "Step 3: Where should we send your free assessment summary?",
-      btn_submit_assessment: "Send Assessment & Receive Free Advice on WhatsApp",
-      assess_disclaimer: "🔒 Your responses are sent directly to Verona Dental Clinic's consultants for a complimentary, confidential evaluation.",
-      sticky_call: "Call",
-      sticky_whatsapp: "WhatsApp",
-      sticky_assess: "Assessment",
-      sticky_book: "Book Visit",
-      doc_opt_any: "Any available doctor (General consultation)",
-      doc_opt_osama: "Dr. Osama Al-Hussein - Implants & Aesthetics",
-      doc_opt_noor: "Dr. Noor Nasrallah - Orthodontics & Aesthetics",
-      doc_opt_zaid: "Dr. Zaid - Oral & Maxillofacial Surgery",
-      doc_opt_mohammed: "Dr. Mohammed - Endodontics & Micro-Restoration",
-      doc_opt_anas: "Dr. Anas - Hollywood Smile & Veneers",
-      doc_opt_aya: "Dr. Aya Ayad - Pediatric Dentistry",
-      serv_opt_consult: "Comprehensive Initial Consultation",
-      serv_opt_sta: "STA Painless Computerized Anesthesia Session",
-      serv_opt_gbt: "Swiss GBT Hygiene & Biofilm Removal (EMS AIRFLOW®)",
-      serv_opt_implant: "Immediate Digital Dental Implants",
-      serv_opt_smile: "Hollywood Smile & Porcelain Veneers",
-      serv_opt_ortho: "Orthodontics (Metal Braces or Clear Aligners)",
-      serv_opt_root: "Root Canal Therapy & Cosmetic Fillings",
-      serv_opt_pedia: "Pediatric Dental Care & Prevention",
+      wa_quick_label: "Quick WhatsApp Booking"
     },
 
     ku: {
       brand_name: "کلینیکی ڤیرۆنا",
       brand_tagline: "بۆ پزیشکی و جوانکاری و چاندنی ددان",
-      top_google_rating: "لە نەخشەی گووگڵ",
-      top_reviews_count: "هەڵسەنگاندنی پەسەندکراو",
       nav_home: "سەرەکی",
       nav_tech: "تەکنەلۆژیای پێشکەوتوو",
       nav_reviews: "هەڵسەنگاندنەکان",
-      nav_staff: "تیمی پزیشکی",
-      nav_location: "شوێن",
-      nav_book_btn: "وەرگرتنی نۆرە",
-      hero_verified_badge: "پلەی پەسەندکراو لە گووگڵ مەپس (121 هەڵسەنگاندن)",
-      hero_title_sub: "چاودێری سەردەمیانەی ددان لە کەرکووک",
+      nav_about: "دەربارە و کادیر",
+      nav_faq: "پرسیارە باوەکان",
+      nav_contact: "پەیوەندی و نۆرەگرتن",
+      hero_eyebrow: "کلینیکی پسپۆڕی ڤیرۆنا • کەرکووک",
       hero_title_main: "کلینیکی ڤیرۆنا بۆ جوانکاری و چاندنی ددان",
       hero_lead: "یەکەمین مەکۆی پزیشکی ددانی پێشکەوتوو لە کەرکووک. ئەزموونێکی بێ ئازار بە ئامێری بەنجی ئەلیکترۆنی STA و سیستەمی پاککردنەوەی سویسری GBT، بە سەرپەرشتی 6 پزیشکی پسپۆڕ بە سیستەمی نۆرەی پێشوەختە بێ چاوەڕوانی.",
+      hero_critical_cta: "حاڵەتی بەپەلە",
       hero_book_cta: "وەرگرتنی نۆرەی پێشوەختە",
-      hero_whatsapp_cta: "پەیوەندی لە ڕێگەی واتسئەپ",
       stat_google_rate: "هەڵسەنگاندنی گووگڵ",
       stat_reviews_count: "پێداچوونەوەی ڕاستەقینە",
       stat_consultants: "پزیشکی پسپۆڕ",
       stat_painless: "بێ ئازار (STA و GBT)",
-      hero_sta_pill_title: "بەنجی ئەلیکترۆنی زیرەک STA",
-      hero_sta_pill_sub: "تەزاندنی تەنیا یەک ددان بێ دەرزی و سڕبوونی دەم و چاو",
-      hero_gbt_pill_title: "پرۆتۆکۆلی پاککردنەوەی سویسری GBT",
-      hero_gbt_pill_sub: "ئامێری EMS AIRFLOW® Prophylaxis Master",
       tech_tag: "پێشەنگی تەکنەلۆژیای پزیشکی",
       tech_title: "تەکنەلۆژیای بێوێنە بۆ ئارامی و بەبێ ئازار",
       tech_desc: "کلینیکی ڤیرۆنا پێشکەوتووترین ئامێرە جیهانییەکان بەکاردەهێنێت تا سەردانی پزیشکی ددان ببێتە ئەزموونێکی ئارامبەخش.",
       tech_sta_tag: "تەزاندنی کۆمپیوتەری بێ ئازار",
       tech_sta_name: "ئامێری بەنجی ئەلیکترۆنی STA",
-      tech_sta_quote: '"پێویست بە بەنجی گشتی ناکات، بە ئامێری بەنجی ئەلیکترۆنی چارەسەرمان کرد 😍💪"',
+      tech_sta_quote: '"پێویست بە بەنجی گشتی ناکات، بە ئامێری بەنجی ئەلیکترۆنی چارەسەرمان کرد"',
       tech_sta_desc: "سیستەمی پێشکەوتووی بەنجی کۆمپیوتەری لە کۆمپانیای Milestone Scientificی ئەمریکی. کۆنترۆڵی پەستان و ڕژانی دەرمانی بەنج دەکات دڵۆپ بە دڵۆپ، تەنها ئەو ددانەی پێویستە دەسڕێت بێ ئەوەی لێو و زمان و دەموچاو سڕ ببن.",
-      tech_sta_b1: "سڕکردنی دەستبەجێ تایبەت بە ددانی مەبەست",
-      tech_sta_b2: "هیچ سڕبوونێکی لێو یان دەموچاو نامێنێت دوای دانیشتنەکە",
-      tech_sta_b3: "زۆر گونجاوە بۆ منداڵان و ئەو کەسانەی لە دەرزی دەترسن",
-      btn_book_device_session: "نۆرەی چارەسەری بێ ئازار دابنێ ←",
+      tech_sta_b1: "تەزاندنی خێرا و تایبەت بە یەک ددان",
+      tech_sta_b2: "دەموچاو و لێو سڕ نابێت پاش تەواوبوونی دانیشتنەکە",
+      tech_sta_b3: "گونجاوە بۆ منداڵ و گەورە کە لە دەرزی دەترسن",
+      btn_book_device_session: "وەرگرتنی نۆرەی بێ ئازار ←",
       tech_gbt_tag: "پرۆتۆکۆلی پەسەندکراوی سویسری",
-      tech_gbt_name: "تەکنەلۆژیای GBT: پاککردنەوەی پێشکەوتووی پووک و ددان",
-      tech_gbt_quote: '"ئامێری پەسەندکراوی ئەم پرۆتۆکۆلە لە ئاستی جیهاندا AIRFLOW® Prophylaxis Masterە لە کۆمپانیای EMS Dentalی سویسری، کە نوێترین وەرچەرخانە لە پاککردنەوەی ددان."',
-      tech_gbt_desc: "پرۆتۆکۆلی سویسری Guided Biofilm Therapy باشترین ستانداردە بۆ پاککردنەوە و پاراستنی ددان. پەڵە و بەکتریا زیانبەخشەکان لادەبات بە ئاوی شلەتێن بێ ئەوەی زیان بە مینای ددان و ڕووکەش و چاندنەکان بگەیەنێت.",
+      tech_gbt_name: "تەکنەلۆژیای GBT : پاککردنەوەی پێشکەوتوو",
+      tech_gbt_quote: '"ئامێری پەسەندکراو بۆ ئەم پرۆتۆکۆلە بریتییە لە AIRFLOW® Prophylaxis Master لە کۆمپانیای EMS Dentalی سویسری."',
+      tech_gbt_desc: "پرۆتۆکۆلی Guided Biofilm Therapy (GBT) ستانداردی زێڕینی سویسرییە لە پاککردنەوەی ددان. تەواوی زەردیی و بەکتریا لادەبات بە ئاوی شلەتێن بێ بریندارکردنی مینای ددان یان پووک.",
       tech_gbt_b1: "پاککردنەوەی زۆر نەرم بەبێ هەستیاری یان خوێنبەربوونی پووک",
-      tech_gbt_b2: "پارێزگاری لە پێکەنینی هۆڵیوود و چاندنی ددان و تەل دەکات",
-      tech_gbt_b3: "جێبەجێکردنی ستانداردە بەرزەکانی سویسرا",
-      btn_book_gbt_session: "نۆرەی پاککردنەوەی GBT دابنێ ←",
-      reviews_tag: "متمانەی سەدان نەخۆش لە کەرکووک",
-      reviews_title: "هەڵسەنگاندنی 4.9 ئەستێرە لە نەخشەی گووگڵ",
-      reviews_desc: "شانازی دەکەین بە متمانەی سەردانکەرانمان بۆ چاودێری و ئەنجامی وردی تیمی پزیشکیمان.",
-      google_map_verified: "هەڵسەنگاندنی فەرمی گووگڵ",
-      reviews_word: "هەڵسەنگاندن",
-      google_banner_text: "کلینیکی ڤیرۆنا لە کەرکووک بەرزترین پلەی ڕەزامەندی نەخۆشەکانی بەدەستهێناوە بۆ پاکوخاوێنی و شارەزایی پزیشکان و وردی لە کاتدا.",
-      btn_view_google_reviews: "بینینی تەواوی هەڵسەنگاندنەکان لە گووگڵ",
+      tech_gbt_b2: "پاراستنی تەواوی زەردەخەنەی هۆلیوود و چاندنی ددان",
+      tech_gbt_b3: "تەکنەلۆژیای ئەندازیاری وردی سویسری",
+      btn_book_gbt_session: "وەرگرتنی نۆرەی پاککردنەوەی GBT ←",
+      reviews_eyebrow: "WHAT PATIENTS SAY",
+      reviews_headline: "Real reviews from our community.",
       rev_name_1: "ئەحمەد کەرکووکی",
-      rev_date_1: "مانگێک لەمەوبەر",
-      rev_text_1: '"ئەزموونێکی زۆر ئارام بوو، چاندنی ددانم لای د. ئوسامە ئەلحوسێن ئەنجامدا. ئامێری بەنجی ئەلیکترۆنی STA بێ وێنە بوو، هیچ هەستم بە ئازاری دەرزی نەکرد! پاکوخاوێنی 10/10."',
+      rev_text_1: '"ئەزموونێکی زۆر ئارامبەخش، چاندنی ددانم لای د. ئوسامە کرد. بە ئامێری بەنجی ئەلیکترۆنی STA هیچ ئازارێکم هەست پێنەکرد! پاکوخاوێنی کلینیک 10/10."',
       rev_name_2: "سارە خەلیل",
-      rev_date_2: "دوو هەفتە لەمەوبەر",
-      rev_text_2: '"ددانم بە ئامێری AIRFLOW GBT سویسری پاککردەوە، زۆر جیاواز بوو لە ڕێگای کۆن! ئاوی گەرم و بێ هیچ هەستیارییەک. باشترین کلینیکی کەرکووک."',
+      rev_text_2: '"دانیشتنی پاککردنەوەی ددانم بە ئامێری سویسری GBT کرد، جیاوازییەکی زۆر گەورە بوو بە ئاوی شلەتێن و بێ هەستیاری. باشترین کلینیکی کەرکووک."',
       rev_name_3: "ڕێبین قادر",
-      rev_date_3: "سێ هەفتە لەمەوبەر",
-      rev_text_3: '"سیستەمی نۆرەی پێشوەختەیان بێ وێنەیە و لە کاتی دیاریکراوی خۆتدا دەچیتە ژوورەوە بێ چاوەڕوانی. مامەڵەی کارمەندان زۆر بەڕێزانەیە."',
-      rev_name_4: "د. هەدیل بەیاتی",
-      rev_date_4: "مانگێک لەمەوبەر",
-      rev_text_4: '"تاجی زێرکۆن و ڤینێرم لێرە دانا، ئەنجامەکەی زۆر سروشتی و بێ کەموکوڕییە، تەواو هاوشێوەی ددانی ڕاستەقینەیە بەبێ زەقبوون."',
+      rev_text_3: '"سیستەمی نۆرەی پێشوەختە ناوازەیە و ڕێک لە کاتی خۆتدا دەچیتە ژوورەوە بێ چاوەڕوانی. مامەڵەی تیمی پزیشکی نموونەییە."',
+      rev_name_4: "د. هدیل ئەلبەیاتی",
+      rev_text_4: '"تاجی زرکۆن و هاوێنەی جوانکاریم کرد، دەرئەنجامەکەی زۆر سروشتی و تەواو هاوشێوەی ددانی ڕاستەقینەیە."',
       rev_name_5: "شوان محەممەد",
-      rev_date_5: "دوو مانگ لەمەوبەر",
-      rev_text_5: '"دەماربڕینی ددانێکی ئاڵۆز لای د. محەممەد لە یەک دانیشتندا و بێ هیچ ئازارێک. ئامێری ورد و ڕوونکردنەوەی تەواو پێش دەستپێکردن."',
-      rev_name_6: "مەریەم جبووری",
-      rev_date_6: "سێ هەفتە لەمەوبەر",
-      rev_text_6: '"کچەکەم بردە لای دکتۆرە ئایە بۆ ددانی منداڵان، مامەڵەی هێندە نەرم و میهرەبان بوو کچەکەم بێ گریان و ترس چارەسەرکرا. سوپاس ڤیرۆنا."',
+      rev_text_5: '"چارەسەری دەماری ددان لە یەک دانیشتندا لای د. محەممەد بەبێ هیچ هەستکردن بە ئازار. ئامێری پێشکەوتوو و ڕوونکردنەوەی تەواو."',
+      rev_name_6: "مەریەم ئەلجبوری",
+      rev_text_6: '"کچەکەم بردە لای دکتۆرە ئایە بۆ ددانی منداڵان، شێوازی لەسەرخۆی وایکرد کچەکەم بێ ترس چارەسەر وەربگرێت."',
       rev_name_7: "عومەر تاریق",
-      rev_date_7: "مانگێک لەمەوبەر",
-      rev_text_7: '"کێشانی نەشتەرگەری ددانی ژیری لای د. زەید بەبێ ئازار لە کاتێکی کەمدا تەواو بوو بێ هیچ ئاوسانێک دوای چارەسەر."',
+      rev_text_7: '"کێشانی ددانی ژیری بە نەشتەرگەری لای د. زەید بە کاتێکی کەم و بێ هیچ ئازار یان هەڵئاوسان. کادیرێکی جێگای متمانە."',
       rev_name_8: "ژیان عەلی",
-      rev_date_8: "دوو هەفتە لەمەوبەر",
-      rev_text_8: '"ڕێکخستنەوەی دانەکانم بە تەلی شەفاف لای دکتۆرە نور، لە ٤ مانگدا گۆڕانکاری گەورەم بینی. مامەڵە و خزمەتگوزاری سەردەمیانە و نموونەییە."',
-      rev_name_9: "مستەفا نەعیمی",
-      rev_date_9: "دوو مانگ لەمەوبەر",
-      rev_text_9: '"گرنگترین شت بۆ من پاکوخاوێنی بوو. ئامێری ستەریلیزەیشن و کردنەوەی کەلوپەلەکان لە بەردەم نەخۆشدا متمانەی تەواو دەبەخشێت."',
-      rev_name_10: "دیلان بەرزان",
-      rev_date_10: "مانگێک لەمەوبەر",
-      rev_text_10: '"دیزاینی زەردەخەنەی هۆلیوود لای د. ئەنەس، بەڕاستی زۆر سروشتی و بێ کێشەیە. هەمووان دەپرسن لە کوێ چاکم کردووە! سوپاس بۆ ماندووبوونتان."',
-      rev_name_11: "کەڕاڕ حەیدەر",
-      rev_date_11: "سێ هەفتە لەمەوبەر",
-      rev_text_11: '"لە واتسئەپەوە نۆرەم گرت و لە چەند خولەکێکدا وەڵامدرامەوە. چوونە ژوورەوە بە تەواوی لە کاتی خۆیدا و بەدواداچوونی دڵسۆزانە."',
-      rev_name_12: "نوور ئەلهودا",
-      rev_date_12: "چوار هەفتە لەمەوبەر",
-      rev_text_12: '"ترسی زۆرم لە دەرزی بەنج هەبوو، بەڵام بەنجی ئەلیکترۆنی STA لەم کلینیکە بیرکردنەوەمی گۆڕی! هیچ هەستم پێی نەکرد."',
-      verified_patient: "نەخۆشی پەسەندکراو لە ڕێگەی نەخشەی گووگڵ",
-      smile_tag: "ئەنجامی ڕاستەقینە",
-      smile_title: "گۆڕانکاری دیجیتاڵی پێکەنین لە کلینیکی ڤیرۆنا",
-      smile_sub: "دەستەک بەکاربهێنە بۆ بینینی جیاوازی ددان پێش چارەسەر و پاش چارەسەرکردن و چاندنی ددان.",
-      label_after: "پاش چارەسەر (After)",
-      label_before: "پێش چارەسەر (Before)",
-      preset_before: "پێش چارەسەر 100%",
-      preset_split: "نیوە بە نیوە 50/50",
-      preset_after: "پاش چارەسەر 100%",
-      staff_tag: "پزیشکانی شارەزا و پسپۆڕ",
-      staff_title: "تیمی پزیشکی پسپۆڕی کلینیکی ڤیرۆنا",
-      staff_desc: "تیمەکەمان 6 پزیشکی ڕاوێژکار و پسپۆڕ لەخۆدەگرێت لە تەواوی بوارەکانی چاندن، ڕێککردنەوە، نەشتەرگەری و پزیشکی ددانی منداڵان.",
-      filter_all: "تەواوی پزیشکان (6)",
-      filter_implant: "چاندن و جوانکاری",
-      filter_ortho: "تەلی ددان",
-      filter_surgery: "نەشتەرگەری و دەمار",
-      filter_pediatric: "ددانی منداڵان",
-      doc_osama_badge: "چاندن و جوانکاری ددان",
-      doc_osama_name: "د. ئوسامە ئەلحوسێن",
-      doc_osama_role: "پسپۆڕی چاندنی ددان و جوانکاری دیجیتاڵی",
-      doc_osama_bio: "شارەزا لە چاندنی دەستبەجێی ددان و نەخشاندنی پێکەنینی هۆڵیوود بە نوێترین تەکنەلۆژیای جیهانی.",
-      doc_noor_badge: "ڕێککردنەوە و جوانکاری ددان",
-      doc_noor_name: "د. نوور نەسروڵڵا",
-      doc_noor_role: "پسپۆڕی تەلی ددان و ڕێککردنەوەی شەویلگە",
-      doc_noor_bio: "چارەسەری هەموو جۆرەکانی ناڕێکی ددان بە تەلی نەبینراو و ئاسایی بۆ گەورە و هەرزەکاران.",
-      doc_zaid_badge: "نەشتەرگەری دەم و چاندن",
-      doc_zaid_name: "د. زەید",
-      doc_zaid_role: "پسپۆڕی نەشتەرگەری دەم و شەویلگە و چاندنی پێشکەوتوو",
-      doc_zaid_bio: "کێشانی ددانی ژیری بەبێ ئازار، چاندنی ئێسک و بەرزکردنەوەی جیوبی لووت و نەشتەرگەری دەم.",
-      doc_mohammed_badge: "دەماربڕین و پڕکردنەوە",
-      doc_mohammed_name: "د. محەممەد",
-      doc_mohammed_role: "پسپۆڕی دەماربڕین و پڕکردنەوەی جوانکاری بە وردبین",
-      doc_mohammed_bio: "دەماربڕینی ددان لە یەک دانیشتندا بە ئامێری خێرا و پڕکردنەوەی پێشکەوتوو بۆ پاراستنی ددانی سروشتی.",
-      doc_anas_badge: "ڕووکەش و ڤینێر",
-      doc_anas_name: "د. ئەنەس",
-      doc_anas_role: "پسپۆڕی جوانکاری ددان و پێکەنینی هۆڵیوود",
-      doc_anas_bio: "نەخشاندنی ڤینێر و زێرکۆن بە شێوازێکی سروشتی و گونجاو لەگەڵ ڕووخساردا.",
-      doc_aya_badge: "ددانی منداڵان",
-      doc_aya_name: "د. ئایە ئەیاد",
-      doc_aya_role: "پزیشکی پسپۆڕی ددانی منداڵان و مامەڵەی نەرم",
-      doc_aya_bio: "چارەسەرکردنی ددانی منداڵان بەبێ ترس و دڵەڕاوکێ، پاراستنی ددانە شیرییەکان و بەکارهێنانی فلۆراید.",
-      btn_book_with_doc: "وەرگرتنی نۆرە لای ئەم پزیشکە ←",
-      location_tag: "شوێنی کلینیک و کاتەکانی کارکردن",
+      rev_text_8: '"ڕێکخستنەوەی دانەکانم بە تەلی شەفاف لای دکتۆرە نور، لە ٤ مانگدا گۆڕانکاری گەورەم بینی. خزمەتگوزاری سەردەمیانە."',
+      about_eyebrow: "دەربارەی کلینیک و تیمی پزیشکی",
+      about_headline: "سەنتەرێکی پسپۆڕی پێشکەوتوو بە کادیرێکی لێهاتوو",
+      about_desc: "کلینیکی ڤیرۆنا لە کەرکووک دامەزراوە بۆ پێشکەشکردنی نوێترین چارەسەری دیجیتاڵی ددان بە ستانداردی جیهانی، سیستەمی بێ چاوەڕوانی، و 6 پزیشکی پسپۆڕ.",
+      cv_dropdown_label: "پزیشکێک هەڵبژێرە بۆ بینینی سیڤی و بڕوانامەکان:",
+      cv_qualifications_label: "بڕوانامە و ئەزموون:",
+      cv_specialties_label: "بواری پسپۆڕی ورد:",
+      btn_book_with_doc: "وەرگرتنی نۆرە لەگەڵ پزیشک ←",
+      doc_opt_any: "هەر پزیشکێکی بەردەست (ڕاوێژی گشتی)",
+      doc_opt_osama: "د. ئوسامە ئەلحوسێن - چاندن و جوانکاری ددان",
+      doc_opt_noor: "د. نوور نەسرەڵڵا - تەلی ددان و جوانکاری",
+      doc_opt_zaid: "د. زەید - نەشتەرگەری دەم و شەویلگە و چاندن",
+      doc_opt_mohammed: "د. محەممەد - چارەسەری دەمار و پڕکردنەوەی ورد",
+      doc_opt_anas: "د. ئەنەس - زەردەخەنەی هۆلیوود و هاوێنە",
+      doc_opt_aya: "د. ئایە ئەیاد - پزیشکی ددانی منداڵان",
+      faq_eyebrow: "COMMON QUESTIONS",
+      faq_headline: "Frequently Asked Questions",
+      faq_q1: "کاتەکانی کارکردنی کلینیک کەییە؟",
+      faq_a1: "شەممە تا پێنجشەممە لە کاتژمێر 1:00ی پاشنیوەڕۆ تا 9:00ی شەو بە نۆرەی پێشوەختە مراجعین وەردەگرین. هەینی داخراوە و تەنیا حاڵەتی بەپەلە بە نۆرەی پێشوەختە وەردەگیرێت.",
+      faq_q2: "چۆن ئامێری STA چارەسەری بێ ئازار دەستەبەر دەکات؟",
+      faq_a2: "ئامێری ئەلیکترۆنی STA بە شێوازی کۆمپیوتەری دڵۆپ بە دڵۆپ دەرمانی بەنج دەڕژێنێت پێش هەستپێکردنی دەمار، تەنها ددانی مەبەست دەسڕێت بێ سڕبوونی لێو و دەموچاو.",
+      faq_q3: "پرۆتۆکۆلی پاککردنەوەی سویسری GBT چییە؟",
+      faq_a3: "نوێترین ستانداردی سویسرییە لە پاککردنەوەی ددان بە ئامێری AIRFLOW Prophylaxis Master بە ئاوی شلەتێن بێ بریندارکردنی مینا و پووک.",
+      faq_q4: "ئایا وەرگرتنی نۆرەی پێشوەختە پێویستە؟",
+      faq_a4: "بەڵێ، کلینیکی ڤیرۆنا بە نۆرەی پێشوەختە کار دەکات بۆ ئەوەی هیچ چاوەڕوانی لە هۆڵدا نەبێت و کاتی تەواو بۆ نەخۆش تەرخان بکرێت.",
+      faq_q5: "چ پسپۆڕییەکی پزیشکی لە کلینیک بەردەستە؟",
+      faq_a5: "تیمی پزیشکیمان لە 6 پسپۆڕ پێکدێت: چاندنی دیجیتاڵی، زەردەخەنەی هۆلیوود، تەلی ددان، نەشتەرگەری شەویلگە، دەماری ددان، و ددانی منداڵان.",
+      end_cta_title: "وەرگرتنی نۆرەی پێشوەختە",
+      end_cta_desc: "بە سیستەمی نۆرەی پێشوەختە کار دەکەین بۆ ئارامی و کاتی تایبەت بەبێ چاوەڕوانی.",
+      btn_end_book: "ئێستا نۆرەکەت تۆمار بکە",
+      contact_page_tag: "پەیوەندی و نۆرەگرتن",
+      contact_page_title: "وەرگرتنی نۆرە و شوێنی کلینیکی ڤیرۆنا",
+      contact_page_sub: "بە سیستەمی نۆرەی پێشوەختە کار دەکەین بۆ دەستەبەرکردنی کاتی تەواو بەبێ چاوەڕوانی.",
+      wizard_step_badge: "هەنگاوی 1 لە 3",
+      step1_title: "ئایا پێشتر سەردانی کلینیکی ڤیرۆنات کردووە؟",
+      step1_sub: "بۆ ئەوەی زووترین کاتی گونجاوت بۆ دیاریبکەین",
+      opt_new_patient: "نەخۆشی نوێ (یەکەم سەردان)",
+      opt_new_patient_desc: "فایلی دیجیتاڵیت بۆ دروست دەکەین و پێشینەی چارەسەر دیاریدەکەین",
+      opt_returning_patient: "نەخۆشی پێشوو (فایلم هەیە)",
+      opt_returning_patient_desc: "بەردەوامی بە پلانی چارەسەر یان پشکنینی خولی دەدەین",
+      care_emergency: "حاڵەتی بەپەلە و ئازاری کتوپڕ",
+      care_emergency_desc: "ئەمڕۆ لە پێشینەیە، زووترین کاتی بەردەست پێشنیار دەکەین",
+      care_child: "پزیشکی ددانی منداڵان",
+      care_child_desc: "دانیشتنێکی نەرم لەگەڵ د. ئایە بەبێ ترس",
+      care_recare: "پشکنینی خولی و پاککردنەوە (GBT)",
+      care_recare_desc: "پرۆتۆکۆلی پاککردنەوەی سویسری بۆ پاراستنی ددان",
+      care_general: "ڕاوێژی گشتی و جوانکاری و چاندن",
+      care_general_desc: "چاندنی ددان، زەردەخەنەی هۆلیوود، یان تەلی ددان",
+      suggested_slot_label: "زووترین کاتی پێشنیارکراو بۆ تۆ:",
+      btn_accept_suggested: "بەڵێ، ئەم کاتە پەسەندە",
+      btn_choose_custom: "هەڵبژاردنی بەروار و کاتێکی تر",
+      custom_picker_heading: "بەروار و کاتی گونجاو دیاریبکە (کاتەکانی کار 1:00 پ.ن - 9:00 پ.ن)",
+      custom_date_label: "بەرواری دڵخواز (شەممە - پێنجشەممە)",
+      custom_time_label: "کاتی دڵخواز دیاریبکە",
+      btn_continue_to_details: "بەردەوامبوون بۆ زانیاری نەخۆش ←",
+      btn_back: "← گەڕانەوە",
+      summary_badge: "کورتەی نۆرە:",
+      form_name_label: "ناوی سیانی نەخۆش *",
+      form_phone_label: "ژمارەی مۆبایل (واتسئەپ) *",
+      form_doctor_label: "پزیشکی دڵخواز",
+      form_notes_label: "تێبینی یان وەسفی کێشەی ددان (ئارەزوومەندانە)",
+      btn_confirm_whatsapp: "ناردن و پەسەندکردن لە واتسئەپ",
+      form_disclaimer: "ڕاستەوخۆ دەگوازرێیتەوە بۆ گفتوگۆی واتسئەپی فەرمی کلینیک لەگەڵ بەرپرسی نۆرەکان.",
+      location_tag: "شوێنی کلینیک و کاتەکانی کار",
       location_title: "سەردانمان بکەن لە کلینیکی ڤیرۆنا لە کەرکووک",
       location_desc: "شوێنێکی گونجاو و ئاسان، لەگەڵ شوێنی ڕاگرتنی ئۆتۆمبێل و پێشوازییەکی شایستە.",
       location_clinic_title: "کلینیکی ڤیرۆنا بۆ پزیشکی و جوانکاری و چاندنی ددان",
@@ -644,33 +422,10 @@
       loc_hours_label: "کاتەکانی کارکردن (سیستەمی نۆرەی پێشوەختە):",
       hours_days: "شەممە - پێنجشەممە:",
       hours_friday: "هەینی:",
-      hours_fri_val: "داخراوە",
+      hours_fri_val: "داخراوە (حاڵەتی بەپەلە بە نۆرەی پێشوەختە)",
       loc_parking_label: "شوێنی ئۆتۆمبێل:",
       loc_parking_val: "شوێنی بێبەرامبەر و فراوانی ئۆتۆمبێل لە بەردەم کلینیک دابینکراوە.",
       btn_open_google_maps: "کردنەوەی ئاراستەکان لە نەخشەی گووگڵ",
-      booking_tag: "وەرگرتنی نۆرەی تایبەت",
-      booking_title: "نۆرەی پێشوەختە وەربگرە لە کلینیکی ڤیرۆنا",
-      booking_lead: "بە سیستەمی نۆرەی پێشوەختە کار دەکەین بۆ دەستەبەرکردنی کاتی تەواو بۆ هەر نەخۆشێک بێ چاوەڕوانی. زانیارییەکان بنووسە بۆ دڵنیابوونەوە لە نۆرەکەت.",
-      b_feature_1_title: "وردی تەواو لە کاتدا",
-      b_feature_1_desc: "کاتێکی دیاریکراو بەبێ چاوەڕوانی لە هۆڵدا.",
-      b_feature_2_title: "ئامێری پێشکەوتوو بێ ئازار",
-      b_feature_2_desc: "بەنجی ئەلیکترۆنی STA و پاککردنەوەی سویسری GBT.",
-      b_feature_3_title: "پەسەندکردنی دەستبەجێ بە واتسئەپ",
-      b_feature_3_desc: "ناردنی کارتی نۆرە و بیرخستنەوە پێش کات دیاریکراو.",
-      prefer_call_text: "پەیوەندی تەلەفۆنی ڕاستەوخۆت پێ باشترە؟",
-      form_heading: "زانیاری وەرگرتنی نۆرە",
-      form_name_label: "ناوی سیانی نەخۆش *",
-      form_phone_label: "ژمارەی مۆبایل (واتسئەپ) *",
-      form_doctor_label: "پزیشک / پسپۆڕی دیاریبکە",
-      form_service_label: "جۆری چارەسەری داواکراو",
-      form_date_label: "ڕۆژی دڵخواز",
-      form_time_label: "کاتی دڵخواز",
-      time_opt_afternoon: "پاشنیوەڕۆ (1:00 پ.ن - 5:00 پ.ن)",
-      time_opt_evening: "ئێواران (5:00 پ.ن - 9:00 پ.ن)",
-      time_opt_any: "هەر کاتێکی بەردەست (1:00 پ.ن - 9:00 پ.ن)",
-      form_notes_label: "تێبینی یان وەسفی کێشەی ددان (ئارەزوومەندانە)",
-      btn_submit_appointment: "ناردن و پەسەندکردن لە واتسئەپ",
-      form_disclaimer: "🔒 ڕاستەوخۆ دەگوازرێیتەوە بۆ گفتوگۆی واتسئەپی فەرمی کلینیک لەگەڵ بەرپرسی نۆرەکان.",
       footer_desc: "یەکەمین کلینیکی پسپۆڕی لە کەرکووک بۆ جوانکاری و چاندنی ددان. کارکردن بە سیستەمی نۆرەی پێشوەختە بۆ ئەزموونێکی بەرز و بێ ئازار.",
       footer_nav_title: "بەشەکانی ماڵپەڕ",
       footer_contact_title: "پەیوەندی و نۆرەگرتن",
@@ -682,78 +437,134 @@
       privacy_point_3: "دڵنیایی دەدەین کە بە هیچ شێوەیەک زانیارییەکانت لەگەڵ هیچ لایەنێکی سێیەم یان کۆمپانیای ڕیکلام هاوبەش ناکرێت.",
       privacy_point_4: "مافی نەخۆش: مافی ئەوەت هەیە لە هەر کاتێکدا داوای دەستکاریکردن یان هەڵوەشاندنەوەی نۆبەکەت بکەیت.",
       privacy_close_btn: "داخستنی پەنجەرەی تایبەتمەندی",
-      wa_quick_label: "نۆرەگرتنی خێرا لە واتسئەپ",
-      nav_pathways: "ڕێگاکانی چارەسەر",
-      hero_eyebrow: "کلینیکی پسپۆڕی ڤیرۆنا • کەرکووک",
-      hero_title_main: "زەردەخەنەیەکی بێوێنە و چارەسەری ددان بەبێ هیچ ئازارێک بە تەکنەلۆژیای سویسری",
-      hero_lead: "ترسی دەرزی بەنج و ئازاری ددان لەبیر بکە. چارەسەری پێشکەوتوو بە بەنجی ئەلیکترۆنی STA و پاککردنەوەی سویسری GBT بە سەرپەرشتی 6 پزیشکی پسپۆڕ بە نۆرەی پێشوەختە بێ چاوەڕوانی.",
-      hero_book_cta: "وەرگرتنی نۆرەی بێ ئازار و بێ چاوەڕوانی",
-      hero_cta_reassurance: "✓ پەسەندکردنی دەستبەجێ بە واتسئەپ • بێ چاوەڕوانی • نهێنی پارێزراو",
-      hero_assessment_link: "یان هەڵسەنگاندنی بێبەرامبەری زەردەخەنە بکە (30 چرکە)",
-      top_google_trust: "هەڵسەنگاندنی پەسەندکراو لە نەخشەی گووگڵ (121 هەڵسەنگاندن)",
-      top_trust_review_quote: '"هیچ ئازارم هەست پێنەکرد بە ئامێری بەنجی ئەلیکترۆنی STA.. باشترین ئەزموون لە کەرکووک" — ئەحمەد کەرکووکی (پەسەندکراو)',
-      top_trust_badge_sta: "تەزاندنی کۆمپیوتەری بێ ئازار (STA)",
-      top_trust_badge_gbt: "پاککردنەوەی سویسری پەسەندکراو (GBT)",
-      top_trust_badge_zero_wait: "٠ خولەک چاوەڕوانی (نۆرەی پێشوەختە)",
-      ladder_tag: "دەروازەکانی خزمەتگوزاری",
-      ladder_title: "ئەمڕۆ چۆن دەتوانین هاوکاریت بکەین؟ باشترین ڕێگا هەڵبژێرە",
-      ladder_subtitle: "جا دەتەوێت هەڵسەنگاندنی بێبەرامبەر بکەیت، یان چارەسەری بەپەلەی ئازار، یان ڕاوێژ لەگەڵ پزیشکی پسپۆڕ، ڕێگای گونجاومان ئامادەیە.",
-      card_assessment_tag: "هەڵسەنگاندنی بێبەرامبەر لە 30 چرکەدا",
-      card_assessment_title: "پشکنینی دیجیتاڵی زەردەخەنە و ددان",
-      card_assessment_desc: "وەڵامی 3 پرسیاری خێرا بدەرەوە بۆ دەستکەوتنی پلانی چارەسەر و ڕاوێژی پزیشک بۆ حاڵەتەکەت.",
-      btn_start_assessment: "دەستپێکردنی هەڵسەنگاندنی بێبەرامبەر ←",
-      card_emergency_tag: "ئازاری بەپەلەی ددان",
-      card_emergency_title: "هێڵی بەپەلەی ئازاری ددان لە واتسئەپ",
-      card_emergency_desc: "تووشی ئازاری کتوپڕ بوویت یان ددانت شکاوە؟ دەستبەجێ پەیوەندی بە تیمی فریاگوزاری بکە بۆ چارەسەری بێ دواکەوتن.",
-      btn_emergency_chat: "پەیوەندی بە فریاگوزاری بکە ⚡",
-      card_guide_tag: "ڕێبەری دیجیتاڵی بێبەرامبەر",
-      card_guide_title: "ڕێبەری ڤیرۆنا بۆ پاراستن و جوانکاری بێ ئازار",
-      card_guide_desc: "ڕێبەری پزیشکی بێبەرامبەر وەربگرە بۆ فێربوونی شێوازی پاراستنی ددان و تەکنیکەکانی تەزاندنی بێ ئازار.",
-      btn_get_guide: "وەرگرتنی ڕێبەری بێبەرامبەر 📥",
-      card_direct_tag: "وەرگرتنی نۆرەی ڕاستەوخۆ",
-      card_direct_title: "وەرگرتنی نۆرەی پشکنینی گشتی",
-      card_direct_desc: "پزیشکی دڵخواز و کاتی گونجاو دیاریبکە بەبێ بەفیڕۆدانی هیچ کاتێک لە هۆڵی چاوەڕوانیدا.",
-      btn_book_direct_path: "بڕۆ بۆ فۆڕمی وەرگرتنی نۆرە 📅",
-      cta_transformation_title: "دەتەوێت زەردەخەنەیەکی سروشتی و ڕێک بەدەستبهێنیت؟",
-      cta_transformation_sub: "ڕاوێژ لەگەڵ پزیشکانی پسپۆڕمان بکە بۆ ئەوەی بزانیت دیزاینی دیجیتاڵی چۆن دەتوانێت شێوەی ددانت بگۆڕێت بەبێ ئازار.",
-      btn_transformation_cta: "ئێستا نۆرەی پشکنینی زەردەخەنە وەربگرە ←",
-      btn_slider_assess: "هەڵسەنگاندنی بێبەرامبەر (30 چرکە)",
-      assess_modal_title: "هەڵسەنگاندنی دیجیتاڵی بێبەرامبەری زەردەخەنە (30 چرکە)",
-      assess_step1_title: "هەنگاوی 1: ئامانجی سەرەکیت بۆ ددانەکانت چییە؟",
-      opt_goal_implant: "چاندنی ددان و قەرەبووکردنەوەی ددانی لەدەستچوو",
-      opt_goal_smile: "زەردەخەنەی هۆلیوود و سپیکردنەوە و جوانکاری",
-      opt_goal_pain: "چارەسەری دەمار و نەهێشتنی ئازاری ددان",
-      opt_goal_gbt: "پاککردنەوە و لێکردنەوەی زەردیی بە ئامێری GBT",
-      opt_goal_ortho: "تەلی ددان و ڕێکخستنەوەی شەویلگە",
-      assess_step2_title: "هەنگاوی 2: گرنگترین خاڵ بۆ تۆ لە کاتی چارەسەردا چییە؟",
-      opt_concern_pain: "چارەسەری تەواو بێ ئازار (بەبێ دەرزی بەهۆی STA)",
-      opt_concern_natural: "دەرکەوتنێکی سروشتی و گونجاو لەگەڵ ڕوخساردا",
-      opt_concern_time: "خێرایی لە کارکردن و ڕێک لە کاتدا بێ چاوەڕوانی",
-      opt_concern_cost: "زانینی پلانی چارەسەر و تێچووی خەمڵێنراو لە پێشوەختەدا",
-      assess_step3_title: "هەنگاوی 3: ڕاپۆرتی هەڵسەنگاندنەکەت بۆ کوێ بنێرین؟",
-      btn_submit_assessment: "ناردنی هەڵسەنگاندن و وەرگرتنی ڕاوێژ لە واتسئەپ",
-      assess_disclaimer: "🔒 وەڵامەکانت ڕاستەوخۆ دەنێردرێت بۆ پزیشکانی پسپۆڕی کلینیکی ڤیرۆنا بۆ پێشکەشکردنی ڕاوێژ و هەڵسەنگاندنی بێبەرامبەر.",
-      sticky_call: "پەیوەندی",
-      sticky_whatsapp: "واتسئەپ",
-      sticky_assess: "هەڵسەنگاندن",
-      sticky_book: "وەرگرتنی نۆرە",
-      doc_opt_any: "هەر پزیشکێکی بەردەست (ڕاوێژی گشتی)",
-      doc_opt_osama: "د. ئوسامە ئەلحوسێن - چاندن و جوانکاری ددان",
-      doc_opt_noor: "د. نوور نەسرەڵڵا - تەلی ددان و جوانکاری",
-      doc_opt_zaid: "د. زەید - نەشتەرگەری دەم و شەویلگە و چاندن",
-      doc_opt_mohammed: "د. محەممەد - چارەسەری دەمار و پڕکردنەوەی ورد",
-      doc_opt_anas: "د. ئەنەس - زەردەخەنەی هۆلیوود و هاوێنە",
-      doc_opt_aya: "د. ئایە ئەیاد - پزیشکی ددانی منداڵان",
-      serv_opt_consult: "پشکنین و ڕاوێژی سەرەتایی گشتگیر",
-      serv_opt_sta: "چارەسەر بە ئامێری بەنجی ئەلیکترۆنی STA",
-      serv_opt_gbt: "پاککردنەوەی ددان بە پرۆتۆکۆلی سویسری GBT",
-      serv_opt_implant: "چاندنی دەستبەجێ و دیجیتاڵی ددان",
-      serv_opt_smile: "زەردەخەنەی هۆلیوود و هاوێنەی پۆرسلین",
-      serv_opt_ortho: "تەلی ددان (کانزایی یان شەفاف)",
-      serv_opt_root: "چارەسەری دەمار و پڕکردنەوەی جوانکاری",
-      serv_opt_pedia: "چارەسەری ددانی منداڵان و خۆپاراستن",
+      wa_quick_label: "نۆرەگرتنی خێرا لە واتسئەپ"
     }
   };
+
+  const doctorsData = {
+    osama: {
+      name: "د. أسامة الحسين",
+      nameEn: "Dr. Osama Al-Hussein",
+      nameKu: "د. ئوسامە ئەلحوسێن",
+      role: "أخصائي زراعة الأسنان والتركيبات التجميلية الرقمية",
+      roleEn: "Dental Implants & Digital Aesthetic Restorations Specialist",
+      roleKu: "پسپۆڕی چاندنی ددان و پێکهاتەی جوانکاری دیجیتاڵی",
+      badge: "استشاري زراعة وتجميل الأسنان",
+      badgeEn: "Consultant Implantologist & Aesthetic Dentist",
+      badgeKu: "ڕاوێژکاری چاندن و جوانکاری ددان",
+      img: "assets/staff/dr-osama.webp",
+      qualifications: "خبير زراعة الأسنان الفورية وتصميم ابتسامة هوليوود الرقمية. حاصل على شهادات تخصصية متقدمة في أنظمة الزرع العالمية والتركيبات الثابتة.",
+      qualificationsEn: "Expert in immediate dental implants and digital Hollywood smile design. Advanced certifications in international implantology systems and fixed prosthodontics.",
+      qualificationsKu: "شارەزای چاندنی دەستبەجێی ددان و دیزاینی دیجیتاڵی زەردەخەنەی هۆلیوود. بڕوانامەی پێشکەوتووی سیستەمە جیهانییەکانی چاندن.",
+      specialties: [
+        "زراعة الأسنان الفورية بنظام التوجيه الرقمي الثلاثي",
+        "تصميم وتركيب عدسات الفينير واللومينير وزركونيا عالية الشفافية",
+        "إعادة تأهيل الابتسامة الكاملة وتناسق خط الابتسامة"
+      ]
+    },
+    noor: {
+      name: "د. نور نصرالله",
+      nameEn: "Dr. Noor Nasrallah",
+      nameKu: "د. نوور نەسرەڵڵا",
+      role: "أخصائية تقويم وتجميل الأسنان والفكين",
+      roleEn: "Orthodontics & Dentofacial Orthopedics Specialist",
+      roleKu: "پسپۆڕی تەلی ددان و جوانکاری شەویلگە",
+      badge: "استشارية تقويم الأسنان",
+      badgeEn: "Consultant Orthodontist",
+      badgeKu: "ڕاوێژکاری تەلی ددان",
+      img: "assets/staff/dr-noor.webp",
+      qualifications: "خبرة سريرية واسعة في علاج كافة حالات اعوجاج وتراكب الأسنان للبالغين والأطفال، واستخدام أحدث أجهزة التقويم الشفاف غير المرئي.",
+      qualificationsEn: "Extensive clinical experience in treating malocclusion and crowded teeth for adults and teens using latest clear aligner technology.",
+      qualificationsKu: "ئەزموونی فراوان لە چارەسەری ناڕێکی دانەکان بۆ گەورە و هەرزەکار بە تەلی شەفاف و کلاسیك.",
+      specialties: [
+        "التقويم الشفاف غير المرئي (Clear Aligners)",
+        "التقويم الكلاسيكي والمعدني الدقيق للأطفال والبالغين",
+        "تعديل وتناسق الإطباق الوظيفي والجمالي للفكين"
+      ]
+    },
+    zaid: {
+      name: "د. زيد",
+      nameEn: "Dr. Zaid",
+      nameKu: "د. زەید",
+      role: "أخصائي جراحة الفم والفكين وزراعة الأسنان المتقدمة",
+      roleEn: "Oral & Maxillofacial Surgery & Advanced Implants",
+      roleKu: "پسپۆڕی نەشتەرگەری دەم و شەویلگە و چاندن",
+      badge: "استشاري جراحة الفم والفكين",
+      badgeEn: "Consultant Oral & Maxillofacial Surgeon",
+      badgeKu: "ڕاوێژکاری نەشتەرگەری شەویلگە",
+      img: "assets/staff/dr-zaid.webp",
+      qualifications: "متخصص في الإجراءات الجراحية الفموية الدقيقة وزراعة العظم ورفع الجيوب الأنفية، وقلع أضراس العقل المطمورة بدون ألم.",
+      qualificationsEn: "Specialized in precise oral surgical procedures, bone grafting, sinus lifts, and painless impacted wisdom teeth extractions.",
+      qualificationsKu: "پسپۆڕ لە نەشتەرگەرییە وردەکانی دەم، چاندنی ئێسک، و کێشانی ددانی ژیری بێ ئازار.",
+      specialties: [
+        "قلع أضراس العقل المطمورة جراحياً بأعلى درجات الأمان",
+        "زراعة العظم الفكي ورفع الجيب الفكي التمهيدي للزراعة",
+        "معالجة آفات وأكياس الفكين وجراحة الأنسجة الداعمة"
+      ]
+    },
+    mohammed: {
+      name: "د. محمد",
+      nameEn: "Dr. Mohammed",
+      nameKu: "د. محەممەد",
+      role: "أخصائي علاج جذور الأسنان والترميم التجميلي المجهري",
+      roleEn: "Micro-Endodontics & Aesthetic Restoration Specialist",
+      roleKu: "پسپۆڕی چارەسەری دەمار و پڕکردنەوەی ورد",
+      badge: "استشاري علاج العصب المجهري",
+      badgeEn: "Consultant Endodontist",
+      badgeKu: "ڕاوێژکاری دەماری ددان",
+      img: "assets/staff/dr-mohammed.webp",
+      qualifications: "ريادة في علاج وحشو عصب الأسنان بأحدث الأجهزة الآلية الدوارة والتصوير الرقمي، مع إنقاذ الأسنان الطبيعية وحمايتها.",
+      qualificationsEn: "Pioneer in rotary micro-endodontic canal therapy, saving compromised natural teeth with microscopic accuracy.",
+      qualificationsKu: "شارەزا لە چارەسەری دەماری ددان بە ئامێری ڕۆتەری لە یەک دانیشتندا بۆ پاراستنی ددانی سروشتی.",
+      specialties: [
+        "علاج وحشو جذور الأسنان المعقدة بجلسة واحدة",
+        "إعادة معالجة القنوات الجذرية التالفة والحشوات القديمة",
+        "الترميم التجميلي المجهري بالحشوات الضوئية النانوية"
+      ]
+    },
+    anas: {
+      name: "د. أنس",
+      nameEn: "Dr. Anas",
+      nameKu: "د. ئەنەس",
+      role: "أخصائي تجميل الأسنان وابتسامة هوليوود والتركيبات",
+      roleEn: "Aesthetic Dentistry & Hollywood Smile Specialist",
+      roleKu: "پسپۆڕی جوانکاری ددان و زەردەخەنەی هۆلیوود",
+      badge: "استشاري التركيبات التجميلية",
+      badgeEn: "Consultant Aesthetic Prosthodontist",
+      badgeKu: "ڕاوێژکاری پێکهاتەی جوانکاری",
+      img: "assets/staff/dr-anas.webp",
+      qualifications: "خبير تصميم الابتسامة المخصصة للوجه وعدسات الإيماكس والفينير والزركون، بأعلى معايير التناسق مع الملامح والابتسامة الطبيعية.",
+      qualificationsEn: "Expert in custom facial smile aesthetics, ultra-thin E-max veneers, and natural biomimetic tooth restorations.",
+      qualificationsKu: "دیزاینەری زەردەخەنەی تایبەت بە ڕوخسار، هاوێنەی ئیمەکس و فینیر بە دەرکەوتنی تەواو سروشتی.",
+      specialties: [
+        "تصميم ابتسامة هوليوود المتناسقة بدون حفر جائر للأسنان",
+        "عدسات الفينير واللومينير فائقة الرقة والدقة",
+        "التيجان والجسور الخزفية الحديثة عالية المتانة"
+      ]
+    },
+    aya: {
+      name: "د. آية أياد",
+      nameEn: "Dr. Aya Ayad",
+      nameKu: "د. ئایە ئەیاد",
+      role: "طبيبة أسنان متخصصة في طب أسنان الأطفال والتأهيل السلوكي",
+      roleEn: "Pediatric Dentistry & Behavioral Dental Care",
+      roleKu: "پزیشکی ددانی منداڵان و ڕاهێنانی ڕەفتاری",
+      badge: "أخصائية طب أسنان الأطفال",
+      badgeEn: "Pediatric Dental Specialist",
+      badgeKu: "پسپۆڕی ددانی منداڵان",
+      img: "assets/staff/dr-aya.webp",
+      qualifications: "أسلوب تربوي نفسي لطيف لتحويل علاج أسنان الأطفال إلى تجربة ممتعة بدون خوف، حماية الأسنان اللبنية والوقاية المبكرة.",
+      qualificationsEn: "Compassionate behavioral approach transforming child dental visits into a fear-free experience, preventive pediatric protocols.",
+      qualificationsKu: "شێوازێکی پەروەردەیی ئارام تا سەردانی منداڵ بۆ پزیشک ببێتە ئەزموونێکی خۆش بەبێ ترس و گریان.",
+      specialties: [
+        "علاج تسوس الأسنان اللبنية وتطبيق الفلورايد الوقائي",
+        "حافظات المسافات للأسنان وسدادات الشقوق الوقائية",
+        "التأهيل السلوكي للأطفال وإزالة الخوف من عيادة الأسنان"
+      ]
+    }
+  };
+
+  let currentLang = 'ar';
 
   function initNavigation() {
     const scrollButtons = document.querySelectorAll('[data-scroll]');
@@ -763,11 +574,11 @@
 
     scrollButtons.forEach(button => {
       button.addEventListener('click', function (e) {
-        e.preventDefault();
         const targetId = this.getAttribute('data-scroll');
         const targetEl = document.getElementById(targetId);
 
         if (targetEl) {
+          e.preventDefault();
           const navOffset = navbar ? navbar.offsetHeight : 76;
           const elementPosition = targetEl.getBoundingClientRect().top;
           const offsetPosition = elementPosition + window.pageYOffset - navOffset;
@@ -779,19 +590,6 @@
 
           if (mobileDrawer && mobileDrawer.classList.contains('open')) {
             mobileDrawer.classList.remove('open');
-          }
-
-          const docName = this.getAttribute('data-doctor-name');
-          if (docName) {
-            const selectEl = document.getElementById('doctorSelect');
-            if (selectEl) {
-              for (let i = 0; i < selectEl.options.length; i++) {
-                if (selectEl.options[i].value.includes(docName.split(' ')[1] || docName)) {
-                  selectEl.selectedIndex = i;
-                  break;
-                }
-              }
-            }
           }
         }
       });
@@ -807,7 +605,7 @@
   }
 
   function updateActiveNavState() {
-    const sections = ['hero', 'trustAnchors', 'valueLadder', 'tech', 'reviews', 'staff', 'location', 'booking'];
+    const sections = ['hero', 'tech', 'reviews', 'about', 'faq'];
     const navOffset = (document.getElementById('navbar')?.offsetHeight || 76) + 40;
     const scrollPos = window.pageYOffset;
 
@@ -825,7 +623,7 @@
       }
     }
 
-    const navButtons = document.querySelectorAll('.nav-item');
+    const navButtons = document.querySelectorAll('.nav-menu button.nav-item');
     navButtons.forEach(btn => {
       const target = btn.getAttribute('data-scroll');
       if (target === currentSection) {
@@ -835,8 +633,6 @@
       }
     });
   }
-
-  let currentLang = 'ar';
 
   function initLanguageEngine() {
     const savedLang = localStorage.getItem('verona_lang') || 'ar';
@@ -878,29 +674,9 @@
       }
     });
 
-    const nameInput = document.getElementById('patientName');
-    const notesInput = document.getElementById('patientNotes');
-
-    if (lang === 'en') {
-      if (nameInput) nameInput.placeholder = "e.g. John Smith";
-      if (notesInput) notesInput.placeholder = "Describe symptoms or questions (optional)...";
-    } else if (lang === 'ku') {
-      if (nameInput) nameInput.placeholder = "نموونە: ئارام ئەحمەد";
-      if (notesInput) notesInput.placeholder = "تێبینی یان وەسفی کێشەکە (ئارەزوومەندانە)...";
-    } else {
-      if (nameInput) nameInput.placeholder = "مثال: أحمد عبد الله";
-      if (notesInput) notesInput.placeholder = "هل تعاني من ألم؟ أو لديك رغبة ببروتوكول معين؟";
-    }
-
-        const leadNameInp = document.getElementById('leadName');
-    if (leadNameInp) {
-      if (lang === 'en') leadNameInp.placeholder = "e.g. John Smith";
-      else if (lang === 'ku') leadNameInp.placeholder = "نموونە: ئارام ئەحمەد";
-      else leadNameInp.placeholder = "مثال: أحمد عبد الله";
-    }
-
-    if (typeof updateReviewsCarousel === 'function') {
-      updateReviewsCarousel();
+    const docSelect = document.getElementById('doctorCvSelect');
+    if (docSelect) {
+      updateCvCard(docSelect.value);
     }
   }
 
@@ -919,223 +695,16 @@
     }
   }
 
-  function initStaffFilters() {
-    const filterButtons = document.querySelectorAll('.filter-pill');
-    const doctorCards = document.querySelectorAll('.doctor-card');
-
-    filterButtons.forEach(btn => {
-      btn.addEventListener('click', function () {
-        filterButtons.forEach(b => b.classList.remove('active'));
-        this.classList.add('active');
-
-        const filter = this.getAttribute('data-filter');
-
-        doctorCards.forEach(card => {
-          const category = card.getAttribute('data-category');
-          if (filter === 'all' || category === filter) {
-            card.style.display = 'flex';
-            setTimeout(() => {
-              card.style.opacity = '1';
-              card.style.transform = 'translateY(0)';
-            }, 20);
-          } else {
-            card.style.opacity = '0';
-            card.style.transform = 'translateY(10px)';
-            setTimeout(() => {
-              card.style.display = 'none';
-            }, 200);
-          }
-        });
-      });
-    });
-  }
-
-  function initComparisonSlider() {
-    const container = document.getElementById('comparisonSlider');
-    const clipped = document.getElementById('clippedBefore');
-    const handle = document.getElementById('sliderHandle');
-    const presetButtons = document.querySelectorAll('.preset-btn');
-
-    if (!container || !clipped || !handle) return;
-
-    let isDragging = false;
-
-    function setPosition(percentage) {
-      const clamped = Math.max(0, Math.min(100, percentage));
-      clipped.style.setProperty('--clip-pos', clamped + '%');
-      clipped.style.clipPath = `inset(0 ${100 - clamped}% 0 0)`;
-      clipped.style.webkitClipPath = `inset(0 ${100 - clamped}% 0 0)`;
-      handle.style.left = clamped + '%';
-    }
-
-    function onPointerMove(e) {
-      if (!isDragging) return;
-      const rect = container.getBoundingClientRect();
-      const clientX = e.touches ? e.touches[0].clientX : e.clientX;
-      const offsetX = clientX - rect.left;
-      const percent = (offsetX / rect.width) * 100;
-      setPosition(percent);
-    }
-
-    function startDrag(e) {
-      isDragging = true;
-      onPointerMove(e);
-      document.addEventListener('mousemove', onPointerMove);
-      document.addEventListener('touchmove', onPointerMove, { passive: true });
-      document.addEventListener('mouseup', stopDrag);
-      document.addEventListener('touchend', stopDrag);
-    }
-
-    function stopDrag() {
-      isDragging = false;
-      document.removeEventListener('mousemove', onPointerMove);
-      document.removeEventListener('touchmove', onPointerMove);
-      document.removeEventListener('mouseup', stopDrag);
-      document.removeEventListener('touchend', stopDrag);
-    }
-
-    container.addEventListener('mousedown', startDrag);
-    container.addEventListener('touchstart', startDrag, { passive: true });
-
-    presetButtons.forEach(btn => {
-      btn.addEventListener('click', function () {
-        presetButtons.forEach(b => b.classList.remove('active'));
-        this.classList.add('active');
-        const val = parseFloat(this.getAttribute('data-val'));
-        setPosition(val);
-      });
-    });
-  }
-
-  function initBookingForm() {
-    const form = document.getElementById('appointmentForm');
-    if (!form) return;
-
-    const dateInput = document.getElementById('preferredDate');
-    if (dateInput) {
-      const today = new Date().toISOString().split('T')[0];
-      dateInput.min = today;
-      dateInput.value = today;
-    }
-
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-
-      const name = document.getElementById('patientName')?.value.trim();
-      const phone = document.getElementById('patientPhone')?.value.trim();
-      const doctor = document.getElementById('doctorSelect')?.value;
-      const service = document.getElementById('serviceSelect')?.value;
-      const date = document.getElementById('preferredDate')?.value;
-      const time = document.getElementById('preferredTime')?.value;
-      const notes = document.getElementById('patientNotes')?.value.trim();
-
-      if (!name || !phone) {
-        alert(currentLang === 'en' ? 'Please fill in your name and phone number.' : 'يرجى إدخال الاسم ورقم الهاتف.');
-        return;
-      }
-
-      const randomTicket = Math.floor(1000 + Math.random() * 9000);
-      const ticketId = `VRN-${randomTicket}`;
-
-      let message = '';
-
-      if (currentLang === 'en') {
-        message = `*Appointment Request - Verona Dental Clinic* 🦷\n` +
-          `Ref: #${ticketId}\n\n` +
-          `👤 *Patient:* ${name}\n` +
-          `📱 *Phone:* ${phone}\n` +
-          `👨‍⚕️ *Doctor/Specialty:* ${doctor}\n` +
-          `🔬 *Service:* ${service}\n` +
-          `📅 *Preferred Date:* ${date || 'First available'}\n` +
-          `⏰ *Timeslot:* ${time}\n` +
-          (notes ? `📝 *Notes:* ${notes}\n` : '') +
-          `\nLooking forward to confirmation. Thank you!`;
-      } else if (currentLang === 'ku') {
-        message = `*داواکاری وەرگرتنی نۆرە - کلینیکی ڤیرۆنا* 🦷\n` +
-          `ژمارەی نۆرە: #${ticketId}\n\n` +
-          `👤 *ناوی نەخۆش:* ${name}\n` +
-          `📱 *مۆبایل:* ${phone}\n` +
-          `👨‍⚕️ *پزیشک:* ${doctor}\n` +
-          `🔬 *جۆری چارەسەر:* ${service}\n` +
-          `📅 *ڕۆژی دڵخواز:* ${date || 'زووترین کات'}\n` +
-          `⏰ *کاتی دڵخواز:* ${time}\n` +
-          (notes ? `📝 *تێبینی:* ${notes}\n` : '') +
-          `\nسوپاس بۆ پشتڕاستکردنەوە.`;
-      } else {
-        message = `*طلب حجز موعد مسبق - عيادة ڤيرونا لطب الأسنان* 🦷\n` +
-          `رقم الحجز: #${ticketId}\n\n` +
-          `👤 *اسم المراجع:* ${name}\n` +
-          `📱 *رقم الهاتف:* ${phone}\n` +
-          `👨‍⚕️ *الطبيب / التخصص:* ${doctor}\n` +
-          `🔬 *الخدمة المطلوبة:* ${service}\n` +
-          `📅 *التاريخ المفضل:* ${date || 'أقرب موعد متاح'}\n` +
-          `⏰ *الفترة المفضلة:* ${time}\n` +
-          (notes ? `📝 *ملاحظات إضافية:* ${notes}\n` : '') +
-          `\nبانتظار تأكيد الموعد مع التقدير.`;
-      }
-
-      const encodedMessage = encodeURIComponent(message);
-      const whatsappUrl = `https://wa.me/9647745490770?text=${encodedMessage}`;
-
-      window.open(whatsappUrl, '_blank');
-    });
-  }
-
-  function initHeroVideo() {
-    const video = document.getElementById('heroVideo');
-    if (!video) return;
-
-    video.muted = true;
-    video.loop = true;
-    video.playsInline = true;
-
-    function handleVideoPlayback() {
-      
-      if (window.innerWidth < 1100) {
-        if (!video.paused) {
-          video.pause();
-        }
-      } else {
-        if (video.paused) {
-          const playPromise = video.play();
-          if (playPromise !== undefined) {
-            playPromise.catch(() => {});
-          }
-        }
-      }
-    }
-
-    handleVideoPlayback();
-    window.addEventListener('resize', handleVideoPlayback);
-
-    let isFading = false;
-    video.addEventListener('timeupdate', function () {
-      if (window.innerWidth < 1100) return;
-      const duration = video.duration || 32;
-      const current = video.currentTime;
-
-      if (duration > 2 && current >= duration - 0.8 && !isFading) {
-        isFading = true;
-        video.classList.add('video-looping-fade');
-      } else if (current < 1 && isFading) {
-        isFading = false;
-        video.classList.remove('video-looping-fade');
-      }
-    });
-  }
-
-  let updateReviewsCarousel = null;
-
-  function initReviewsCarousel() {
-    const track = document.getElementById('reviewsCarouselTrack');
-    const container = document.getElementById('reviewsTrackContainer');
-    const prevBtn = document.getElementById('prevReviewBtn');
-    const nextBtn = document.getElementById('nextReviewBtn');
-    const dotsContainer = document.getElementById('reviewsCarouselDots');
+  function initReviewsOceanCarousel() {
+    const track = document.getElementById('oceanTrack');
+    const container = document.getElementById('oceanTrackContainer');
+    const prevBtn = document.getElementById('prevOceanBtn');
+    const nextBtn = document.getElementById('nextOceanBtn');
+    const dotsContainer = document.getElementById('oceanDots');
 
     if (!track || !container || !prevBtn || !nextBtn) return;
 
-    const cards = track.querySelectorAll('.review-card');
+    const cards = track.querySelectorAll('.ocean-review-card');
     const totalCards = cards.length;
     if (totalCards === 0) return;
 
@@ -1143,10 +712,7 @@
     let autoPlayTimer = null;
 
     function getVisibleCount() {
-      const width = window.innerWidth;
-      if (width <= 640) return 1;
-      if (width <= 1024) return 2;
-      return 3;
+      return window.innerWidth <= 768 ? 1 : 2;
     }
 
     function getMaxIndex() {
@@ -1157,12 +723,11 @@
       if (!dotsContainer) return;
       dotsContainer.innerHTML = '';
       const maxIndex = getMaxIndex();
-      const count = maxIndex + 1;
-      for (let i = 0; i < count; i++) {
+      for (let i = 0; i <= maxIndex; i++) {
         const dot = document.createElement('button');
         dot.type = 'button';
-        dot.className = `carousel-dot ${i === currentIndex ? 'active' : ''}`;
-        dot.setAttribute('aria-label', `مراجعة ${i + 1}`);
+        dot.className = `ocean-dot ${i === currentIndex ? 'active' : ''}`;
+        dot.setAttribute('aria-label', `Review Slide ${i + 1}`);
         dot.addEventListener('click', () => {
           currentIndex = i;
           updateTrack();
@@ -1183,39 +748,28 @@
       const cardWidth = card.getBoundingClientRect().width;
       const gap = 24;
       const moveDistance = currentIndex * (cardWidth + gap);
-
       const isRtl = document.documentElement.getAttribute('dir') === 'rtl';
-      
       const sign = isRtl ? 1 : -1;
+
       track.style.transform = `translateX(${sign * moveDistance}px)`;
 
       if (dotsContainer) {
-        const dots = dotsContainer.querySelectorAll('.carousel-dot');
+        const dots = dotsContainer.querySelectorAll('.ocean-dot');
         dots.forEach((dot, idx) => {
           dot.classList.toggle('active', idx === currentIndex);
         });
       }
     }
 
-    updateReviewsCarousel = updateTrack;
-
     function nextSlide() {
       const maxIndex = getMaxIndex();
-      if (currentIndex >= maxIndex) {
-        currentIndex = 0; 
-      } else {
-        currentIndex++;
-      }
+      currentIndex = (currentIndex >= maxIndex) ? 0 : currentIndex + 1;
       updateTrack();
     }
 
     function prevSlide() {
       const maxIndex = getMaxIndex();
-      if (currentIndex <= 0) {
-        currentIndex = maxIndex; 
-      } else {
-        currentIndex--;
-      }
+      currentIndex = (currentIndex <= 0) ? maxIndex : currentIndex - 1;
       updateTrack();
     }
 
@@ -1235,10 +789,7 @@
     }
 
     function stopAutoPlay() {
-      if (autoPlayTimer) {
-        clearInterval(autoPlayTimer);
-        autoPlayTimer = null;
-      }
+      if (autoPlayTimer) clearInterval(autoPlayTimer);
     }
 
     function resetAutoPlay() {
@@ -1248,8 +799,6 @@
 
     container.addEventListener('mouseenter', stopAutoPlay);
     container.addEventListener('mouseleave', startAutoPlay);
-    container.addEventListener('touchstart', stopAutoPlay, { passive: true });
-    container.addEventListener('touchend', startAutoPlay, { passive: true });
 
     window.addEventListener('resize', () => {
       renderDots();
@@ -1261,100 +810,347 @@
     startAutoPlay();
   }
 
-  function initYear() {
-    const yr = document.getElementById('currentYear');
-    if (yr) {
-      yr.textContent = new Date().getFullYear();
+  function initDoctorCvSelector() {
+    const select = document.getElementById('doctorCvSelect');
+    const pills = document.querySelectorAll('.doc-pill-btn');
+
+    if (!select) return;
+
+    select.addEventListener('change', function () {
+      const val = this.value;
+      updateCvCard(val);
+      pills.forEach(p => p.classList.toggle('active', p.getAttribute('data-doc') === val));
+    });
+
+    pills.forEach(pill => {
+      pill.addEventListener('click', function () {
+        const val = this.getAttribute('data-doc');
+        select.value = val;
+        updateCvCard(val);
+        pills.forEach(p => p.classList.toggle('active', p === this));
+      });
+    });
+
+    updateCvCard(select.value || 'osama');
+  }
+
+  function updateCvCard(key) {
+    const doc = doctorsData[key];
+    if (!doc) return;
+
+    const img = document.getElementById('cvDoctorImg');
+    const badge = document.getElementById('cvDoctorBadge');
+    const name = document.getElementById('cvDoctorName');
+    const role = document.getElementById('cvDoctorRole');
+    const qual = document.getElementById('cvDoctorQualifications');
+    const specs = document.getElementById('cvDoctorSpecialties');
+    const bookBtn = document.getElementById('cvBookBtn');
+
+    if (img) {
+      img.src = doc.img;
+      img.alt = doc.name;
+    }
+
+    if (badge) badge.textContent = currentLang === 'en' ? doc.badgeEn : (currentLang === 'ku' ? doc.badgeKu : doc.badge);
+    if (name) name.textContent = currentLang === 'en' ? doc.nameEn : (currentLang === 'ku' ? doc.nameKu : doc.name);
+    if (role) role.textContent = currentLang === 'en' ? doc.roleEn : (currentLang === 'ku' ? doc.roleKu : doc.role);
+    if (qual) qual.textContent = currentLang === 'en' ? doc.qualificationsEn : (currentLang === 'ku' ? doc.qualificationsKu : doc.qualifications);
+
+    if (specs) {
+      specs.innerHTML = '';
+      doc.specialties.forEach(s => {
+        const li = document.createElement('li');
+        li.textContent = s;
+        specs.appendChild(li);
+      });
+    }
+
+    if (bookBtn) {
+      bookBtn.href = `contact.html?doc=${encodeURIComponent(doc.name)}#booking`;
     }
   }
 
-  function initAssessmentModal() {
-    const modal = document.getElementById('assessmentModal');
-    const openBtn = document.getElementById('openAssessmentBtn');
-    const heroBtn = document.getElementById('heroAssessmentTrigger');
-    const sliderBtn = document.getElementById('sliderAssessBtn');
-    const stickyBtn = document.getElementById('stickyAssessBtn');
-    const closeX = document.getElementById('assessmentCloseX');
-    const backdrop = document.getElementById('assessmentBackdrop');
-    const form = document.getElementById('assessmentForm');
+  function initFaqAccordion() {
+    const items = document.querySelectorAll('.faq-item');
+    items.forEach(item => {
+      const btn = item.querySelector('.faq-question-btn');
+      if (btn) {
+        btn.addEventListener('click', function () {
+          const isActive = item.classList.contains('active');
+          items.forEach(other => {
+            other.classList.remove('active');
+            const otherBtn = other.querySelector('.faq-question-btn');
+            if (otherBtn) otherBtn.setAttribute('aria-expanded', 'false');
+          });
 
-    if (!modal) return;
-
-    function openModal() {
-      modal.removeAttribute('hidden');
-      document.body.style.overflow = 'hidden';
-      const nameInp = document.getElementById('leadName');
-      if (nameInp) setTimeout(() => nameInp.focus(), 100);
-    }
-
-    function closeModal() {
-      modal.setAttribute('hidden', '');
-      document.body.style.overflow = '';
-    }
-
-    if (openBtn) openBtn.addEventListener('click', openModal);
-    if (heroBtn) heroBtn.addEventListener('click', openModal);
-    if (sliderBtn) sliderBtn.addEventListener('click', openModal);
-    if (stickyBtn) stickyBtn.addEventListener('click', openModal);
-    if (closeX) closeX.addEventListener('click', closeModal);
-    if (backdrop) backdrop.addEventListener('click', closeModal);
-
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && !modal.hasAttribute('hidden')) {
-        closeModal();
+          if (!isActive) {
+            item.classList.add('active');
+            btn.setAttribute('aria-expanded', 'true');
+          }
+        });
       }
     });
+  }
 
-    if (form) {
-      form.addEventListener('submit', function (e) {
-        e.preventDefault();
-        const goalEl = form.querySelector('input[name="dental_goal"]:checked');
-        const priorityEl = form.querySelector('input[name="dental_priority"]:checked');
-        const name = document.getElementById('leadName')?.value.trim();
-        const phone = document.getElementById('leadPhone')?.value.trim();
+  function initSmartBookingWizard() {
+    const form = document.getElementById('smartBookingForm');
+    if (!form) return;
 
-        if (!name || !phone) {
-          alert(currentLang === 'en' ? 'Please enter your name and phone number.' : 'يرجى إدخال الاسم ورقم الهاتف.');
-          return;
-        }
+    const panePatientType = document.getElementById('panePatientType');
+    const paneCareReason = document.getElementById('paneCareReason');
+    const paneSlotSelection = document.getElementById('paneSlotSelection');
+    const panePatientDetails = document.getElementById('panePatientDetails');
 
-        const goal = goalEl ? goalEl.value : 'استشارة عامة';
-        const priority = priorityEl ? priorityEl.value : 'رعاية دقيقة بدون ألم';
-        const randomTicket = Math.floor(1000 + Math.random() * 9000);
-        const ticketId = `VRN-EVAL-${randomTicket}`;
+    const badge = document.getElementById('wizardStepBadge');
+    const title = document.getElementById('wizardTitle');
+    const sub = document.getElementById('wizardSub');
 
-        let message = '';
-        if (currentLang === 'en') {
-          message = `*Free Smile Assessment - Verona Dental Clinic* 💎\n` +
-            `Ref: #${ticketId}\n\n` +
-            `👤 *Patient:* ${name}\n` +
-            `📱 *WhatsApp:* ${phone}\n` +
-            `🎯 *Primary Goal:* ${goal}\n` +
-            `🛡️ *Main Priority:* ${priority}\n\n` +
-            `I would like to receive my free estimated treatment plan and advice from the clinic specialist. Thank you!`;
-        } else if (currentLang === 'ku') {
-          message = `*هەڵسەنگاندنی بێبەرامبەری زەردەخەنە - کلینیکی ڤیرۆنا* 💎\n` +
-            `ژمارەی فۆڕم: #${ticketId}\n\n` +
-            `👤 *ناوی نەخۆش:* ${name}\n` +
-            `📱 *واتسئەپ:* ${phone}\n` +
-            `🎯 *ئامانجی سەرەکی:* ${goal}\n` +
-            `🛡️ *گرنگترین خاڵ:* ${priority}\n\n` +
-            `دەخوازم ڕاپۆرتی خەمڵێنراو و ڕاوێژی پزیشکی پسپۆڕم پێبگات. سوپاس!`;
+    let bookingState = {
+      patientType: 'new',
+      careCategory: 'emergency',
+      selectedDate: '',
+      selectedTime: '1:30 PM',
+      isSuggestedSlot: true
+    };
+
+    const typeButtons = document.querySelectorAll('[data-patient-type]');
+    typeButtons.forEach(btn => {
+      btn.addEventListener('click', function () {
+        const type = this.getAttribute('data-patient-type');
+        bookingState.patientType = type;
+
+        if (type === 'new') {
+          showPane(paneCareReason, 'الخطوة 2 من 3', 'ما هو نوع الرعاية المطلوبة؟', 'حدد احتياجك لتخصيص الوقت المناسب والأولوية الطبية');
         } else {
-          message = `*طلب تقييم الابتسامة المجاني - عيادة ڤيرونا لطب الأسنان* 💎\n` +
-            `رقم التقييم: #${ticketId}\n\n` +
-            `👤 *اسم المراجع:* ${name}\n` +
-            `📱 *رقم الواتساب:* ${phone}\n` +
-            `🎯 *الهدف الأساسي:* ${goal}\n` +
-            `🛡️ *الأولوية والتخوف:* ${priority}\n\n` +
-            `أرغب بالحصول على التقرير التقديري المجاني وتوصية الطبيب الاستشاري لحالتي. مع التقدير!`;
+          bookingState.careCategory = 'returning_visit';
+          setupSuggestedSlot('returning');
+          showPane(paneSlotSelection, 'الخطوة 2 من 3', 'اختيار الموعد المناسب', 'نظام المواعيد المسبقة لراحتكم وبدون انتظار');
         }
+      });
+    });
 
-        closeModal();
-        const encoded = encodeURIComponent(message);
-        window.open(`https://wa.me/9647745490770?text=${encoded}`, '_blank');
+    const reasonButtons = document.querySelectorAll('[data-care-category]');
+    reasonButtons.forEach(btn => {
+      btn.addEventListener('click', function () {
+        const cat = this.getAttribute('data-care-category');
+        bookingState.careCategory = cat;
+        setupSuggestedSlot(cat);
+        showPane(paneSlotSelection, 'الخطوة 2 من 3', 'تأكيد الموعد المناسب', 'نقترح أسرع موعد متاح ومناسب لأولوية حالتك');
+      });
+    });
+
+    function setupSuggestedSlot(category) {
+      const slotText = document.getElementById('suggestedSlotText');
+      const slotNote = document.getElementById('suggestedSlotNote');
+      const today = new Date().toLocaleDateString('ar-EG', { weekday: 'long', month: 'short', day: 'numeric' });
+
+      if (category === 'emergency') {
+        bookingState.selectedTime = '1:30 PM';
+        bookingState.selectedDate = 'اليوم';
+        if (slotText) slotText.textContent = `اليوم (${today}) - 1:30 ظهراً (أولوية طوارئ عاجلة)`;
+        if (slotNote) slotNote.textContent = 'تم حجز أولوية طوارئ فورية لك لمنع تفاقم الألم بدون أي انتظار.';
+      } else if (category === 'child') {
+        bookingState.selectedTime = '3:00 PM';
+        bookingState.selectedDate = 'غداً';
+        if (slotText) slotText.textContent = 'غداً - 3:00 عصراً (عيادة طب أسنان الأطفال)';
+        if (slotNote) slotNote.textContent = 'موعد هادئ ومخصص للأطفال مع د. آية أياد لضمان راحة الطفل التامة.';
+      } else if (category === 'recare') {
+        bookingState.selectedTime = '4:30 PM';
+        bookingState.selectedDate = 'غداً';
+        if (slotText) slotText.textContent = 'غداً - 4:30 عصراً (جلسة تنظيف GBT السويسرية)';
+        if (slotNote) slotNote.textContent = 'موعد مريح لتنظيف الأسنان الناعم بالبروتوكول السويسري.';
+      } else {
+        bookingState.selectedTime = '6:00 PM';
+        bookingState.selectedDate = 'غداً';
+        if (slotText) slotText.textContent = 'غداً - 6:00 مساءً (استشارة تخصصية شاملة)';
+        if (slotNote) slotNote.textContent = 'موعد مخصص للفحص الشامل وتحديد خطة العلاج المناسبة.';
+      }
+    }
+
+    const btnAcceptSuggested = document.getElementById('btnAcceptSuggested');
+    if (btnAcceptSuggested) {
+      btnAcceptSuggested.addEventListener('click', function () {
+        bookingState.isSuggestedSlot = true;
+        updateSummary();
+        showPane(panePatientDetails, 'الخطوة 3 من 3', 'بيانات المراجع والتأكيد', 'املأ الاسم ورقم الواتساب لإرسال تذكرة الموعد فوراً');
       });
     }
+
+    const btnShowCustomSlot = document.getElementById('btnShowCustomSlot');
+    const customSlotPicker = document.getElementById('customSlotPicker');
+    if (btnShowCustomSlot && customSlotPicker) {
+      btnShowCustomSlot.addEventListener('click', function () {
+        customSlotPicker.removeAttribute('hidden');
+        const dateInput = document.getElementById('bookingCustomDate');
+        if (dateInput && !dateInput.value) {
+          const tomorrow = new Date();
+          tomorrow.setDate(tomorrow.getDate() + 1);
+          dateInput.min = new Date().toISOString().split('T')[0];
+          dateInput.value = tomorrow.toISOString().split('T')[0];
+        }
+      });
+    }
+
+    const btnConfirmCustomSlot = document.getElementById('btnConfirmCustomSlot');
+    if (btnConfirmCustomSlot) {
+      btnConfirmCustomSlot.addEventListener('click', function () {
+        const dateInput = document.getElementById('bookingCustomDate');
+        const timeSelect = document.getElementById('bookingCustomTime');
+        if (dateInput && dateInput.value) bookingState.selectedDate = dateInput.value;
+        if (timeSelect) bookingState.selectedTime = timeSelect.value;
+        bookingState.isSuggestedSlot = false;
+        updateSummary();
+        showPane(panePatientDetails, 'الخطوة 3 من 3', 'بيانات المراجع والتأكيد', 'املأ الاسم ورقم الواتساب لإرسال تذكرة الموعد فوراً');
+      });
+    }
+
+    const backButtons = document.querySelectorAll('.wizard-back-btn');
+    backButtons.forEach(btn => {
+      btn.addEventListener('click', function () {
+        const targetPaneId = this.getAttribute('data-back-to');
+        if (targetPaneId === 'panePatientType') {
+          showPane(panePatientType, 'الخطوة 1 من 3', 'هل زرت عيادة ڤيرونا من قبل؟', 'اختر صفتك للمساعدة في تحديد أسرع موعد مناسب لحالتك');
+        } else if (targetPaneId === 'paneSlotSelection') {
+          showPane(paneSlotSelection, 'الخطوة 2 من 3', 'تأكيد الموعد المناسب', 'نقترح أسرع موعد متاح ومناسب لأولوية حالتك');
+        } else if (this.id === 'btnBackFromSlot') {
+          if (bookingState.patientType === 'returning') {
+            showPane(panePatientType, 'الخطوة 1 من 3', 'هل زرت عيادة ڤيرونا من قبل؟', 'اختر صفتك للمساعدة في تحديد أسرع موعد مناسب لحالتك');
+          } else {
+            showPane(paneCareReason, 'الخطوة 2 من 3', 'ما هو نوع الرعاية المطلوبة؟', 'حدد احتياجك لتخصيص الوقت المناسب والأولوية الطبية');
+          }
+        }
+      });
+    });
+
+    function showPane(paneEl, stepTxt, titleTxt, subTxt) {
+      [panePatientType, paneCareReason, paneSlotSelection, panePatientDetails].forEach(p => {
+        if (p) p.classList.remove('active');
+      });
+      if (paneEl) paneEl.classList.add('active');
+      if (badge) badge.textContent = stepTxt;
+      if (title) title.textContent = titleTxt;
+      if (sub) sub.textContent = subTxt;
+    }
+
+    function updateSummary() {
+      const summaryText = document.getElementById('summaryText');
+      if (!summaryText) return;
+
+      const pType = bookingState.patientType === 'new' ? 'مريض جديد' : 'مريض سابق';
+      let cName = 'استشارة عامة';
+      if (bookingState.careCategory === 'emergency') cName = 'حالة طارئة وألم مستعجل';
+      else if (bookingState.careCategory === 'child') cName = 'طب أسنان الأطفال';
+      else if (bookingState.careCategory === 'recare') cName = 'فحص وتنظيف GBT';
+
+      summaryText.textContent = `${pType} • ${cName} • ${bookingState.selectedDate} (${bookingState.selectedTime})`;
+    }
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const preselectedDoc = urlParams.get('doc');
+    if (preselectedDoc) {
+      const docSelect = document.getElementById('wizardDoctorSelect');
+      if (docSelect) {
+        for (let i = 0; i < docSelect.options.length; i++) {
+          if (docSelect.options[i].value.includes(preselectedDoc.split(' ')[1] || preselectedDoc)) {
+            docSelect.selectedIndex = i;
+            break;
+          }
+        }
+      }
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const name = document.getElementById('wizardPatientName')?.value.trim();
+      const phone = document.getElementById('wizardPatientPhone')?.value.trim();
+      const doctor = document.getElementById('wizardDoctorSelect')?.value;
+      const notes = document.getElementById('wizardNotes')?.value.trim();
+
+      if (!name || !phone) {
+        alert(currentLang === 'en' ? 'Please enter your name and phone number.' : 'يرجى إدخال الاسم ورقم الهاتف.');
+        return;
+      }
+
+      const randomTicket = Math.floor(1000 + Math.random() * 9000);
+      const ticketId = `VRN-BK-${randomTicket}`;
+
+      const pType = bookingState.patientType === 'new' ? 'مريض جديد (أول زيارة)' : 'مريض سابق (لديه ملف)';
+      let cName = 'استشارة عامة';
+      if (bookingState.careCategory === 'emergency') cName = 'حالة طارئة وألم مستعجل';
+      else if (bookingState.careCategory === 'child') cName = 'طب أسنان الأطفال';
+      else if (bookingState.careCategory === 'recare') cName = 'فحص دوري وتنظيف GBT';
+
+      let message = '';
+      if (currentLang === 'en') {
+        message = `*Appointment Booking Request - Verona Dental Clinic*\n` +
+          `Ticket Ref: #${ticketId}\n\n` +
+          `Patient: ${name}\n` +
+          `Phone: ${phone}\n` +
+          `Status: ${pType}\n` +
+          `Category: ${cName}\n` +
+          `Doctor: ${doctor}\n` +
+          `Date: ${bookingState.selectedDate}\n` +
+          `Time: ${bookingState.selectedTime}\n` +
+          (notes ? `Notes: ${notes}\n` : '') +
+          `\nKindly confirm the appointment slot. Thank you!`;
+      } else if (currentLang === 'ku') {
+        message = `*داواکاری وەرگرتنی نۆرە - کلینیکی ڤیرۆنا*\n` +
+          `ژمارەی نۆرە: #${ticketId}\n\n` +
+          `ناوی نەخۆش: ${name}\n` +
+          `مۆبایل: ${phone}\n` +
+          `دۆخ: ${pType}\n` +
+          `جۆری چارەسەر: ${cName}\n` +
+          `پزیشک: ${doctor}\n` +
+          `بەروار: ${bookingState.selectedDate}\n` +
+          `کات: ${bookingState.selectedTime}\n` +
+          (notes ? `تێبینی: ${notes}\n` : '') +
+          `\nسوپاس بۆ پشتڕاستکردنەوەی نۆرەکە.`;
+      } else {
+        message = `*طلب حجز موعد مسبق - عيادة ڤيرونا لطب الأسنان*\n` +
+          `رقم الحجز: #${ticketId}\n\n` +
+          `اسم المراجع: ${name}\n` +
+          `رقم الهاتف: ${phone}\n` +
+          `صفة المراجع: ${pType}\n` +
+          `نوع الرعاية: ${cName}\n` +
+          `الطبيب المعالج: ${doctor}\n` +
+          `التاريخ: ${bookingState.selectedDate}\n` +
+          `الوقت: ${bookingState.selectedTime}\n` +
+          (notes ? `ملاحظات: ${notes}\n` : '') +
+          `\nبانتظار تأكيد الموعد مع التقدير.`;
+      }
+
+      const encoded = encodeURIComponent(message);
+      window.open(`https://wa.me/9647745490770?text=${encoded}`, '_blank');
+    });
+  }
+
+  function initHeroVideo() {
+    const video = document.getElementById('heroVideo');
+    if (!video) return;
+
+    video.muted = true;
+    video.loop = true;
+    video.playsInline = true;
+
+    function handleVideoPlayback() {
+      if (window.innerWidth < 1100) {
+        if (!video.paused) video.pause();
+      } else {
+        if (video.paused) {
+          const p = video.play();
+          if (p !== undefined) p.catch(() => {});
+        }
+      }
+    }
+
+    handleVideoPlayback();
+    window.addEventListener('resize', handleVideoPlayback);
+  }
+
+  function initYear() {
+    const yr = document.getElementById('currentYear');
+    if (yr) yr.textContent = new Date().getFullYear();
   }
 
   function initPrivacyModal() {
@@ -1392,14 +1188,13 @@
     initLanguageEngine();
     initTheme();
     initNavigation();
-    initStaffFilters();
-    initComparisonSlider();
-    initBookingForm();
     initHeroVideo();
-    initReviewsCarousel();
+    initReviewsOceanCarousel();
+    initDoctorCvSelector();
+    initFaqAccordion();
+    initSmartBookingWizard();
     initYear();
     initPrivacyModal();
-    initAssessmentModal();
   });
 
 })();
