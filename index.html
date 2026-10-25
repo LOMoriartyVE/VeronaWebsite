@@ -34,7 +34,7 @@
 
   <nav class="main-navbar" id="navbar">
     <div class="container navbar-container">
-      
+
       <button type="button" class="brand-link" data-scroll="hero" aria-label="Verona Home">
         <img src="assets/logo-white-bg.jpg" alt="Verona Clinic Logo" class="brand-logo light-logo" width="46"
           height="46">
@@ -48,6 +48,7 @@
 
       <div class="nav-menu" id="navMenu">
         <button type="button" class="nav-item active" data-scroll="hero" data-i18n="nav_home">الرئيسية</button>
+        <button type="button" class="nav-item" data-scroll="valueLadder" data-i18n="nav_pathways">خيارات الرعاية</button>
         <button type="button" class="nav-item" data-scroll="tech" data-i18n="nav_tech">التقنيات المتطورة</button>
         <button type="button" class="nav-item" data-scroll="reviews" data-i18n="nav_reviews">التقييمات</button>
         <button type="button" class="nav-item" data-scroll="staff" data-i18n="nav_staff">الكادر الطبي</button>
@@ -55,7 +56,7 @@
       </div>
 
       <div class="nav-actions">
-        
+
         <div class="lang-switcher">
           <button type="button" class="lang-btn active" data-lang="ar" title="العربية">AR</button>
           <button type="button" class="lang-btn" data-lang="en" title="English">EN</button>
@@ -93,6 +94,7 @@
     <div class="mobile-nav-drawer" id="mobileDrawer">
       <div class="mobile-nav-links">
         <button type="button" class="mobile-nav-item active" data-scroll="hero" data-i18n="nav_home">الرئيسية</button>
+        <button type="button" class="mobile-nav-item" data-scroll="valueLadder" data-i18n="nav_pathways">خيارات الرعاية</button>
         <button type="button" class="mobile-nav-item" data-scroll="tech" data-i18n="nav_tech">التقنيات المتطورة</button>
         <button type="button" class="mobile-nav-item" data-scroll="reviews" data-i18n="nav_reviews">التقييمات</button>
         <button type="button" class="mobile-nav-item" data-scroll="staff" data-i18n="nav_staff">الكادر الطبي</button>
@@ -108,30 +110,35 @@
     <div class="container hero-container">
       <div class="hero-content">
 
+        <div class="hero-eyebrow-badge">
+          <span class="hero-eyebrow-dot"></span>
+          <span data-i18n="hero_eyebrow">عيادة ڤيرونا التخصصية • كركوك</span>
+        </div>
+
         <h1 class="hero-title">
-          <span class="title-sub" data-i18n="hero_title_sub">الرعاية السنية الحديثة في كركوك</span>
-          <span class="title-main" data-i18n="hero_title_main">عيادة ڤيرونا لطب وتجميل وزراعة الأسنان</span>
+          <span class="title-main" data-i18n="hero_title_main">ابتسامة متناسقة وعلاج أسنان متطور بدون ألم بأحدث التقنيات السويسرية</span>
         </h1>
 
         <p class="hero-lead" data-i18n="hero_lead">
-          وجهتكم الأولى لطب الأسنان الرقمي الحديث في كركوك. تجربة علاجية استثنائية وبدون ألم مع جهاز البنج الإلكتروني
-          STA وتقنية تنظيف الأسنان السويسرية المتطورة GBT، بإشراف نخبة من 6 أطباء استشاريين ضمن نظام حجوزات مسبقة
-          لراحتكم التامة وبدون انتظار.
+          تخلص من رهبة إبر التخدير وألم الأسنان نهائياً. نوفر لك علاجاً محوسباً بجهاز STA بدون ألم وبروتوكول تنظيف GBT السويسري على أيدي 6 أطباء استشاريين، بمواعيد محددة بدون أي انتظار.
         </p>
 
-        <div class="hero-cta-group">
-          <button type="button" class="btn btn-primary btn-lg" data-scroll="booking">
+        <div class="hero-conversion-block">
+          <button type="button" class="btn btn-hero-cta btn-lg" data-scroll="booking">
             <span class="btn-icon">📅</span>
-            <span data-i18n="hero_book_cta">حجز موعد استشارة مسبق</span>
+            <span data-i18n="hero_book_cta">احجز استشارتك بدون ألم وبدون انتظار</span>
           </button>
-          <a href="https://wa.me/9647745490770?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9%20%DA%A4%D9%8A%D8%B1%D9%88%D9%86%D8%A7%D8%8C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AD%D8%AC%D8%B2%20%D9%85%D9%88%D8%B9%D8%AF"
-            target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg">
-            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
-              <path
-                d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.086s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z" />
-            </svg>
-            <span data-i18n="hero_whatsapp_cta">تواصل عبر الواتساب</span>
-          </a>
+
+          <div class="hero-micro-reassurance">
+            <span data-i18n="hero_cta_reassurance">✓ تأكيد فوري عبر واتساب • 0 دقائق انتظار • خصوصية تامة</span>
+          </div>
+
+          <div class="hero-secondary-door">
+            <button type="button" class="hero-assessment-trigger" id="heroAssessmentTrigger" data-scroll="valueLadder">
+              <span class="trigger-spark">⚡</span>
+              <span data-i18n="hero_assessment_link">أو أجرِ تقييم الابتسامة المجاني (30 ثانية)</span>
+            </button>
+          </div>
         </div>
 
         <div class="hero-stats-strip">
@@ -167,6 +174,102 @@
     </div>
   </section>
 
+  <section class="top-trust-bar" id="trustAnchors">
+    <div class="container top-trust-container">
+      <div class="top-trust-card top-trust-rating">
+        <div class="trust-stars-row">★★★★★</div>
+        <div class="trust-rating-text">
+          <span class="trust-score"><bdi dir="ltr">4.9 / 5.0</bdi></span>
+          <span class="trust-meta" data-i18n="top_google_trust">تقييم موثق رسمياً على خرائط جوجل (121 مراجعاً)</span>
+        </div>
+      </div>
+
+      <div class="top-trust-card top-trust-quote">
+        <span class="quote-symbol">“</span>
+        <p class="quote-body" data-i18n="top_trust_review_quote">"ما حسيت بأي ألم مع جهاز البنج الإلكتروني STA.. أفضل تجربة عيادة أسنان بكركوك" — أحمد الكركوكي (مراجع موثق)</p>
+      </div>
+
+      <div class="top-trust-card top-trust-guarantees">
+        <div class="trust-pill-item">
+          <span class="pill-icon">🛡️</span>
+          <span data-i18n="top_trust_badge_sta">تخدير محوسب بدون ألم (STA)</span>
+        </div>
+        <div class="trust-pill-item">
+          <span class="pill-icon">🇨🇭</span>
+          <span data-i18n="top_trust_badge_gbt">تنظيف سويسري معتمد (EMS GBT)</span>
+        </div>
+        <div class="trust-pill-item">
+          <span class="pill-icon">⏱️</span>
+          <span data-i18n="top_trust_badge_zero_wait">0 دقائق انتظار (مواعيد مسبقة)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="value-ladder-section" id="valueLadder">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag" data-i18n="ladder_tag">بوابات الرعاية السريعة</span>
+        <h2 class="section-title" data-i18n="ladder_title">كيف يمكننا مساعدتك اليوم؟ اختر الباب الأنسب لاحتياجك</h2>
+        <p class="section-subtitle" data-i18n="ladder_subtitle">
+          سواء كنت ترغب بتقييم أولي مجاني، أو علاج ألم عاجل، أو استشارة مع طبيب استشاري، نوفر لك خيارات مريحة ومباشرة.
+        </p>
+      </div>
+
+      <div class="ladder-grid">
+        <article class="ladder-card ladder-featured">
+          <div class="ladder-badge-top" data-i18n="card_assessment_tag">تقييم مجاني في 30 ثانية</div>
+          <div class="ladder-icon">💎</div>
+          <h3 class="ladder-card-title" data-i18n="card_assessment_title">فحص الابتسامة وحالة الأسنان الرقمي</h3>
+          <p class="ladder-card-desc" data-i18n="card_assessment_desc">
+            أجب عن 3 أسئلة سريعة لمعرفة خطة العلاج التقديرية والتكلفة المناسبة لحالتك مع توصية الطبيب الاستشاري.
+          </p>
+          <button type="button" class="btn btn-primary btn-block ladder-btn" id="openAssessmentBtn" data-i18n="btn_start_assessment">
+            ابدأ التقييم الفوري مجاناً ←
+          </button>
+        </article>
+
+        <article class="ladder-card">
+          <div class="ladder-badge-top badge-urgent" data-i18n="card_emergency_tag">ألم عاجل أو طارئ</div>
+          <div class="ladder-icon">⚡</div>
+          <h3 class="ladder-card-title" data-i18n="card_emergency_title">خط الطوارئ والألم السريع عبر واتساب</h3>
+          <p class="ladder-card-desc" data-i18n="card_emergency_desc">
+            هل تعاني من ألم أسنان مفاجئ أو كسر في الحشوة؟ تواصل مباشرة مع فريق الطوارئ لتوجيهك بدون تأخير.
+          </p>
+          <a href="https://wa.me/9647745490770?text=%D8%AD%D8%A7%D9%84%D8%A9%20%D8%B7%D8%A7%D8%B1%D8%A6%D8%A9%20-%20%D8%A3%D8%B9%D8%A7%D9%86%D9%8A%20%D9%85%D9%86%20%D8%A3%D9%84%D9%85%20%D8%A3%D8%B3%D9%86%D8%A7%D9%86%20%D8%B9%D8%A7%D8%AC%D9%84%20%D9%88%D8%A3%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9%20%D9%81%D9%88%D8%B1%D9%8A%D8%A9"
+            target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-block ladder-btn" data-i18n="btn_emergency_chat">
+            تواصل مع طوارئ الأسنان فوراً ⚡
+          </a>
+        </article>
+
+        <article class="ladder-card">
+          <div class="ladder-badge-top" data-i18n="card_guide_tag">دليل رقمي مجاني</div>
+          <div class="ladder-icon">📘</div>
+          <h3 class="ladder-card-title" data-i18n="card_guide_title">دليل ڤيرونا الشامل للابتسامة والعناية</h3>
+          <p class="ladder-card-desc" data-i18n="card_guide_desc">
+            احصل على نسختك المجانية من الدليل الطبي الإرشادي للتعرف على أسرار بياض الأسنان وتقنيات التخدير بدون ألم.
+          </p>
+          <a href="https://wa.me/9647745490770?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%2C%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%AD%D8%B5%D9%88%D9%84%20%D8%B9%D9%84%D9%89%20%D9%86%D8%B3%D8%AE%D8%AA%D9%8A%20%D8%A7%D9%84%D9%85%D8%AC%D8%A7%D9%86%D9%8A%D8%A9%20%D9%85%D9%86%20%D8%AF%D9%84%D9%8A%D9%84%20%D9%81%D9%8A%D8%B1%D9%88%D9%86%D8%A7%20%D9%84%D9%84%D8%A7%D8%A8%D8%AA%D8%B3%D8%A7%D9%85%D8%A9%20%D9%88%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B3%D9%86%D8%A7%D9%86"
+            target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-block ladder-btn" data-i18n="btn_get_guide">
+            احصل على الدليل المجاني الآن 📥
+          </a>
+        </article>
+
+        <article class="ladder-card">
+          <div class="ladder-badge-top" data-i18n="card_direct_tag">حجز موعد مسبق</div>
+          <div class="ladder-icon">👨‍⚕️</div>
+          <h3 class="ladder-card-title" data-i18n="card_direct_title">حجز استشارة شاملة مع استشاري</h3>
+          <p class="ladder-card-desc" data-i18n="card_direct_desc">
+            اختر طبيبك المفضل وموعدك الملائم بدون أي وقت ضائع في صالة الانتظار.
+          </p>
+          <button type="button" class="btn btn-primary btn-block ladder-btn" data-scroll="booking" data-i18n="btn_book_direct_path">
+            الانتقال إلى استمارة الحجز 📅
+          </button>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <section class="medical-tech-section" id="tech">
     <div class="container">
       <div class="section-header text-center">
@@ -179,7 +282,7 @@
       </div>
 
       <div class="tech-grid">
-        
+
         <article class="tech-card">
           <div class="tech-card-image-wrap">
             <img src="assets/sta-brand-device.webp" alt="STA Single Tooth Anesthesia System - جهاز البنج الالكتروني"
@@ -625,7 +728,7 @@
         </div>
 
         <div class="comparison-container" id="comparisonSlider">
-          
+
           <img src="assets/after-smile.jpg" alt="After Smile Transformation Verona" class="comparison-img img-after"
             loading="lazy">
           <span class="comparison-label label-after" data-i18n="label_after">بعد العلاج (After)</span>
@@ -656,6 +759,18 @@
             50/50</button>
           <button type="button" class="preset-btn" data-val="85" data-i18n="preset_after">عرض النتيجة بعد العلاج
             100%</button>
+                <div class="transformation-cta-bar">
+          <div class="t-cta-content">
+            <span class="t-cta-badge">✨</span>
+            <div>
+              <h4 class="t-cta-title" data-i18n="cta_transformation_title">هل ترغب بالحصول على نتيجة متناسقة وطبيعية لابتسامتك؟</h4>
+              <p class="t-cta-sub" data-i18n="cta_transformation_sub">استشر أطباءنا الاستشاريين واكتشف كيف يمكن لتصميم الابتسامة الرقمي تغيير مظهر أسنانك بأمان وبدون ألم.</p>
+            </div>
+          </div>
+          <div class="t-cta-actions">
+            <button type="button" class="btn btn-primary" data-scroll="booking" data-i18n="btn_transformation_cta">احجز فحص الابتسامة الشامل الآن ←</button>
+            <button type="button" class="btn btn-outline" id="sliderAssessBtn" data-i18n="btn_slider_assess">تقييم مجاني (30 ثانية)</button>
+          </div>
         </div>
       </div>
     </div>
@@ -813,7 +928,7 @@
       </div>
 
       <div class="location-grid">
-        
+
         <div class="location-info-card">
           <div class="info-card-header">
             <div class="clinic-pin-icon">📍</div>
@@ -992,7 +1107,7 @@
             </div>
 
             <div class="form-row">
-              
+
               <div class="form-group col-6">
                 <label for="preferredDate" class="form-label" data-i18n="form_date_label">اليوم المفضل</label>
                 <input type="date" id="preferredDate" name="date" class="form-input">
@@ -1187,6 +1302,125 @@
     </svg>
     <span class="floating-wa-label" data-i18n="wa_quick_label">حجز سريع عبر واتساب</span>
   </a>
+
+  <div class="assessment-modal" id="assessmentModal" role="dialog" aria-modal="true" aria-labelledby="assessmentModalTitle" hidden>
+    <div class="assessment-modal-backdrop" id="assessmentBackdrop"></div>
+    <div class="assessment-modal-dialog">
+      <div class="assessment-modal-header">
+        <div class="assessment-title-wrap">
+          <span class="assessment-header-icon">💎</span>
+          <h3 class="assessment-modal-title" id="assessmentModalTitle" data-i18n="assess_modal_title">تقييم الابتسامة وعلاج الأسنان الرقمي (30 ثانية)</h3>
+        </div>
+        <button type="button" class="assessment-modal-close" id="assessmentCloseX" aria-label="Close">&times;</button>
+      </div>
+
+      <form id="assessmentForm" class="assessment-form-body">
+        <div class="assessment-step" id="assessStep1">
+          <label class="assessment-question" data-i18n="assess_step1_title">الخطوة 1: ما هو هدفك الأساسي لأسنانك؟</label>
+          <div class="assessment-options-grid">
+            <label class="assess-radio-card">
+              <input type="radio" name="dental_goal" value="زراعة أسنان فورية وتعويض الأسنان المفقودة" checked>
+              <span class="card-indicator"></span>
+              <span class="card-label-text" data-i18n="opt_goal_implant">زراعة أسنان فورية وتعويض الأسنان المفقودة</span>
+            </label>
+            <label class="assess-radio-card">
+              <input type="radio" name="dental_goal" value="ابتسامة هوليوود وتجميل وتبييض الأسنان">
+              <span class="card-indicator"></span>
+              <span class="card-label-text" data-i18n="opt_goal_smile">ابتسامة هوليوود وتجميل وتبييض الأسنان</span>
+            </label>
+            <label class="assess-radio-card">
+              <input type="radio" name="dental_goal" value="علاج عصب الأسنان والتخلص من الألم">
+              <span class="card-indicator"></span>
+              <span class="card-label-text" data-i18n="opt_goal_pain">علاج عصب الأسنان والتخلص من الألم</span>
+            </label>
+            <label class="assess-radio-card">
+              <input type="radio" name="dental_goal" value="تنظيف الأسنان ببروتوكول GBT السويسري">
+              <span class="card-indicator"></span>
+              <span class="card-label-text" data-i18n="opt_goal_gbt">تنظيف الأسنان وإزالة الجير والتصبغات بجهاز GBT</span>
+            </label>
+            <label class="assess-radio-card">
+              <input type="radio" name="dental_goal" value="تقويم الأسنان وتعديل اعوجاج الفكين">
+              <span class="card-indicator"></span>
+              <span class="card-label-text" data-i18n="opt_goal_ortho">تقويم الأسنان وتعديل اعوجاج الفكين</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="assessment-step" id="assessStep2">
+          <label class="assessment-question" data-i18n="assess_step2_title">الخطوة 2: ما هو أكثر ما يهمك أثناء العلاج؟</label>
+          <div class="assessment-options-grid">
+            <label class="assess-radio-card">
+              <input type="radio" name="dental_priority" value="تجنب ألم الإبر والتخدير (جهاز STA)" checked>
+              <span class="card-indicator"></span>
+              <span class="card-label-text" data-i18n="opt_concern_pain">تجنب ألم الإبر والتخدير (نوفر جهاز STA بدون ألم)</span>
+            </label>
+            <label class="assess-radio-card">
+              <input type="radio" name="dental_priority" value="مظهر جمالي طبيعي ومتناسق">
+              <span class="card-indicator"></span>
+              <span class="card-label-text" data-i18n="opt_concern_natural">مظهر جمالي طبيعي ومتناسق مع ملامح الوجه</span>
+            </label>
+            <label class="assess-radio-card">
+              <input type="radio" name="dental_priority" value="دقة المواعيد وسرعة الإنجاز">
+              <span class="card-indicator"></span>
+              <span class="card-label-text" data-i18n="opt_concern_time">سرعة الإنجاز ودقة المواعيد بدون انتظار</span>
+            </label>
+            <label class="assess-radio-card">
+              <input type="radio" name="dental_priority" value="معرفة التكلفة والخيارات مسبقاً">
+              <span class="card-indicator"></span>
+              <span class="card-label-text" data-i18n="opt_concern_cost">معرفة الخطة العلاجية والخيارات التقديرية مسبقاً</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="assessment-step" id="assessStep3">
+          <label class="assessment-question" data-i18n="assess_step3_title">الخطوة 3: أين تود استلام تقرير تقييم حالتك المجاني؟</label>
+          <div class="assess-inputs-wrap">
+            <div class="form-group">
+              <label for="leadName" class="form-label" data-i18n="form_name_label">اسم المراجع الكامل *</label>
+              <input type="text" id="leadName" class="form-input" placeholder="مثال: أحمد عبد الله" required>
+            </div>
+            <div class="form-group">
+              <label for="leadPhone" class="form-label" data-i18n="form_phone_label">رقم الهاتف (الواتساب) *</label>
+              <input type="tel" id="leadPhone" class="form-input phone-ltr" placeholder="0774XXXXXXX" dir="ltr" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="assessment-modal-footer">
+          <button type="submit" class="btn btn-whatsapp btn-block btn-lg" id="submitAssessmentBtn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+              <path d="M19.05 4.91A9.816 9.816 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.188 8.188 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.183 8.183 0 0 1 2.41 5.83c.01 4.54-3.69 8.23-8.23 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.98-.15.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.66.31-.23.25-.88.86-.88 2.09s.9 2.43 1.02 2.6c.12.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z" />
+            </svg>
+            <span data-i18n="btn_submit_assessment">إرسال التقييم واستلام استشارة الطبيب مجاناً عبر واتساب</span>
+          </button>
+          <p class="assessment-disclaimer" data-i18n="assess_disclaimer">
+            🔒 يتم إرسال إجاباتك مباشرة إلى الفريق الطبي الاستشاري في عيادة ڤيرونا لتقديم تقرير تقديري مجاني وسري تماماً.
+          </p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="sticky-bottom-bar" id="stickyBottomBar">
+    <div class="sticky-bar-container">
+      <a href="tel:07745490770" class="sticky-bar-btn sticky-call">
+        <span class="sticky-icon">📞</span>
+        <span class="sticky-text" data-i18n="sticky_call">اتصال</span>
+      </a>
+      <a href="https://wa.me/9647745490770" target="_blank" rel="noopener noreferrer" class="sticky-bar-btn sticky-wa">
+        <span class="sticky-icon">💬</span>
+        <span class="sticky-text" data-i18n="sticky_whatsapp">واتساب</span>
+      </a>
+      <button type="button" class="sticky-bar-btn sticky-assess" id="stickyAssessBtn">
+        <span class="sticky-icon">⚡</span>
+        <span class="sticky-text" data-i18n="sticky_assess">تقييم مجاني</span>
+      </button>
+      <button type="button" class="sticky-bar-btn sticky-book" data-scroll="booking">
+        <span class="sticky-icon">📅</span>
+        <span class="sticky-text" data-i18n="sticky_book">حجز موعد</span>
+      </button>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>

@@ -182,7 +182,76 @@
       privacy_point_3: "نضمن عدم بيع أو تأجير أو مشاركة بيانات مراجعينا مع أي طرف ثالث أو شركات إعلانية تحت أي ظرف.",
       privacy_point_4: "حقوق المراجع: يحق لك في أي وقت تعديل بياناتك أو إلغاء مواعيدك أو طلب حذف بياناتك من خلال التواصل المباشر مع إدارة العيادة.",
       privacy_close_btn: "إغلاق نافذة الخصوصية",
-      wa_quick_label: "حجز سريع عبر واتساب"
+      wa_quick_label: "حجز سريع عبر واتساب",
+      nav_pathways: "خيارات الرعاية",
+      hero_eyebrow: "عيادة ڤيرونا التخصصية • كركوك",
+      hero_title_main: "ابتسامة متناسقة وعلاج أسنان متطور بدون ألم بأحدث التقنيات السويسرية",
+      hero_lead: "تخلص من رهبة إبر التخدير وألم الأسنان نهائياً. نوفر لك علاجاً محوسباً بجهاز STA بدون ألم وبروتوكول تنظيف GBT السويسري على أيدي 6 أطباء استشاريين، بمواعيد محددة بدون أي انتظار.",
+      hero_book_cta: "احجز استشارتك بدون ألم وبدون انتظار",
+      hero_cta_reassurance: "✓ تأكيد فوري عبر واتساب • 0 دقائق انتظار • خصوصية تامة",
+      hero_assessment_link: "أو أجرِ تقييم الابتسامة المجاني (30 ثانية)",
+      top_google_trust: "تقييم موثق رسمياً على خرائط جوجل (121 مراجعاً)",
+      top_trust_review_quote: '"ما حسيت بأي ألم مع جهاز البنج الإلكتروني STA.. أفضل تجربة عيادة أسنان بكركوك" — أحمد الكركوكي (مراجع موثق)',
+      top_trust_badge_sta: "تخدير محوسب بدون ألم (STA)",
+      top_trust_badge_gbt: "تنظيف سويسري معتمد (EMS GBT)",
+      top_trust_badge_zero_wait: "0 دقائق انتظار (مواعيد مسبقة)",
+      ladder_tag: "بوابات الرعاية السريعة",
+      ladder_title: "كيف يمكننا مساعدتك اليوم؟ اختر الباب الأنسب لاحتياجك",
+      ladder_subtitle: "سواء كنت ترغب بتقييم أولي مجاني، أو علاج ألم عاجل، أو استشارة مع طبيب استشاري، نوفر لك خيارات مريحة ومباشرة.",
+      card_assessment_tag: "تقييم مجاني في 30 ثانية",
+      card_assessment_title: "فحص الابتسامة وحالة الأسنان الرقمي",
+      card_assessment_desc: "أجب عن 3 أسئلة سريعة لمعرفة خطة العلاج التقديرية والتكلفة المناسبة لحالتك مع توصية الطبيب الاستشاري.",
+      btn_start_assessment: "ابدأ التقييم الفوري مجاناً ←",
+      card_emergency_tag: "ألم عاجل أو طارئ",
+      card_emergency_title: "خط الطوارئ والألم السريع عبر واتساب",
+      card_emergency_desc: "هل تعاني من ألم أسنان مفاجئ أو كسر في الحشوة؟ تواصل مباشرة مع فريق الطوارئ لتوجيهك بدون تأخير.",
+      btn_emergency_chat: "تواصل مع طوارئ الأسنان فوراً ⚡",
+      card_guide_tag: "دليل رقمي مجاني",
+      card_guide_title: "دليل ڤيرونا الشامل للابتسامة والعناية",
+      card_guide_desc: "احصل على نسختك المجانية من الدليل الطبي الإرشادي للتعرف على أسرار بياض الأسنان وتقنيات التخدير بدون ألم.",
+      btn_get_guide: "احصل على الدليل المجاني الآن 📥",
+      card_direct_tag: "حجز موعد مسبق",
+      card_direct_title: "حجز استشارة شاملة مع استشاري",
+      card_direct_desc: "اختر طبيبك المفضل وموعدك الملائم بدون أي وقت ضائع في صالة الانتظار.",
+      btn_book_direct_path: "الانتقال إلى استمارة الحجز 📅",
+      cta_transformation_title: "هل ترغب بالحصول على نتيجة متناسقة وطبيعية لابتسامتك؟",
+      cta_transformation_sub: "استشر أطباءنا الاستشاريين واكتشف كيف يمكن لتصميم الابتسامة الرقمي تغيير مظهر أسنانك بأمان وبدون ألم.",
+      btn_transformation_cta: "احجز فحص الابتسامة الشامل الآن ←",
+      btn_slider_assess: "تقييم مجاني (30 ثانية)",
+      assess_modal_title: "تقييم الابتسامة وعلاج الأسنان الرقمي (30 ثانية)",
+      assess_step1_title: "الخطوة 1: ما هو هدفك الأساسي لأسنانك؟",
+      opt_goal_implant: "زراعة أسنان فورية وتعويض الأسنان المفقودة",
+      opt_goal_smile: "ابتسامة هوليوود وتجميل وتبييض الأسنان",
+      opt_goal_pain: "علاج عصب الأسنان والتخلص من الألم",
+      opt_goal_gbt: "تنظيف الأسنان وإزالة الجير والتصبغات بجهاز GBT",
+      opt_goal_ortho: "تقويم الأسنان وتعديل اعوجاج الفكين",
+      assess_step2_title: "الخطوة 2: ما هو أكثر ما يهمك أثناء العلاج؟",
+      opt_concern_pain: "تجنب ألم الإبر والتخدير (نوفر جهاز STA بدون ألم)",
+      opt_concern_natural: "مظهر جمالي طبيعي ومتناسق مع ملامح الوجه",
+      opt_concern_time: "سرعة الإنجاز ودقة المواعيد بدون انتظار",
+      opt_concern_cost: "معرفة الخطة العلاجية والخيارات التقديرية مسبقاً",
+      assess_step3_title: "الخطوة 3: أين تود استلام تقرير تقييم حالتك المجاني؟",
+      btn_submit_assessment: "إرسال التقييم واستلام استشارة الطبيب مجاناً عبر واتساب",
+      assess_disclaimer: "🔒 يتم إرسال إجاباتك مباشرة إلى الفريق الطبي الاستشاري في عيادة ڤيرونا لتقديم تقرير تقديري مجاني وسري تماماً.",
+      sticky_call: "اتصال",
+      sticky_whatsapp: "واتساب",
+      sticky_assess: "تقييم مجاني",
+      sticky_book: "حجز موعد",
+      doc_opt_any: "أي طبيب متاح حسب الحالة (استشارة عامة)",
+      doc_opt_osama: "د. أسامة الحسين - زراعة وتجميل الأسنان",
+      doc_opt_noor: "د. نور نصرالله - تقويم وتجميل الأسنان",
+      doc_opt_zaid: "د. زيد - جراحة الفم والفكين والزراعة",
+      doc_opt_mohammed: "د. محمد - علاج العصب والترميم المجهري",
+      doc_opt_anas: "د. أنس - ابتسامة هوليوود والعدسات",
+      doc_opt_aya: "د. آية أياد - طب أسنان الأطفال",
+      serv_opt_consult: "فحص واستشارة أولية شاملة",
+      serv_opt_sta: "جلسة علاج بجهاز البنج الإلكتروني STA",
+      serv_opt_gbt: "تنظيف الأسنان ببروتوكول GBT السويسري (EMS AIRFLOW®)",
+      serv_opt_implant: "زراعة الأسنان الرقمية الفورية",
+      serv_opt_smile: "ابتسامة هوليوود والعدسات الخزفية",
+      serv_opt_ortho: "تقويم الأسنان (معدني أو شفاف Invisalign)",
+      serv_opt_root: "علاج العصب والحشوات التجميلية",
+      serv_opt_pedia: "معالجة أسنان الأطفال والوقاية السلوكية",
     },
 
     en: {
@@ -363,7 +432,76 @@
       privacy_point_3: "We guarantee never selling, renting, or sharing your data with any third parties or marketing networks under any circumstances.",
       privacy_point_4: "Patient Rights: You retain the right to modify, reschedule, cancel, or request data removal at any time by contacting our front desk.",
       privacy_close_btn: "Close Privacy Notice",
-      wa_quick_label: "Quick WhatsApp Booking"
+      wa_quick_label: "Quick WhatsApp Booking",
+      nav_pathways: "Care Pathways",
+      hero_eyebrow: "Verona Dental Clinic • Kirkuk",
+      hero_title_main: "Get Your Flawless, Pain-Free Smile With Swiss Dental Precision",
+      hero_lead: "Eliminate dental pain and needle anxiety once and for all. Experience computer-controlled STA anesthesia and Swiss GBT hygiene delivered by 6 senior dental consultants with zero waiting time.",
+      hero_book_cta: "Book Your Painless Consultation",
+      hero_cta_reassurance: "✓ Instant WhatsApp confirmation • Zero waiting • Full confidentiality",
+      hero_assessment_link: "Or take the Free 30-Sec Smile Assessment",
+      top_google_trust: "Officially verified rating on Google Maps (121 reviews)",
+      top_trust_review_quote: '"I felt zero pain with the electronic STA anesthesia.. best dental experience in Kirkuk!" — Ahmed Al-Kirkuki (Verified Patient)',
+      top_trust_badge_sta: "Painless STA Anesthesia",
+      top_trust_badge_gbt: "Swiss Certified EMS GBT",
+      top_trust_badge_zero_wait: "Zero Waiting (Strict Schedule)",
+      ladder_tag: "Care Pathways",
+      ladder_title: "How Can We Help You Today? Choose Your Ideal Starting Point",
+      ladder_subtitle: "Whether you need a free initial self-assessment, urgent toothache relief, or a direct specialist consultation, we have the right path for you.",
+      card_assessment_tag: "Free 30-Sec Assessment",
+      card_assessment_title: "Digital Smile & Dental Self-Assessment",
+      card_assessment_desc: "Answer 3 quick questions to discover your personalized treatment options, estimated plan, and doctor's advice.",
+      btn_start_assessment: "Start Free Assessment →",
+      card_emergency_tag: "Urgent Dental Pain",
+      card_emergency_title: "Direct Emergency Toothache Support",
+      card_emergency_desc: "Experiencing acute toothache or broken restoration? Chat instantly with our clinic team for immediate priority assistance.",
+      btn_emergency_chat: "Chat with Emergency Support ⚡",
+      card_guide_tag: "Free Patient Guide",
+      card_guide_title: "The Comprehensive Guide to Pain-Free Smile Care",
+      card_guide_desc: "Download your complimentary digital guide explaining whitening secrets, veneer types, and needle-free anesthesia.",
+      btn_get_guide: "Get Free Guide Now 📥",
+      card_direct_tag: "Direct Consultation",
+      card_direct_title: "Schedule In-Clinic Consultation",
+      card_direct_desc: "Select your preferred specialist and exact appointment slot with guaranteed zero waiting time.",
+      btn_book_direct_path: "Go to Booking Form 📅",
+      cta_transformation_title: "Ready for a Naturally Balanced Smile Transformation?",
+      cta_transformation_sub: "Consult our board specialists and explore how digital smile design can comfortably reshape your teeth with zero pain.",
+      btn_transformation_cta: "Book Your Smile Consultation Now →",
+      btn_slider_assess: "Free Assessment (30s)",
+      assess_modal_title: "Free Digital Smile & Dental Assessment (30s)",
+      assess_step1_title: "Step 1: What is your primary dental goal?",
+      opt_goal_implant: "Dental Implants & Missing Teeth Replacement",
+      opt_goal_smile: "Hollywood Smile, Veneers & Whitening",
+      opt_goal_pain: "Root Canal Therapy & Toothache Relief",
+      opt_goal_gbt: "Deep Cleaning & Stain Removal with Swiss GBT",
+      opt_goal_ortho: "Orthodontics & Teeth Alignment",
+      assess_step2_title: "Step 2: What matters most during your treatment?",
+      opt_concern_pain: "Completely painless treatment (Zero needle pain via STA)",
+      opt_concern_natural: "Natural-looking aesthetic results matching my face",
+      opt_concern_time: "Fast completion with strictly zero waiting time",
+      opt_concern_cost: "Understanding estimated treatment options & budget",
+      assess_step3_title: "Step 3: Where should we send your free assessment summary?",
+      btn_submit_assessment: "Send Assessment & Receive Free Advice on WhatsApp",
+      assess_disclaimer: "🔒 Your responses are sent directly to Verona Dental Clinic's consultants for a complimentary, confidential evaluation.",
+      sticky_call: "Call",
+      sticky_whatsapp: "WhatsApp",
+      sticky_assess: "Assessment",
+      sticky_book: "Book Visit",
+      doc_opt_any: "Any available doctor (General consultation)",
+      doc_opt_osama: "Dr. Osama Al-Hussein - Implants & Aesthetics",
+      doc_opt_noor: "Dr. Noor Nasrallah - Orthodontics & Aesthetics",
+      doc_opt_zaid: "Dr. Zaid - Oral & Maxillofacial Surgery",
+      doc_opt_mohammed: "Dr. Mohammed - Endodontics & Micro-Restoration",
+      doc_opt_anas: "Dr. Anas - Hollywood Smile & Veneers",
+      doc_opt_aya: "Dr. Aya Ayad - Pediatric Dentistry",
+      serv_opt_consult: "Comprehensive Initial Consultation",
+      serv_opt_sta: "STA Painless Computerized Anesthesia Session",
+      serv_opt_gbt: "Swiss GBT Hygiene & Biofilm Removal (EMS AIRFLOW®)",
+      serv_opt_implant: "Immediate Digital Dental Implants",
+      serv_opt_smile: "Hollywood Smile & Porcelain Veneers",
+      serv_opt_ortho: "Orthodontics (Metal Braces or Clear Aligners)",
+      serv_opt_root: "Root Canal Therapy & Cosmetic Fillings",
+      serv_opt_pedia: "Pediatric Dental Care & Prevention",
     },
 
     ku: {
@@ -544,7 +682,76 @@
       privacy_point_3: "دڵنیایی دەدەین کە بە هیچ شێوەیەک زانیارییەکانت لەگەڵ هیچ لایەنێکی سێیەم یان کۆمپانیای ڕیکلام هاوبەش ناکرێت.",
       privacy_point_4: "مافی نەخۆش: مافی ئەوەت هەیە لە هەر کاتێکدا داوای دەستکاریکردن یان هەڵوەشاندنەوەی نۆبەکەت بکەیت.",
       privacy_close_btn: "داخستنی پەنجەرەی تایبەتمەندی",
-      wa_quick_label: "نۆرەگرتنی خێرا لە واتسئەپ"
+      wa_quick_label: "نۆرەگرتنی خێرا لە واتسئەپ",
+      nav_pathways: "ڕێگاکانی چارەسەر",
+      hero_eyebrow: "کلینیکی پسپۆڕی ڤیرۆنا • کەرکووک",
+      hero_title_main: "زەردەخەنەیەکی بێوێنە و چارەسەری ددان بەبێ هیچ ئازارێک بە تەکنەلۆژیای سویسری",
+      hero_lead: "ترسی دەرزی بەنج و ئازاری ددان لەبیر بکە. چارەسەری پێشکەوتوو بە بەنجی ئەلیکترۆنی STA و پاککردنەوەی سویسری GBT بە سەرپەرشتی 6 پزیشکی پسپۆڕ بە نۆرەی پێشوەختە بێ چاوەڕوانی.",
+      hero_book_cta: "وەرگرتنی نۆرەی بێ ئازار و بێ چاوەڕوانی",
+      hero_cta_reassurance: "✓ پەسەندکردنی دەستبەجێ بە واتسئەپ • بێ چاوەڕوانی • نهێنی پارێزراو",
+      hero_assessment_link: "یان هەڵسەنگاندنی بێبەرامبەری زەردەخەنە بکە (30 چرکە)",
+      top_google_trust: "هەڵسەنگاندنی پەسەندکراو لە نەخشەی گووگڵ (121 هەڵسەنگاندن)",
+      top_trust_review_quote: '"هیچ ئازارم هەست پێنەکرد بە ئامێری بەنجی ئەلیکترۆنی STA.. باشترین ئەزموون لە کەرکووک" — ئەحمەد کەرکووکی (پەسەندکراو)',
+      top_trust_badge_sta: "تەزاندنی کۆمپیوتەری بێ ئازار (STA)",
+      top_trust_badge_gbt: "پاککردنەوەی سویسری پەسەندکراو (GBT)",
+      top_trust_badge_zero_wait: "٠ خولەک چاوەڕوانی (نۆرەی پێشوەختە)",
+      ladder_tag: "دەروازەکانی خزمەتگوزاری",
+      ladder_title: "ئەمڕۆ چۆن دەتوانین هاوکاریت بکەین؟ باشترین ڕێگا هەڵبژێرە",
+      ladder_subtitle: "جا دەتەوێت هەڵسەنگاندنی بێبەرامبەر بکەیت، یان چارەسەری بەپەلەی ئازار، یان ڕاوێژ لەگەڵ پزیشکی پسپۆڕ، ڕێگای گونجاومان ئامادەیە.",
+      card_assessment_tag: "هەڵسەنگاندنی بێبەرامبەر لە 30 چرکەدا",
+      card_assessment_title: "پشکنینی دیجیتاڵی زەردەخەنە و ددان",
+      card_assessment_desc: "وەڵامی 3 پرسیاری خێرا بدەرەوە بۆ دەستکەوتنی پلانی چارەسەر و ڕاوێژی پزیشک بۆ حاڵەتەکەت.",
+      btn_start_assessment: "دەستپێکردنی هەڵسەنگاندنی بێبەرامبەر ←",
+      card_emergency_tag: "ئازاری بەپەلەی ددان",
+      card_emergency_title: "هێڵی بەپەلەی ئازاری ددان لە واتسئەپ",
+      card_emergency_desc: "تووشی ئازاری کتوپڕ بوویت یان ددانت شکاوە؟ دەستبەجێ پەیوەندی بە تیمی فریاگوزاری بکە بۆ چارەسەری بێ دواکەوتن.",
+      btn_emergency_chat: "پەیوەندی بە فریاگوزاری بکە ⚡",
+      card_guide_tag: "ڕێبەری دیجیتاڵی بێبەرامبەر",
+      card_guide_title: "ڕێبەری ڤیرۆنا بۆ پاراستن و جوانکاری بێ ئازار",
+      card_guide_desc: "ڕێبەری پزیشکی بێبەرامبەر وەربگرە بۆ فێربوونی شێوازی پاراستنی ددان و تەکنیکەکانی تەزاندنی بێ ئازار.",
+      btn_get_guide: "وەرگرتنی ڕێبەری بێبەرامبەر 📥",
+      card_direct_tag: "وەرگرتنی نۆرەی ڕاستەوخۆ",
+      card_direct_title: "وەرگرتنی نۆرەی پشکنینی گشتی",
+      card_direct_desc: "پزیشکی دڵخواز و کاتی گونجاو دیاریبکە بەبێ بەفیڕۆدانی هیچ کاتێک لە هۆڵی چاوەڕوانیدا.",
+      btn_book_direct_path: "بڕۆ بۆ فۆڕمی وەرگرتنی نۆرە 📅",
+      cta_transformation_title: "دەتەوێت زەردەخەنەیەکی سروشتی و ڕێک بەدەستبهێنیت؟",
+      cta_transformation_sub: "ڕاوێژ لەگەڵ پزیشکانی پسپۆڕمان بکە بۆ ئەوەی بزانیت دیزاینی دیجیتاڵی چۆن دەتوانێت شێوەی ددانت بگۆڕێت بەبێ ئازار.",
+      btn_transformation_cta: "ئێستا نۆرەی پشکنینی زەردەخەنە وەربگرە ←",
+      btn_slider_assess: "هەڵسەنگاندنی بێبەرامبەر (30 چرکە)",
+      assess_modal_title: "هەڵسەنگاندنی دیجیتاڵی بێبەرامبەری زەردەخەنە (30 چرکە)",
+      assess_step1_title: "هەنگاوی 1: ئامانجی سەرەکیت بۆ ددانەکانت چییە؟",
+      opt_goal_implant: "چاندنی ددان و قەرەبووکردنەوەی ددانی لەدەستچوو",
+      opt_goal_smile: "زەردەخەنەی هۆلیوود و سپیکردنەوە و جوانکاری",
+      opt_goal_pain: "چارەسەری دەمار و نەهێشتنی ئازاری ددان",
+      opt_goal_gbt: "پاککردنەوە و لێکردنەوەی زەردیی بە ئامێری GBT",
+      opt_goal_ortho: "تەلی ددان و ڕێکخستنەوەی شەویلگە",
+      assess_step2_title: "هەنگاوی 2: گرنگترین خاڵ بۆ تۆ لە کاتی چارەسەردا چییە؟",
+      opt_concern_pain: "چارەسەری تەواو بێ ئازار (بەبێ دەرزی بەهۆی STA)",
+      opt_concern_natural: "دەرکەوتنێکی سروشتی و گونجاو لەگەڵ ڕوخساردا",
+      opt_concern_time: "خێرایی لە کارکردن و ڕێک لە کاتدا بێ چاوەڕوانی",
+      opt_concern_cost: "زانینی پلانی چارەسەر و تێچووی خەمڵێنراو لە پێشوەختەدا",
+      assess_step3_title: "هەنگاوی 3: ڕاپۆرتی هەڵسەنگاندنەکەت بۆ کوێ بنێرین؟",
+      btn_submit_assessment: "ناردنی هەڵسەنگاندن و وەرگرتنی ڕاوێژ لە واتسئەپ",
+      assess_disclaimer: "🔒 وەڵامەکانت ڕاستەوخۆ دەنێردرێت بۆ پزیشکانی پسپۆڕی کلینیکی ڤیرۆنا بۆ پێشکەشکردنی ڕاوێژ و هەڵسەنگاندنی بێبەرامبەر.",
+      sticky_call: "پەیوەندی",
+      sticky_whatsapp: "واتسئەپ",
+      sticky_assess: "هەڵسەنگاندن",
+      sticky_book: "وەرگرتنی نۆرە",
+      doc_opt_any: "هەر پزیشکێکی بەردەست (ڕاوێژی گشتی)",
+      doc_opt_osama: "د. ئوسامە ئەلحوسێن - چاندن و جوانکاری ددان",
+      doc_opt_noor: "د. نوور نەسرەڵڵا - تەلی ددان و جوانکاری",
+      doc_opt_zaid: "د. زەید - نەشتەرگەری دەم و شەویلگە و چاندن",
+      doc_opt_mohammed: "د. محەممەد - چارەسەری دەمار و پڕکردنەوەی ورد",
+      doc_opt_anas: "د. ئەنەس - زەردەخەنەی هۆلیوود و هاوێنە",
+      doc_opt_aya: "د. ئایە ئەیاد - پزیشکی ددانی منداڵان",
+      serv_opt_consult: "پشکنین و ڕاوێژی سەرەتایی گشتگیر",
+      serv_opt_sta: "چارەسەر بە ئامێری بەنجی ئەلیکترۆنی STA",
+      serv_opt_gbt: "پاککردنەوەی ددان بە پرۆتۆکۆلی سویسری GBT",
+      serv_opt_implant: "چاندنی دەستبەجێ و دیجیتاڵی ددان",
+      serv_opt_smile: "زەردەخەنەی هۆلیوود و هاوێنەی پۆرسلین",
+      serv_opt_ortho: "تەلی ددان (کانزایی یان شەفاف)",
+      serv_opt_root: "چارەسەری دەمار و پڕکردنەوەی جوانکاری",
+      serv_opt_pedia: "چارەسەری ددانی منداڵان و خۆپاراستن",
     }
   };
 
@@ -600,7 +807,7 @@
   }
 
   function updateActiveNavState() {
-    const sections = ['hero', 'tech', 'reviews', 'staff', 'location', 'booking'];
+    const sections = ['hero', 'trustAnchors', 'valueLadder', 'tech', 'reviews', 'staff', 'location', 'booking'];
     const navOffset = (document.getElementById('navbar')?.offsetHeight || 76) + 40;
     const scrollPos = window.pageYOffset;
 
@@ -683,6 +890,13 @@
     } else {
       if (nameInput) nameInput.placeholder = "مثال: أحمد عبد الله";
       if (notesInput) notesInput.placeholder = "هل تعاني من ألم؟ أو لديك رغبة ببروتوكول معين؟";
+    }
+
+        const leadNameInp = document.getElementById('leadName');
+    if (leadNameInp) {
+      if (lang === 'en') leadNameInp.placeholder = "e.g. John Smith";
+      else if (lang === 'ku') leadNameInp.placeholder = "نموونە: ئارام ئەحمەد";
+      else leadNameInp.placeholder = "مثال: أحمد عبد الله";
     }
 
     if (typeof updateReviewsCarousel === 'function') {
@@ -1054,6 +1268,95 @@
     }
   }
 
+  function initAssessmentModal() {
+    const modal = document.getElementById('assessmentModal');
+    const openBtn = document.getElementById('openAssessmentBtn');
+    const heroBtn = document.getElementById('heroAssessmentTrigger');
+    const sliderBtn = document.getElementById('sliderAssessBtn');
+    const stickyBtn = document.getElementById('stickyAssessBtn');
+    const closeX = document.getElementById('assessmentCloseX');
+    const backdrop = document.getElementById('assessmentBackdrop');
+    const form = document.getElementById('assessmentForm');
+
+    if (!modal) return;
+
+    function openModal() {
+      modal.removeAttribute('hidden');
+      document.body.style.overflow = 'hidden';
+      const nameInp = document.getElementById('leadName');
+      if (nameInp) setTimeout(() => nameInp.focus(), 100);
+    }
+
+    function closeModal() {
+      modal.setAttribute('hidden', '');
+      document.body.style.overflow = '';
+    }
+
+    if (openBtn) openBtn.addEventListener('click', openModal);
+    if (heroBtn) heroBtn.addEventListener('click', openModal);
+    if (sliderBtn) sliderBtn.addEventListener('click', openModal);
+    if (stickyBtn) stickyBtn.addEventListener('click', openModal);
+    if (closeX) closeX.addEventListener('click', closeModal);
+    if (backdrop) backdrop.addEventListener('click', closeModal);
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !modal.hasAttribute('hidden')) {
+        closeModal();
+      }
+    });
+
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const goalEl = form.querySelector('input[name="dental_goal"]:checked');
+        const priorityEl = form.querySelector('input[name="dental_priority"]:checked');
+        const name = document.getElementById('leadName')?.value.trim();
+        const phone = document.getElementById('leadPhone')?.value.trim();
+
+        if (!name || !phone) {
+          alert(currentLang === 'en' ? 'Please enter your name and phone number.' : 'يرجى إدخال الاسم ورقم الهاتف.');
+          return;
+        }
+
+        const goal = goalEl ? goalEl.value : 'استشارة عامة';
+        const priority = priorityEl ? priorityEl.value : 'رعاية دقيقة بدون ألم';
+        const randomTicket = Math.floor(1000 + Math.random() * 9000);
+        const ticketId = `VRN-EVAL-${randomTicket}`;
+
+        let message = '';
+        if (currentLang === 'en') {
+          message = `*Free Smile Assessment - Verona Dental Clinic* 💎\n` +
+            `Ref: #${ticketId}\n\n` +
+            `👤 *Patient:* ${name}\n` +
+            `📱 *WhatsApp:* ${phone}\n` +
+            `🎯 *Primary Goal:* ${goal}\n` +
+            `🛡️ *Main Priority:* ${priority}\n\n` +
+            `I would like to receive my free estimated treatment plan and advice from the clinic specialist. Thank you!`;
+        } else if (currentLang === 'ku') {
+          message = `*هەڵسەنگاندنی بێبەرامبەری زەردەخەنە - کلینیکی ڤیرۆنا* 💎\n` +
+            `ژمارەی فۆڕم: #${ticketId}\n\n` +
+            `👤 *ناوی نەخۆش:* ${name}\n` +
+            `📱 *واتسئەپ:* ${phone}\n` +
+            `🎯 *ئامانجی سەرەکی:* ${goal}\n` +
+            `🛡️ *گرنگترین خاڵ:* ${priority}\n\n` +
+            `دەخوازم ڕاپۆرتی خەمڵێنراو و ڕاوێژی پزیشکی پسپۆڕم پێبگات. سوپاس!`;
+        } else {
+          message = `*طلب تقييم الابتسامة المجاني - عيادة ڤيرونا لطب الأسنان* 💎\n` +
+            `رقم التقييم: #${ticketId}\n\n` +
+            `👤 *اسم المراجع:* ${name}\n` +
+            `📱 *رقم الواتساب:* ${phone}\n` +
+            `🎯 *الهدف الأساسي:* ${goal}\n` +
+            `🛡️ *الأولوية والتخوف:* ${priority}\n\n` +
+            `أرغب بالحصول على التقرير التقديري المجاني وتوصية الطبيب الاستشاري لحالتي. مع التقدير!`;
+        }
+
+        closeModal();
+        const encoded = encodeURIComponent(message);
+        window.open(`https://wa.me/9647745490770?text=${encoded}`, '_blank');
+      });
+    }
+  }
+
   function initPrivacyModal() {
     const modal = document.getElementById('privacyModal');
     const openBtn = document.getElementById('privacyPolicyBtn');
@@ -1096,6 +1399,7 @@
     initReviewsCarousel();
     initYear();
     initPrivacyModal();
+    initAssessmentModal();
   });
 
 })();
