@@ -3,6 +3,7 @@
 
   const translations = {
     ar: {
+      header_brand_name: "ڤيرونا",
       brand_name: "عيادة ڤيرونا",
       brand_tagline: "لطب وتجميل وزراعة الأسنان",
       nav_home: "الرئيسية",
@@ -149,7 +150,8 @@
     },
 
     en: {
-      brand_name: "Verona",
+      header_brand_name: "Verona",
+      brand_name: "Verona Clinic",
       brand_tagline: "Dental Care, Aesthetics & Implantology",
       nav_home: "Home",
       nav_tech: "Advanced Tech",
@@ -295,6 +297,7 @@
     },
 
     ku: {
+      header_brand_name: "ڤیرۆنا",
       brand_name: "کلینیکی ڤیرۆنا",
       brand_tagline: "بۆ پزیشکی و جوانکاری و چاندنی ددان",
       nav_home: "سەرەکی",
