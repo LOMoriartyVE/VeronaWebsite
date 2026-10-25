@@ -2057,7 +2057,7 @@ html[dir="ltr"] .floating-wa-btn {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .top-bar {
     display: none !important;
   }
